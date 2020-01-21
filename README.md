@@ -73,7 +73,9 @@ crokage.jar
 main.properties
 ...
 ```
-Note: for now we only provide the replication package containing the files for the reproduction of CROKAGE, along with the results of the User Study, described in our paper. The complete source code will be released soon. 
+Obs: if for some reason you opt to zip and download, make sure the extracted file ``main.properties`` does not change to ``main.properties.txt``. 
+
+Obs 2: for now we only provide the replication package containing the files for the reproduction of CROKAGE, along with the results of the User Study, described in our paper. The complete source code will be released soon. 
 
 
 
