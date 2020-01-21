@@ -61,7 +61,7 @@ Obs: restoring this dump would require at least 10 Gb of free space. If your ope
 
 ## Running Crokage.
 
-## Download models and auxiliary files
+## Download auxiliary files
 Download [the project folder](https://drive.google.com/drive/folders/1-bGRPdJqV9ixJlbkFGJc3VS4s_nVKBdW?usp=sharing). Place it preferable in your home folder, ex /home/user/crokage. 
 
 Check your instalation. Make sure your crokage folder (/home/user/crokage) contains this structure:
@@ -73,7 +73,7 @@ crokage.jar
 main.properties
 ...
 ```
-Note: for now we only provide the replication package. The complete source code will be released soon. 
+Note: for now we only provide the replication package containing the files for the reproduction of CROKAGE, along with the results of the User Study, described in our paper. The complete source code will be released soon. 
 
 
 
