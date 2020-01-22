@@ -107,7 +107,7 @@ select * from metricsresults
 
 
 ## Tool
-We implemented our approach in form of a [tool](http://isel.ufu.br:9000/) to assist developers with their daily programming issues. The figure below shows the tool architecture. We follow a REST (Representational State Transfer) architecture. The tool is in beta version and only provide solutions for Java language, but we expect to release the full version soon. If you wish to use our tool to provide solutions to your natural language queries, please follow the instructions [here](https://github.com/muldon/CROKAGE-replication-package).
+We implemented our approach in form of a [tool](http://isel.ufu.br:9000/) to assist developers with their daily programming issues. The figure below shows the tool architecture. We follow a REST (Representational State Transfer) architecture. The tool is in beta version and only provide solutions for Java language, but we expect to release the full version soon. If you wish to use our tool to provide solutions to your natural language queries, please follow the instructions [here](https://github.com/muldon/CROKAGE-replication-package#user-content-running-the-tool-mode-2---obtaining-the-solutions-via-rest-interface).
 
 ![CROKAGE's architecture](https://github.com/muldon/CROKAGE-replication-package/blob/master/tool-architecture.png)
 
