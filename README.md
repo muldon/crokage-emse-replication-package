@@ -39,7 +39,7 @@ host    all             all             127.0.0.1/32            md5
 
 
 ## Configuring the dataset
-1. Download the SO Dump of March 2019 [here](https://drive.google.com/file/d/1UVsNoOu1gplqz9OB53a74UxbNqIyNF7S/view?usp=sharing). This is a preprocessed dump, downloaded from the [official web site](https://archive.org/details/stackexchange)  containing the main tables we use. We only consider Java posts. **Postsmin** table (representing **posts** table) has extra columns with the preprocessed data used by Crokage. 
+1. Download the SO Dump of March 2019 [here](http://lascam.facom.ufu.br/companion/crokageemse/StackOverflow2019-emse-replication-package.backup). This is a preprocessed dump, downloaded from the [official web site](https://archive.org/details/stackexchange)  containing the main tables we use. We only consider Java posts. **Postsmin** table (representing **posts** table) has extra columns with the preprocessed data used by Crokage. 
 
 2. On your DB tool, create a new database named **stackoverflow2019emse-min**. This is a query example:
 ```
