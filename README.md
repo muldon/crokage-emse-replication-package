@@ -70,7 +70,7 @@ Check your instalation. Make sure your crokage folder (/home/user/crokage) conta
 ..
 ./data 
 crokage.jar
-main.properties   (not ``main.properties.txt``) 
+main.properties   (not "main.properties.txt") 
 ...
 ```
 Obs: if for some reason you opt to zip and download, make sure the extracted file ``main.properties`` does not change to ``main.properties.txt``. 
