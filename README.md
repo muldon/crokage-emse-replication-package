@@ -62,9 +62,20 @@ Obs: restoring this dump would require at least 10 Gb of free space. If your ope
 ## Running Crokage.
 
 ## Download auxiliary files
-Download [the project folder](https://drive.google.com/drive/folders/1-bGRPdJqV9ixJlbkFGJc3VS4s_nVKBdW?usp=sharing). Place it preferable in your home folder, ex /home/user/crokage. 
 
-Check your instalation. Make sure your crokage folder (/home/user/crokage) contains this structure:
+### 1- Make a home dir, for example /home/user/crokage
+
+### 2- Git clone this project inside the home dir:
+```
+git clone https://github.com/muldon/crokage-emse-replication-package.git
+```
+In the end, you will have the structure: ``/home/user/crokage/crokage-emse-replication-package`` 
+
+### 3- Download the jar
+Download our fat jar [here](http://lascam.facom.ufu.br/companion/crokageemse/crokage.jar). Place it along with the downloaded files (``/home/user/crokage/crokage-emse-replication-package``).
+
+### 4 - Check your instalation 
+Make sure your crokage folder (``/home/user/crokage/crokage-emse-replication-package``) must contain this structure:
 
 ```.
 ..
