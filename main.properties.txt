@@ -1,6 +1,6 @@
 ######### Must be set
 
-CROKAGE_HOME=/tmp/user/crokage
+CROKAGE_HOME=/home/user/crokage/crokage-emse-replication-package
 spring.datasource.url=jdbc:postgresql://localhost:5432/stackoverflow2019emse-min
 spring.datasource.username=username
 spring.datasource.password=password
