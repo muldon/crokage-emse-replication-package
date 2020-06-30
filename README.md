@@ -75,7 +75,7 @@ In the end, you will have the structure: ``/home/user/crokage/crokage-emse-repli
 Download our fat jar [here](http://lascam.facom.ufu.br/companion/crokageemse/crokage.jar). Place it along with the downloaded files (``/home/user/crokage/crokage-emse-replication-package``).
 
 ### 4 - Check your instalation 
-Make sure your crokage folder (``/home/user/crokage/crokage-emse-replication-package``) must contain this structure:
+Make sure your crokage folder (``/home/user/crokage/crokage-emse-replication-package``) contains this structure:
 
 ```.
 ..
