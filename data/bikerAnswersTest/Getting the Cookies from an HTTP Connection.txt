@@ -1,0 +1,107 @@
+Getting the Cookies from an HTTP Connection
+
+Rank1:java.net.CookieHandler.getDefault
+>>>JavaDoc<<<
+Gets the system-wide cookie handler.
+>>>Relevant Questions<<<
+1.How do I make an http request using cookies on Android?
+
+-----------------------------------------------
+
+
+Rank2:java.net.URL.openConnection
+>>>JavaDoc<<<
+Returns a URLConnection instance that represents a connection to the remote object referred to by the URL.
+>>>Relevant Questions<<<
+1.How to send HTTPS request from GAE servlet?
+
+-----------------------------------------------
+
+
+Rank3:java.net.CookieHandler.setDefault
+>>>JavaDoc<<<
+Sets (or unsets) the system-wide cookie handler.
+>>>Relevant Questions<<<
+1.How do I make an http request using cookies on Android?
+
+-----------------------------------------------
+
+
+Rank4:java.net.URLConnection.getHeaderFields
+>>>JavaDoc<<<
+Returns an unmodifiable Map of the header fields.
+>>>Relevant Questions<<<
+1.Getting raw HTTP response headers
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||2307291||< - AnswerId: >||18545830||<
+ for (Map.Entry<String, List<String>> k : myHttpURLConnection.getHeaderFields().entrySet()) {
+    System.out.println(k.toString());
+}
+
+-----------------------------------------------
+
+
+Rank5:javax.imageio.ImageIO.read
+>>>JavaDoc<<<
+Returns a BufferedImage as the result of decoding a supplied File with an ImageReader chosen automatically from among those currently registered.
+>>>Relevant Questions<<<
+1.Downloading image from Url in java.Server returned HTTP response code: 403 error. How can I get the connection to work?
+
+-----------------------------------------------
+
+
+Rank6:javax.net.ssl.SSLContext.init
+>>>JavaDoc<<<
+Initializes this context.
+>>>Relevant Questions<<<
+1.HTTPS connection with client certificate in an android app
+
+-----------------------------------------------
+
+
+Rank7:java.nio.file.Files.getAttribute
+>>>JavaDoc<<<
+Reads the value of a file attribute.
+>>>Relevant Questions<<<
+1.Send HTTP Response from we server to client
+
+-----------------------------------------------
+
+
+Rank8:java.io.InputStream.read
+>>>JavaDoc<<<
+Reads the next byte of data from the input stream.
+>>>Relevant Questions<<<
+1.get data from client in server socket java
+
+-----------------------------------------------
+
+
+Rank9:java.io.BufferedReader.readLine
+>>>JavaDoc<<<
+Reads a line of text.
+>>>Relevant Questions<<<
+1.get data from client in server socket java
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||18418326||< - AnswerId: >||18418716||<
+ BufferedReader reader = new BufferedReader(
+                    new InputStreamReader(clientSocket.getInputStream()));
+String clientData = "";
+clientData = reader.readLine();
+
+-----------------------------------------------
+
+
+Rank10:java.io.DataInputStream.readLine
+>>>JavaDoc<<<
+Deprecated.
+>>>Relevant Questions<<<
+1.How to connect a SSL socket through a HTTP proxy?
+
+-----------------------------------------------
+
+

@@ -1,0 +1,119 @@
+Java Program to get Input From User
+
+Rank1:java.util.Scanner.next
+>>>JavaDoc<<<
+Finds and returns the next complete token from this scanner.
+>>>Relevant Questions<<<
+1.Getting User input with Scanner
+
+-----------------------------------------------
+
+
+Rank2:java.util.Scanner.hasNextInt
+>>>JavaDoc<<<
+Returns true if the next token in this scanner's input can be interpreted as an int value in the default radix using the nextInt() method.
+>>>Relevant Questions<<<
+1.when user inputs string program returns you to the start of the loop, when integer program continues
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||26617926||< - AnswerId: >||26618065||<
+     if (in.hasNextInt()) {
+        dolzina = in.nextInt();
+    }
+
+-----------------------------------------------
+
+
+Rank3:java.util.Scanner.nextInt
+>>>JavaDoc<<<
+Scans the next token of the input as an int.
+>>>Relevant Questions<<<
+1.Getting User input with Scanner
+
+-----------------------------------------------
+
+
+Rank4:java.util.Scanner.nextLine
+>>>JavaDoc<<<
+Advances this scanner past the current line and returns the input that was skipped.
+>>>Relevant Questions<<<
+1.How to get Java to wait for user Input
+
+-----------------------------------------------
+
+
+Rank5:java.lang.Integer.parseInt
+>>>JavaDoc<<<
+Parses the string argument as a signed integer in the radix specified by the second argument.
+>>>Relevant Questions<<<
+1.Get integer array input from user in java
+2.Getting user input for string array in Java
+3.How can I get the user input in Java?
+
+-----------------------------------------------
+
+
+Rank6:java.lang.String.split
+>>>JavaDoc<<<
+Splits this string around matches of the given regular expression.
+>>>Relevant Questions<<<
+1.Get integer array input from user in java
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||8668073||< - AnswerId: >||41859871||<
+     Scanner in = new Scanner(inputFile);
+    int[] ints = Arrays.stream(in.nextLine().split("\\s+"))
+      .mapToInt(Integer::parseInt).toArray();
+
+-----------------------------------------------
+
+
+Rank7:java.util.Scanner.useDelimiter
+>>>JavaDoc<<<
+Sets this scanner's delimiting pattern to the specified pattern.
+>>>Relevant Questions<<<
+1.Get int user input in java using delimiters and hasNext?
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||43080806||< - AnswerId: >||43080925||<
+ in.useDelimiter(",?\\s");
+
+-----------------------------------------------
+
+
+Rank8:java.lang.Class.forName
+>>>JavaDoc<<<
+Returns the Class object associated with the class or interface with the given string name.
+>>>Relevant Questions<<<
+1.Java: Load class from user input
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||19372487||< - AnswerId: >||19372495||<
+ Class myClass = Class.forName(userInputString);
+Object o = myClass.newInstance();
+
+-----------------------------------------------
+
+
+Rank9:java.lang.String.toCharArray
+>>>JavaDoc<<<
+Converts this string to a new character array.
+>>>Relevant Questions<<<
+1.Extracting data from user input String into arrays
+
+-----------------------------------------------
+
+
+Rank10:java.lang.String.format
+>>>JavaDoc<<<
+Returns a formatted string using the specified format string and arguments.
+>>>Relevant Questions<<<
+1.Writing a test case for a Java program which takes user input in iterations to get to a final value
+
+-----------------------------------------------
+
+

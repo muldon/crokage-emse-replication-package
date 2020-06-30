@@ -1,0 +1,18 @@
+How do I detect non-ASCII characters in string?
+
+Rank1:java.lang.Character.UnicodeBlock.of
+>>>JavaDoc<<<
+Returns the object representing the Unicode block containing the given character, or null if the character is not a member of a defined block.
+>>>Relevant Questions<<<
+1.How do I detect unicode characters in a Java string?
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||1673544||< - AnswerId: >||1673575||<
+ If (Character.UnicodeBlock.of(c) != Character.UnicodeBlock.BASIC_LATIN) {
+ // replace with Y
+}
+
+-----------------------------------------------
+
+

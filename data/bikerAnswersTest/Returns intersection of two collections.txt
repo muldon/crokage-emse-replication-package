@@ -1,0 +1,93 @@
+Returns intersection of two collections
+
+Rank1:java.util.Set.retainAll
+>>>JavaDoc<<<
+Retains only the elements in this set that are contained in the specified collection (optional operation).
+>>>Relevant Questions<<<
+1.Intersection of two strings in Java
+2.Java: Intersection of Two Ordered Sequences of Integers
+
+-----------------------------------------------
+
+
+Rank2:java.awt.Rectangle.intersects
+>>>JavaDoc<<<
+Determines whether or not this Rectangle and the specified Rectangle intersect.
+>>>Relevant Questions<<<
+1.Difference between intersection algorithm and Rectangle.intersects(Rectangle r)
+
+-----------------------------------------------
+
+
+Rank3:java.awt.geom.Rectangle2D.intersectsLine
+>>>JavaDoc<<<
+Tests if the specified line segment intersects the interior of this Rectangle2D.
+>>>Relevant Questions<<<
+1.What will intersects() return in this situation?
+
+-----------------------------------------------
+
+
+Rank4:java.awt.geom.RectangularShape.intersects
+>>>JavaDoc<<<
+Tests if the interior of the Shape intersects the interior of a specified Rectangle2D.
+>>>Relevant Questions<<<
+1.What will intersects() return in this situation?
+
+-----------------------------------------------
+
+
+Rank5:java.util.List.retainAll
+>>>JavaDoc<<<
+Retains only the elements in this list that are contained in the specified collection (optional operation).
+>>>Relevant Questions<<<
+1.Instead of intersecting two lists how to intersect more than two?
+
+-----------------------------------------------
+
+
+Rank6:java.util.Collection.retainAll
+>>>JavaDoc<<<
+Retains only the elements in this collection that are contained in the specified collection (optional operation).
+>>>Relevant Questions<<<
+1.Java: Intersection of Two Ordered Sequences of Integers
+
+-----------------------------------------------
+
+
+Rank7:java.awt.Rectangle.union
+>>>JavaDoc<<<
+Computes the union of this Rectangle with the specified Rectangle.
+>>>Relevant Questions<<<
+1.Union of a list of rectangles
+
+-----------------------------------------------
+
+
+Rank8:java.util.Collections.max
+>>>JavaDoc<<<
+Returns the maximum element of the given collection, according to the natural ordering of its elements.
+>>>Relevant Questions<<<
+1.Comparing two object of type circle
+
+-----------------------------------------------
+
+
+Rank9:java.lang.Integer.compare
+>>>JavaDoc<<<
+Compares two int values numerically.
+>>>Relevant Questions<<<
+1.Comparing two object of type circle
+
+-----------------------------------------------
+
+
+Rank10:java.awt.Rectangle.add
+>>>JavaDoc<<<
+Adds a point, specified by the integer arguments newx,newy to the bounds of this Rectangle.
+>>>Relevant Questions<<<
+1.Union of a list of rectangles
+
+-----------------------------------------------
+
+

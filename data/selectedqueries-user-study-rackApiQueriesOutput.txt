@@ -1,0 +1,50 @@
+compil	java	class	
+Object	ArrayList	Class	File	Test	Java	Arrays	Foo	JavaFileObject	Method	Map	IOException	StandardJavaFileManager	MyClass	JFrame	Main	HelloWorld	Set	JavaCompiler	HashMap	
+creat	file	
+File	IOException	FileOutputStream	InputStream	FileInputStream	ArrayList	Object	FileWriter	Class	Path	Map	BufferedReader	Files	HashMap	Test	FileReader	InputStreamReader	JFrame	JPanel	
+read	entri	zip	compress	file	
+File	InputStream	ZipFile	FileInputStream	ZipInputStream	IOException	ZipEntry	Zip	ByteArrayOutputStream	FileOutputStream	CipherOutputStream	BufferedReader	ArrayList	InputSource	Map	JarEntry	ZipOutputStream	HashMap	Create	InputStreamReader	
+inform	class	
+CallableStatement	Class	Object	AbstractAuthenticationProcessingFilter	ArrayList	AbstractTableModel	AccessDeniedException	Test	Foo	AccesssDecisionVoter	ActionEvent	Map	ActionListener	File	AnnotatedParameterizedType	Main	Set	AnnotatedType	ApplicationEventPublisherAware	MyClass	
+read	excel	file	
+File	Sheet	Row	Cell	Workbook	FileInputStream	BufferedReader	IOException	ArrayList	XSSFWorkbook	InputStream	HSSFWorkbook	FileReader	FileOutputStream	DataFormatter	InputStreamReader	Scanner	WorkbookFactory	Object	FileNotFoundException	
+convert	map	json	
+Map	JSONObject	HashMap	Object	ObjectMapper	Gson	ArrayList	JSONArray	Collection	Collectors	IOException	SimpleDateFormat	JsonProperty	Key	Set	Arrays	LinkedHashMap	Entity	File	TypeToken	
+shuffl	element	array	
+ArrayList	Collections	Arrays	Object	Random	HashMap	Access	EnumSet	Map	HashSet	Fruit	Element	Set	XmlRootElement	Simple	Shuffle	Fisherâ€“Yates	Card	Comparator	Implementing	
+state	thread	
+Stateful	ExecutorService	InitialContext	Executors	Inject	Object	LocalBean	TimeUnit	Future	Class	ArrayList	ManagedBean	Remote	Callable	Remove	SwingUtilities	BlockingQueue	Serializable	SessionContext	MyBean	
+convert	millisecond	date	
+SimpleDateFormat	Calendar	Asia	DateTime	DateFormat	ParseException	DateTimeFormat	TimeUnit	Class	DateTimeFormatter	ArrayList	DateIn	TimeZone	Object	Juni	GregorianCalendar	LocalDate	DateTimeZone	Map	Main	
+launch	user	default	mail	client	applic	
+Desktop	File	User	IOException	Action	Object	PackageManager	JFrame	Client	Intent	Application	False	Class	Authenticator	Message	ServerSocket	Map	Content	Scanner	Agent	
+printer	print	servic	
+PrinterException	PrinterJob	Graphics	BufferedImage	Object	FontMetrics	Service	ArrayList	IOException	PrintService	Context	Intent	Arrays	PageFormat	DocFlavor	Path	Print	File	PrintServiceLookup	MediaType	
+font	name	
+Object	Font	ArrayList	Graphics	JFrame	File	Map	Color	Class	HashMap	JLabel	UIManager	Arrays	Set	GraphicsEnvironment	Arial	Test	Pattern	SwingUtilities	
+creat	consol	progress	bar	
+Color	JFrame	JProgressBar	ProgressDemo	Canvas	ActionBarActivity	Command	Aliquam	SwingWorker	File	Auto	IOException	Test	Duration	JPanel	ArrayList	PrintStream	Find	Console	Object	
+detect	ascii	charact	string	
+Pattern	Arrays	Matcher	Form	ArrayList	HashMap	InputStreamReader	Normalizer	Map	IOException	BufferedReader	Charset	AÃœAÃœ	ByteBuffer	Object	Rectangle	BigInteger	Color	FileInputStream	Canonical	
+sort	file	name	extens	
+Arrays	Comparator	File	ArrayList	Dot	Collections	FilenameUtils	BufferedReader	FilenameFilter	Create	Object	Map	ClassName	IOException	JFileChooser	InputStream	HashMap	FileInputStream	Environment	FileOutputStream	
+rotat	element	collect	
+Collections	Arrays	ArrayList	Consecutive	Iterator	Multiple	Canvas	Collection	Object	Periodic	Graphics	Set	ForwardingList	Element	AffineTransform	Map	Single	Color	BufferedImage	HashSet	
+convert	properti	map	
+Map	Object	HashMap	Properties	Class	ArrayList	ObjectMapper	Set	Collection	RequestBody	Collectors	Column	File	Entity	SimpleDateFormat	BaseObject	IOException	JSONObject	InputStream	Arrays	
+calcul	logarithm	
+Calendar	BigDecimal	ArrayList	BigInteger	Chart	ChartPanel	JFrame	Scanner	Check	Compute	Period	Convergence	EventQueue	SimpleDateFormat	ActionEvent	JFreeChart	DateTime	
+usernam	oper	system	user	
+AWTEvent	AuthenticationException	UIManager	Desktop	User	AWTEventListener	Unknown	Duser	Locale	Object	IOException	UserDetails	File	AbstractAction	HttpServletRequest	Blob	ArrayList	PrintStream	ActionEvent	Scanner	
+convert	vector	array	
+ArrayList	Arrays	Vector	Object	ByteBuffer	LinkedList	BufferedImage	CallVoidMethod	Collections	ByteArrayOutputStream	FindClass	Map	CopyOnWriteArrayList	HashMap	GetArrayLength	JSONArray	SimpleDateFormat	IOException	GetMethodID	Collection	
+read	download	web	page	content	
+InputStream	IOException	InputStreamReader	BufferedReader	File	Content	DefaultHttpClient	FileOutputStream	HttpResponse	URLConnection	ArrayList	HttpClient	ServletContext	Object	Query	AmazonS	AddressSettings	HttpServletRequest	Disposition	AppWidget	
+remov	charact	stringbuff	
+Pattern	Arrays	File	Form	Normalizer	ArrayList	Object	CharMatcher	Matcher	Iterator	InputStreamReader	InputStream	Set	Test	IOException	Appender	HashSet	Code	Java	BufferedReader	
+today	date	time	
+Calendar	DateTime	LocalDate	SimpleDateFormat	Alarm	GregorianCalendar	DateTimeFormatter	DateFormat	DateTimeZone	TimeZone	Object	Log	ParseException	ArrayList	Time	DateMidnight	DateTimeConstants	Locale	Clock	Timestamp	
+imag	applet	
+Graphics	Image	ImageIO	IOException	Applet	File	BufferedImage	JPanel	JApplet	JFrame	BorderLayout	Color	ImageIcon	JLabel	AccessController	
+convert	byte	array	base64	
+ByteArrayOutputStream	ByteBuffer	Arrays	ByteArrayInputStream	ArrayList	IOException	Object	InputStream	ByteOrder	DataInputStream	Map	BufferedImage	ArrayUtils	Base	SimpleDateFormat	HashMap	JSONArray	File	Charset	OutputStream	

@@ -1,0 +1,125 @@
+How do I pause the current thread?
+
+Rank1:java.lang.Thread.currentThread
+>>>JavaDoc<<<
+Returns a reference to the currently executing thread object.
+>>>Relevant Questions<<<
+1.How exactly do I interrupt a thread?
+2.How to get the currently running custom Threads variables
+
+-----------------------------------------------
+
+
+Rank2:java.lang.Thread.suspend
+>>>JavaDoc<<<
+Deprecated.
+>>>Relevant Questions<<<
+1.How pause and then resume a thread?
+2.How can I stop all alive threads from running
+3.Pausing a Thread on Java
+
+-----------------------------------------------
+
+
+Rank3:java.lang.Thread.stop
+>>>JavaDoc<<<
+Deprecated.
+>>>Relevant Questions<<<
+1.How can I immediately terminate a Thread? (Not interrupt)
+2.How pause and then resume a thread?
+3.How to find and stop all currently running threads?
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||33726010||< - AnswerId: >||33726560||<
+     while (theThread.isAlive()) {
+        theThread.stop();
+    }
+
+-----------------------------------------------
+
+
+Rank4:java.lang.Object.wait
+>>>JavaDoc<<<
+Causes the current thread to wait until either another thread invokes the notify() method or the notifyAll() method for this object, or a specified amount of time has elapsed.
+>>>Relevant Questions<<<
+1.How pause and then resume a thread?
+2.How can I start, pause and resume my threads? (by extending thread from classes)
+3.How to stop threads in Java?
+
+-----------------------------------------------
+
+
+Rank5:java.lang.Thread.interrupt
+>>>JavaDoc<<<
+Interrupts this thread.
+>>>Relevant Questions<<<
+1.How do I stop a thread?
+2.How can I start, pause and resume my threads? (by extending thread from classes)
+3.How to find and stop all currently running threads?
+
+-----------------------------------------------
+
+
+Rank6:java.lang.Object.notify
+>>>JavaDoc<<<
+Wakes up a single thread that is waiting on this object's monitor.
+>>>Relevant Questions<<<
+1.How pause and then resume a thread?
+2.Safely pausing and resuming a thread
+
+-----------------------------------------------
+
+
+Rank7:java.lang.Thread.sleep
+>>>JavaDoc<<<
+Causes the currently executing thread to sleep (temporarily cease execution) for the specified number of milliseconds, subject to the precision and accuracy of system timers and schedulers.
+>>>Relevant Questions<<<
+1.How to pause a thread in java?
+2.How to synchronize Thread.sleep and Thread.interrupt in Java?
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||2537694||< - AnswerId: >||2537710||<
+ Thread.sleep(TimeUnit.SECONDS.toMillis(10));
+
+-----------------------------------------------
+
+
+Rank8:java.lang.Thread.resume
+>>>JavaDoc<<<
+Deprecated.
+>>>Relevant Questions<<<
+1.How pause and then resume a thread?
+2.Pausing a Thread on Java
+
+-----------------------------------------------
+
+
+Rank9:java.lang.Thread.interrupted
+>>>JavaDoc<<<
+Tests whether the current thread has been interrupted.
+>>>Relevant Questions<<<
+1.How do i stop a Runnable thread or "interface"
+2.How exactly do I interrupt a thread?
+3.How do I safely stop multiple threads?
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||29777838||< - AnswerId: >||29777902||<
+ while (!Thread.interrupted()){
+    ...
+}
+
+-----------------------------------------------
+
+
+Rank10:java.util.concurrent.ThreadPoolExecutor.shutdownNow
+>>>JavaDoc<<<
+Attempts to stop all actively executing tasks, halts the processing of waiting tasks, and returns a list of the tasks that were awaiting execution.
+>>>Relevant Questions<<<
+1.How to stop a thread by another thread?
+
+-----------------------------------------------
+
+

@@ -1,0 +1,133 @@
+Load image from local folder
+
+Rank1:java.lang.ClassLoader.getSystemResource
+>>>JavaDoc<<<
+Find a resource of the specified name from the search path used to load classes.
+>>>Relevant Questions<<<
+1.How to load Images from a package in java
+
+-----------------------------------------------
+
+
+Rank2:javax.imageio.ImageIO.read
+>>>JavaDoc<<<
+Returns a BufferedImage as the result of decoding a supplied File with an ImageReader chosen automatically from among those currently registered.
+>>>Relevant Questions<<<
+1.Image in loading from specified path
+2.Path for image loading
+3.Load image in jar, error in code
+
+-----------------------------------------------
+
+
+Rank3:java.lang.ClassLoader.getResource
+>>>JavaDoc<<<
+Finds the resource with the given name.
+>>>Relevant Questions<<<
+1.Load Java Image inside package from a class in a different package
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||12153590||< - AnswerId: >||12153669||<
+ URL resource = MyJavaFile.class
+      .getResource("/PackageB/PackageBa/PackageBaa/MyImage.png");
+
+-----------------------------------------------
+
+
+Rank4:java.lang.Class.getResource
+>>>JavaDoc<<<
+Finds a resource with a given name.
+>>>Relevant Questions<<<
+1.Load Java Image inside package from a class in a different package
+2.Loading Images from a Jarfile
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||12153590||< - AnswerId: >||12153669||<
+ URL resource = MyJavaFile.class
+      .getResource("/PackageB/PackageBa/PackageBaa/MyImage.png");
+
+-----------------------------------------------
+
+
+Rank5:java.lang.Class.getResourceAsStream
+>>>JavaDoc<<<
+Finds a resource with a given name.
+>>>Relevant Questions<<<
+1.Load a file from src folder into a reader
+2.Loading Properties File from Static Context
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||17865427||< - AnswerId: >||17865815||<
+ InputStream in = this.getClass().getResourceAsStream("lol.txt");
+
+-----------------------------------------------
+
+
+Rank6:java.io.File.listFiles
+>>>JavaDoc<<<
+Returns an array of abstract pathnames denoting the files in the directory denoted by this abstract pathname.
+>>>Relevant Questions<<<
+1.Loading all images from folder & make named Images from them
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||18554939||< - AnswerId: >||18555005||<
+ public List<ImageIcon> get(){
+    final FileFilter filter = f -> f.getName().endsWith(".png");
+    final File res = new File(getClass().getResource("resource").getPath());
+    return Arrays.asList(res.listFiles(filter)).stream().map(f -> new ImageIcon(f.getPath())).collect(Collectors.toList());
+}
+
+-----------------------------------------------
+
+
+Rank7:java.lang.Class.forName
+>>>JavaDoc<<<
+Returns the Class object associated with the class or interface with the given string name.
+>>>Relevant Questions<<<
+1.load class file from classpath
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||7305195||< - AnswerId: >||7305287||<
+ String className = "org.apache.tools.ant.taskdefs.optional.net.FTP";
+... (Class.forName(className).getResourceAsStream( ...
+
+-----------------------------------------------
+
+
+Rank8:javax.swing.JLabel.setIcon
+>>>JavaDoc<<<
+Defines the icon this component will display.
+>>>Relevant Questions<<<
+1.Loading image from url in jlabel
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||25485507||< - AnswerId: >||25485710||<
+ this.Jlabel_imagen.setIcon(icon);
+
+-----------------------------------------------
+
+
+Rank9:javax.sound.sampled.Clip.open
+>>>JavaDoc<<<
+Opens the clip, meaning that it should acquire any required system resources and become operational.
+>>>Relevant Questions<<<
+1.AudioInputStream from InputStream ( load from resource directory)
+
+-----------------------------------------------
+
+
+Rank10:javax.swing.JLabel.updateUI
+>>>JavaDoc<<<
+Resets the UI property to a value from the current look and feel.
+>>>Relevant Questions<<<
+1.Loading image from url in jlabel
+
+-----------------------------------------------
+
+

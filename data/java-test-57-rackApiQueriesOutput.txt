@@ -1,0 +1,114 @@
+appli	transpar	imag	
+Color	BufferedImage	Graphics	Image	ImageIO	Assuming	Create	Draw	IOException	FragColor	JPanel	JFrame	ImageIcon	Object	Class	File	Map	AlphaComposite	TexCoord	Test	
+load	imag	folder	
+File	IOException	ImageIO	ImageIcon	BufferedImage	Image	Class	Enumeration	ActionEvent	JarEntry	InputStream	JarFile	Path	URISyntaxException	ArrayList	Graphics	Object	ActionListener	FileInputStream	URLClassLoader	
+list	xml	element	attribut	
+ArrayList	XmlElement	Element	XmlRootElement	JAXBContext	XmlAttribute	Document	Map	NodeList	Object	Arrays	Set	Collections	Node	File	XmlAccessorType	HashMap	DocumentBuilderFactory	Class	LinkedList	
+connect	sqlite	databas	
+SQLiteDatabase	Cursor	Context	Connection	FileOutputStream	DriverManager	SQLiteOpenHelper	Log	Class	Driver	SQLException	InputStream	IOException	ResultSet	DataSource	ContentValues	PreparedStatement	File	OutputStream	ArrayList	
+send	email	attach	java	
+MimeMessage	DataSource	Message	MimeBodyPart	DataHandler	Session	ByteArrayDataSource	Multipart	FileDataSource	File	IOException	InternetAddress	Properties	Content	Object	Transport	ArrayList	RecipientType	InputStream	Class	
+download	folder	ftp	server	
+InputStream	File	FTPClient	FileInputStream	Content	IOException	ArrayList	BufferedOutputStream	BufferedReader	Disposition	FileOutputStream	Assembly	OutputStream	Answers	Socket	Assets	Server	Path	InputStreamReader	FTPFile	
+resiz	imag	java	
+BufferedImage	ImageIO	Graphics	Image	File	JFrame	JPanel	ImageIcon	IOException	SwingUtilities	Object	ArrayList	Dimension	Bitmap	BorderLayout	Class	Color	RenderingHints	Map	JLabel	
+generat	integ	
+Random	ArrayList	Adapter	Allocate	AtomicInteger	Object	Map	BigInteger	Arrays	XMLSchema	HashMap	Collections	File	Scanner	IOException	Customer	Class	Demo	Comparator	Test	
+check	string	date	
+SimpleDateFormat	DateFormat	Pattern	Matcher	Calendar	Locale	April	Arrays	BasicDBObject	ArrayList	Object	HashSet	ParseException	BasicMonthOfYearDateTimeField	Class	Booking	DateTime	File	LocalDate	CDate	
+format	number	lead	zero	
+DecimalFormat	BigInteger	Pattern	NumberFormat	Auto	Add	Locale	BigDecimal	Call	Object	DecimalFormatSymbols	ArrayList	BitSet	Infinity	SimpleDateFormat	Apple	Map	Test	Random	DateFormat	
+iter	charact	string	
+Iterator	Map	Arrays	ArrayList	Pattern	Object	HashMap	ByteBuffer	Matcher	Charset	Ensure	ImmutableList	Lists	InputStreamReader	Char	IOException	Collection	BufferedReader	NoSuchElementException	Set	
+ping	host	
+InetAddress	IOException	Host	Matcher	Context	Object	Pattern	Connection	DefaultHttpClient	HttpURLConnection	InputStreamReader	HttpClient	HttpGet	Map	Access	HttpResponse	InetSocketAddress	Activity	Pinged	
+append	string	text	file	
+File	ArrayList	IOException	BufferedReader	FileWriter	FileOutputStream	FileReader	BufferedWriter	Scanner	FileInputStream	Arrays	Object	Pattern	JFrame	PrintWriter	InputStream	Matcher	JTextPane	Color	Start	
+read	text	file	display	line	
+BufferedReader	File	IOException	FileReader	Scanner	ArrayList	InputStreamReader	JPanel	FileWriter	FileInputStream	JFrame	GridBagLayout	Color	ActionEvent	InputStream	JComponents	JLabel	Graphics	BorderLayout	JLabels	
+insert	imag	mongodb	
+BasicDBObject	File	Connect	FileInputStream	Image	DBObject	Create	ImageIcon	ObjectId	BufferedImage	FileOutputStream	PreparedStatement	Object	ImageIO	BasicDBList	Connection	DBCollection	Statement	ArrayList	DBCursor	
+paus	thread	
+Object	Auto	Executors	AtomicBoolean	ExecutorService	ActionEvent	Java	Timer	TimeUnit	ActionListener	StopWatch	Future	ArrayList	JFrame	Activity	Callable	AsyncTask	SwingUtilities	BlockingQueue	Bundle	
+java	program	calcul	averag	number	array	
+ArrayList	Scanner	Arrays	BigInteger	BigDecimal	Calendar	Args	Enter	Random	Object	Average	IOException	Map	Adam	File	Calculate	JFrame	Argument	Collections	ArgumentExample	
+java	program	display	number	
+BigDecimal	Random	ArrayList	Scanner	ActionEvent	DecimalFormat	File	IOException	BigInteger	Object	JFrame	JOptionPane	BufferedReader	JPanel	Graphics	JLabel	Enter	BorderLayout	Class	Content	
+java	program	check	leap	year	
+Calendar	ArrayList	GregorianCalendar	IOException	File	Class	Object	DateTime	ActionListener	America	Firefox	BufferedReader	SimpleDateFormat	JFrame	Microsoft	August	Arrays	Antarctica	Scanner	LocalDate	
+java	program	find	charact	
+Pattern	Matcher	IOException	BufferedReader	File	ArrayList	InputStreamReader	Scanner	Set	Java	Map	Object	Arrays	Class	HashMap	JFrame	DataInputStream	DataOutput	FileInputStream	Default	
+java	program	read	number	input	
+Scanner	IOException	BufferedReader	ArrayList	Enter	InputStream	File	InputStreamReader	Random	FileReader	Object	BigDecimal	BigInteger	JFrame	Arrays	JOptionPane	ByteArrayInputStream	Class	Addition	ActionEvent	
+find	maximum	element	arraylist	
+ArrayList	Collections	Arrays	Object	Set	Collection	Map	HashMap	Scanner	HashSet	Iterator	BorderLayout	Pattern	Finds	Element	JFrame	WebElement	Matcher	Xmx	LinkedList	
+stop	thread	interrupt	
+Object	IOException	ExecutorService	Future	BlockingQueue	ArrayList	Executors	Interrupted	TimeUnit	File	Callable	Bundle	ActionEvent	Button	Server	Timer	ClosedByInterruptException	ActionListener	Intent	ServletContextEvent	
+write	line	text	file	printwrit	
+File	FileWriter	PrintWriter	IOException	BufferedWriter	BufferedReader	FileOutputStream	Writer	Scanner	FileReader	ArrayList	FileInputStream	JFrame	Color	OutputStream	JPanel	FileNotFoundException	Auto	InputStream	Baseballs	
+number	thread	
+ExecutorService	Executors	ArrayList	Callable	Object	Future	Random	BigDecimal	TimeUnit	BigInteger	CountDownLatch	Pattern	CyclicBarrier	Collections	SwingUtilities	Arrays	Executor	BlockingQueue	DecimalFormat	Matcher	
+element	sortedset	
+Comparator	SortedSet	TreeSet	ArrayList	BitSet	Set	Element	Collections	Object	CustomBitSetComparator	Arrays	Iterator	HashSet	XmlRootElement	NavigableSet	SortedMap	IndexedNavigableMap	Map	Collection	NavigableMap	
+java	program	address	
+IOException	BigInteger	InetAddress	NetworkInterface	File	Address	ArrayList	BufferedReader	Enter	Matcher	Object	Pattern	JFrame	InputStreamReader	Scanner	HttpServletRequest	JOptionPane	Class	Enumeration	InputStream	
+load	imag	jar	file	
+File	InputStream	IOException	Class	ImageIO	BufferedImage	ImageIcon	Image	Properties	Path	FileInputStream	URLClassLoader	Main	MyClass	Graphics	Object	FileOutputStream	ArrayList	Java	BufferedReader	
+call	procedur	paramet	
+Object	Map	ResultSet	CallableStatement	OracleTypes	Connection	Class	HashMap	SQLException	Callable	ArrayList	Java	Test	SqlOutParameter	Method	SqlParameter	Foo	Query	StoredProcedure	IOException	
+java	program	find	number	recurs	
+ArrayList	File	Arrays	BigInteger	Scanner	IOException	Pattern	Node	Random	Object	BufferedReader	Map	Add	Class	Collections	JFrame	Set	Matcher	BigDecimal	HashMap	
+java	program	input	user	
+Scanner	Enter	IOException	ArrayList	BufferedReader	File	JFrame	Object	JOptionPane	InputStream	JTextField	InputStreamReader	ActionListener	User	Alert	Class	ActionEvent	AlertType	HttpServletRequest	Map	
+java	program	check	number	
+ArrayList	Scanner	IOException	Arrays	Random	Pattern	File	Object	Class	BigDecimal	BufferedReader	BigInteger	JFrame	Set	Firefox	Enter	Microsoft	Map	Java	ActionEvent	
+address	host	
+InetAddress	NetworkInterface	SocketException	ActorSystem	Agent	IOException	Address	Host	Alive	Context	HttpServletRequest	AndroidManifest	Connection	DefaultHttpClient	Object	Check	Pattern	InetSocketAddress	HttpClient	ConfigFactory	
+convert	number	roman	numer	
+BigDecimal	JOptionPane	BigInteger	Arrays	Add	ActionEvent	ChronoField	Cell	ComparisonChain	ArrayList	Object	DateFormatSymbols	Pattern	Map	Matcher	HashMap	DecimalFormat	ActionListener	Comparator	Random	
+extend	class	java	
+Class	Object	ArrayList	Test	MyClass	Foo	Bar	Map	Activity	Method	Collection	File	Entity	JFrame	Collections	IOException	Child	Arrays	Main	JPanel	
+java	program	check	number	
+ArrayList	Scanner	IOException	Arrays	Random	Pattern	File	Object	Class	BigDecimal	BufferedReader	BigInteger	JFrame	Set	Firefox	Enter	Microsoft	Map	Java	ActionEvent	
+java	program	convert	
+ArrayList	File	IOException	Main	Set	Object	SimpleDateFormat	BufferedReader	BigInteger	Class	Map	Blob	JFrame	InputStreamReader	Arrays	Scanner	Board	HashMap	ActionEvent	InputStream	
+open	file	default	regist	applic	
+File	Desktop	Configuration	IOException	InputStream	ComponentScan	Bundle	PackageManager	DispatcherServlet	JFrame	AnnotationConfigWebApplicationContext	Class	CXFServlet	Object	ServletContext	AppConfig	Application	Map	Converters	ActionEvent	
+convert	angl	radian	degre	
+EulerAngles	Graphics	FastMath	JFrame	Point	Formula	AffineTransform	ArrayList	Improved	BasicStroke	SimpleDateFormat	JPanel	Color	Object	Arrays	Matcher	Map	Pattern	CornerTest	Draw	
+print	json	string	jackson	
+Object	ObjectMapper	JsonNode	Map	Gson	AnnotationMethodHandlerAdaâ€Œâ€‹pter	IOException	ArrayList	JsonObject	Arrays	Scanner	HashMap	Pattern	GsonBuilder	JSONObject	JSONArray	JsonProperty	Matcher	FileOutputStream	File	
+count	word	occurr	text	file	
+HashMap	File	Map	BufferedReader	ArrayList	Scanner	IOException	Pattern	FileReader	HashSet	FileInputStream	Arrays	TreeMap	Matcher	Document	JFrame	Collections	InputStream	GeeANT	Set	
+size	java	memori	heap	
+Xmx	Xms	ArrayList	Object	Java	File	Dimension	Map	HeapDumpOnOutOfMemoryError	JFrame	MaxHeapSize	PrintGCDetails	MaxPermSize	Class	JPanel	UseTLAB	IOException	BorderLayout	HashMap	Xloggc	
+write	log	record	file	
+File	IOException	ConversionPattern	Logger	PatternLayout	ConsoleAppender	FileWriter	BufferedWriter	RollingFileAppender	ResultSet	ArrayList	Object	FileOutputStream	InputStream	Connection	FileInputStream	Log	FileHandler	BufferedReader	Level	
+termin	machin	system	class	
+Class	Agent	ArrayList	Feature	Accessible	IOException	Customer	File	JsonGenerator	Object	Endpoint	Calendar	InputStream	LineEndingAwarePrintStream	BufferedReader	Failed	Test	PrintStream	Desktop	ExecutorService	
+set	timestamp	databas	
+Timestamp	Column	Basic	Bean	Temporal	Collections	Configuration	TemporalType	Calendar	ResultSet	Object	Driver	Set	DriverManager	Connection	Constructs	SimpleDateFormat	JFrame	Create	DatatypeConverter	
+convert	url	queri	string	map	
+Object	Map	ArrayList	HashMap	HttpServletRequest	URLEncoder	File	HttpServletResponse	Filter	MalformedURLException	Pattern	IOException	Collection	SimpleDateFormat	Arrays	RequestMapping	Query	BasicDBObject	Entity	Matcher	
+return	root	except	
+ArrayList	ApiResponse	Animal	Arrays	HashMap	Apache	Bird	Clues	Demo	Object	Map	File	Companies	IOException	Class	Cat	Test	XmlRootElement	JAXBContext	Company	
+cooki	connect	
+Cookie	Connection	Set	IOException	DriverManager	CookieManager	SQLException	DefaultHttpClient	DataSource	HttpServletRequest	Driver	BasicCookieStore	CookieStore	Socket	HttpClient	Class	InputStream	HttpServletResponse	Context	
+fill	array	char	
+Add	Arrays	Scanner	File	FileNotFoundException	ArrayList	Object	Print	ArrayUtils	Collections	Pattern	JPanel	Board	Matcher	Test	InputStreamReader	Color	Printing	JFrame	Map	
+browser	user	agent	
+Agent	User	HttpServletRequest	HttpServletResponse	Mozilla	IOException	URLConnection	DesiredCapabilities	Object	Dhttp	AuthenticationFilter	Content	Firefox	Scanner	Class	Autowired	File	Browser	Enter	Gecko	
+import	csv	file	
+File	FileReader	Place	BufferedReader	Existing	Alt	IOException	FileWriter	Android	Object	ArrayList	Import	Base	InputStream	CSVReader	Java	BufferedOutputStream	FileInputStream	InputStreamReader	FileOutputStream	
+check	path	link	
+File	Click	LinkedList	IOException	Document	Path	Element	Dupload	ActionEvent	Object	Elements	ArrayList	ActionListener	Class	HashSet	Node	Bias	InputStream	Jsoup	Link	
+write	file	
+File	FileOutputStream	FileWriter	IOException	BufferedWriter	InputStream	PrintWriter	FileInputStream	ArrayList	Object	OutputStream	BufferedReader	FileReader	InputStreamReader	Files	
+number	entri	zip	file	
+File	ZipFile	FileInputStream	InputStream	ByteArrayOutputStream	FileOutputStream	IOException	CipherOutputStream	ZipEntry	ArrayList	Arrays	Object	ZipOutputStream	Collections	Map	Random	ConcurrentHashMap	HashMap	BufferedReader	BigDecimal	
+insert	id	mysql	
+PreparedStatement	Connection	Statement	SQLException	ResultSet	Test	Driver	Object	BasicNameValuePair	ArrayList	DriverManager	Class	HashMap	Map	MySQL	Column	Entity	File	
+return	intersect	collect	
+ArrayList	Object	Collection	ConfAttendees	Customer	Column	GuavaTest	Collections	Iterables	HashSet	Set	HashMap	Map	Arrays	Lists	Class	File	Iterator	Point	Predicate	
+load	play	wav	file	
+File	AudioInputStream	AudioSystem	IOException	InputStream	AudioFormat	Clip	Class	LineUnavailableException	Application	Arrays	Result	Properties	FileInputStream	BeanPersistAdapter	BigClip	Play	Object	DataLine	FileOutputStream	

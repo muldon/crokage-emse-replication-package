@@ -1,0 +1,83 @@
+List XML element Attributes
+
+Rank1:org.w3c.dom.Document.createAttributeNS
+>>>JavaDoc<<<
+Creates an attribute of the given qualified name and namespace URI.
+>>>Relevant Questions<<<
+1.How to create attribute (xmlns:xsd) to XML node in Java?
+
+-----------------------------------------------
+
+
+Rank2:org.w3c.dom.Document.createElementNS
+>>>JavaDoc<<<
+Creates an element of the given qualified name and namespace URI.
+>>>Relevant Questions<<<
+1.How to create attribute (xmlns:xsd) to XML node in Java?
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||8449316||< - AnswerId: >||8449353||<
+ doc.createElementNS("http://cancelacfd.sat.gob.mx", "Cancelacion");
+
+-----------------------------------------------
+
+
+Rank3:java.util.Collections.sort
+>>>JavaDoc<<<
+Sorts the specified list into ascending order, according to the natural ordering of its elements.
+>>>Relevant Questions<<<
+1.Sorting ArrayList of Objects by Object attribute
+2.Sort a List by attribute but keep order of same attributes
+
+-----------------------------------------------
+
+
+Rank4:java.util.List.sort
+>>>JavaDoc<<<
+Sorts this list according to the order induced by the specified Comparator.
+>>>Relevant Questions<<<
+1.Sort a List by attribute but keep order of same attributes
+
+-----------------------------------------------
+
+
+Rank5:org.w3c.dom.Node.getTextContent
+>>>JavaDoc<<<
+This attribute returns the text content of this node and its descendants.
+>>>Relevant Questions<<<
+1.XML Node and Child Nodes
+
+-----------------------------------------------
+
+
+Rank6:java.util.Arrays.sort
+>>>JavaDoc<<<
+Sorts the specified array into ascending numerical order.
+>>>Relevant Questions<<<
+1.java sort list of objects by specifiable attribute
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||29678183||< - AnswerId: >||29678307||<
+ Arrays.sort(carArray, Comparator.comparing(Car::name));
+
+-----------------------------------------------
+
+
+Rank7:java.lang.String.matches
+>>>JavaDoc<<<
+Tells whether or not this string matches the given regular expression.
+>>>Relevant Questions<<<
+1.Check string contains attribute from array list
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||20599930||< - AnswerId: >||20599974||<
+ public boolean checkInput(String input) {
+    return input.matches("[-+/*0-9]+");
+}
+
+-----------------------------------------------
+
+

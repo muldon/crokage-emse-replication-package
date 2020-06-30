@@ -1,0 +1,11 @@
+How do I rotate elements of a collection?
+
+Rank1:java.util.Collections.rotate
+>>>JavaDoc<<<
+Rotates the elements in the specified list by the specified distance.
+>>>Relevant Questions<<<
+1.How rotate non consecutive elements in a list
+
+-----------------------------------------------
+
+

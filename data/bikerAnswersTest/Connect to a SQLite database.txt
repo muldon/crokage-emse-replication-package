@@ -1,0 +1,86 @@
+Connect to a SQLite database
+
+Rank1:java.sql.DriverManager.getConnection
+>>>JavaDoc<<<
+Attempts to establish a connection to the given database URL.
+>>>Relevant Questions<<<
+1.Connecting to MySQL database in Java
+2.Connect to a secure database using JDBC
+3.Reopen database connection in Java
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||24107250||< - AnswerId: >||24107297||<
+ DriverManager.getConnection("jdbc:mysql://localhost/main?" +
+                               "user=root&password=");
+
+-----------------------------------------------
+
+
+Rank2:java.sql.Connection.close
+>>>JavaDoc<<<
+Releases this Connection object's database and JDBC resources immediately instead of waiting for them to be automatically released.
+>>>Relevant Questions<<<
+1.Closing opened database connections?
+2.Class for MySQL and SQLite
+
+-----------------------------------------------
+
+
+Rank3:javax.sql.DataSource.getConnection
+>>>JavaDoc<<<
+Attempts to establish a connection with the data source that this DataSource object represents.
+>>>Relevant Questions<<<
+1.When NOT to use database connection pooling in Java?
+
+-----------------------------------------------
+
+
+Rank4:java.sql.Connection.setCatalog
+>>>JavaDoc<<<
+Sets the given catalog name in order to select a subspace of this Connection object's database in which to work.
+>>>Relevant Questions<<<
+1.Changing databases in a jdbc sql server connection
+2.how to connect multiple databases on a single server with JDBC?
+
+-----------------------------------------------
+
+
+Rank5:java.sql.ResultSet.close
+>>>JavaDoc<<<
+Releases this ResultSet object's database and JDBC resources immediately instead of waiting for this to happen when it is automatically closed.
+>>>Relevant Questions<<<
+1.Class for MySQL and SQLite
+
+-----------------------------------------------
+
+
+Rank6:java.sql.Statement.close
+>>>JavaDoc<<<
+Releases this Statement object's database and JDBC resources immediately instead of waiting for this to happen when it is automatically closed.
+>>>Relevant Questions<<<
+1.Class for MySQL and SQLite
+
+-----------------------------------------------
+
+
+Rank7:java.lang.Class.forName
+>>>JavaDoc<<<
+Returns the Class object associated with the class or interface with the given string name.
+>>>Relevant Questions<<<
+1.Connect Java to a MySQL database
+2.trying to connect to mysql database
+3.Connecting SQLite in java via eclipse
+
+-----------------------------------------------
+
+
+Rank8:java.lang.System.getProperty
+>>>JavaDoc<<<
+Gets the system property indicated by the specified key.
+>>>Relevant Questions<<<
+1.Using Maven properties to connect to a database
+
+-----------------------------------------------
+
+

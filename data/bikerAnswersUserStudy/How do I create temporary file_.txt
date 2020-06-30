@@ -1,0 +1,21 @@
+How do I create temporary file?
+
+Rank1:java.io.File.createTempFile
+>>>JavaDoc<<<
+ Creates a new empty file in the specified directory, using the given prefix and suffix strings to generate its name.
+>>>Relevant Questions<<<
+1.How to create a temporary directory/folder in Java?
+2.How to create tmp file name with out creating file
+3.When are Java temporary files deleted?
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||617414||< - AnswerId: >||43975187||<
+ File folder = File.createTempFile("testFileUtils", ""); // no suffix
+folder.delete();
+folder.mkdirs();
+folder.deleteOnExit();
+
+-----------------------------------------------
+
+

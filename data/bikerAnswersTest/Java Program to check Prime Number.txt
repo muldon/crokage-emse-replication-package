@@ -1,0 +1,109 @@
+Java Program to check Prime Number
+
+Rank1:java.math.BigInteger.nextProbablePrime
+>>>JavaDoc<<<
+Returns the first integer greater than this BigInteger that is probably prime.
+>>>Relevant Questions<<<
+1.Whats the built in function that Finds next largest prime number in java?
+
+-----------------------------------------------
+
+
+Rank2:java.math.BigInteger.isProbablePrime
+>>>JavaDoc<<<
+Returns true if this BigInteger is probably prime, false if it's definitely composite.
+>>>Relevant Questions<<<
+1.prime numbers switch in a java program has unexpected output
+2.Checking large int values if they are prime, BigInteger problems in Java
+
+-----------------------------------------------
+
+
+Rank3:java.lang.Integer.parseInt
+>>>JavaDoc<<<
+Parses the string argument as a signed integer in the radix specified by the second argument.
+>>>Relevant Questions<<<
+1.Checking if a number is an Integer in Java
+2.How to check if the input is a valid number in Java
+
+-----------------------------------------------
+
+
+Rank4:java.lang.Thread.sleep
+>>>JavaDoc<<<
+Causes the currently executing thread to sleep (temporarily cease execution) for the specified number of milliseconds, subject to the precision and accuracy of system timers and schedulers.
+>>>Relevant Questions<<<
+1.Simple Sum Program Android java
+
+-----------------------------------------------
+
+
+Rank5:java.lang.StringBuilder.reverse
+>>>JavaDoc<<<
+Causes this character sequence to be replaced by the reverse of the sequence.
+>>>Relevant Questions<<<
+1.palindrome check comparing 2 strings Java
+
+-----------------------------------------------
+
+
+Rank6:java.lang.String.equals
+>>>JavaDoc<<<
+Compares this string to the specified object.
+>>>Relevant Questions<<<
+1.Java- Check palindrome
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||16690600||< - AnswerId: >||16690615||<
+ if(newstr.equals(str))
+
+-----------------------------------------------
+
+
+Rank7:java.util.Set.containsAll
+>>>JavaDoc<<<
+Returns true if this set contains all of the elements of the specified collection.
+>>>Relevant Questions<<<
+1.Lottery Program Java Compare two numbers
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||15327496||< - AnswerId: >||15327618||<
+ s1.containsAll(s2) && s2.size().equals(s1.size())
+
+-----------------------------------------------
+
+
+Rank8:java.util.stream.IntStream.of
+>>>JavaDoc<<<
+Returns a sequential IntStream containing a single element.
+>>>Relevant Questions<<<
+1.Java - Finding Largest and Smallest Numbers using an Array
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||29736100||< - AnswerId: >||29736319||<
+ final IntSummaryStatistics stats = IntStream.of(numbers).summaryStatistics();
+
+-----------------------------------------------
+
+
+Rank9:java.util.Arrays.toString
+>>>JavaDoc<<<
+Returns a string representation of the contents of the specified array.
+>>>Relevant Questions<<<
+1.Java Lottery Array Program
+
+-----------------------------------------------
+
+
+Rank10:java.lang.String.split
+>>>JavaDoc<<<
+Splits this string around matches of the given regular expression.
+>>>Relevant Questions<<<
+1.checking for the correct number of characters in a java string
+
+-----------------------------------------------
+
+

@@ -1,0 +1,11 @@
+How do I remove some characters from a StringBuffer?
+
+Rank1:java.lang.StringBuilder.deleteCharAt
+>>>JavaDoc<<<
+Removes the char at the specified position in this sequence.
+>>>Relevant Questions<<<
+1.How to remove single character from a String
+
+-----------------------------------------------
+
+

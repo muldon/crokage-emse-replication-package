@@ -1,0 +1,11 @@
+How do I launch user default mail client application?
+
+Rank1:java.awt.Desktop.mail
+>>>JavaDoc<<<
+Launches the mail composing window of the user default mail client.
+>>>Relevant Questions<<<
+1.Java: adding attachment to the mail client launched using getDesktop().mail(URI)
+
+-----------------------------------------------
+
+

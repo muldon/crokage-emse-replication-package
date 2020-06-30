@@ -1,0 +1,132 @@
+Java Program to Check Even or Odd Number
+
+Rank1:java.util.Arrays.sort
+>>>JavaDoc<<<
+Sorts the specified array into ascending numerical order.
+>>>Relevant Questions<<<
+1.Sorting even number and odd number in single line
+2.Array even & odd sorting
+3.Sort all even numbers in ascending order and then sort all odd numbers in descending order in a collection
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||16939596||< - AnswerId: >||16939937||<
+ Arrays.sort(arr, new Comparator<Integer>(){public int compare(Integer o1, Integer o2) {return o1%2 == o2%2 ? o1.compareTo(o2) : (o1%2 == 0 ? -1 : 1); }});
+
+-----------------------------------------------
+
+
+Rank2:java.lang.Integer.parseInt
+>>>JavaDoc<<<
+Parses the string argument as a signed integer in the radix specified by the second argument.
+>>>Relevant Questions<<<
+1.Separate odd even from string
+2.Checking if a number is an Integer in Java
+
+-----------------------------------------------
+
+
+Rank3:java.lang.Math.abs
+>>>JavaDoc<<<
+Returns the absolute value of an int value.
+>>>Relevant Questions<<<
+1.Checking for odd integers causing errors in Java
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||30690139||< - AnswerId: >||30690165||<
+  public static boolean isOdd(int i) {
+    return Math.abs(i % 2) == 1;
+ }
+
+-----------------------------------------------
+
+
+Rank4:java.lang.Long.parseLong
+>>>JavaDoc<<<
+Parses the string argument as a signed long in the radix specified by the second argument.
+>>>Relevant Questions<<<
+1.Check if number is too large or not a number
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||31598586||< - AnswerId: >||31598682||<
+ Long.parseLong(new String(new BigInteger(Long.toString(Long.MAX_VALUE)).add(new BigInteger("1")).toString()));
+
+-----------------------------------------------
+
+
+Rank5:java.util.stream.IntStream.sum
+>>>JavaDoc<<<
+Returns the sum of elements in this stream.
+>>>Relevant Questions<<<
+1.Java 8 sum or subtract depending on even odd
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||33436490||< - AnswerId: >||33436566||<
+ int[] array = { 1,2,3,4,5,6,7,8,9,10 };
+int sum = Arrays.stream(array).map(i -> i % 2 == 0 ? i : -i).sum();
+
+-----------------------------------------------
+
+
+Rank6:java.lang.Math.sqrt
+>>>JavaDoc<<<
+Returns the correctly rounded positive square root of a double value.
+>>>Relevant Questions<<<
+1.Finding if a number is Fibonacci or not? In Java
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||27705386||< - AnswerId: >||27705997||<
+ int one = (int) Math.sqrt((5*n*n)+4);
+
+int two = (int) Math.sqrt((5*n*n)-4);
+
+-----------------------------------------------
+
+
+Rank7:java.lang.Float.isNaN
+>>>JavaDoc<<<
+Returns true if the specified number is a Not-a-Number (NaN) value, false otherwise.
+>>>Relevant Questions<<<
+1.Check NAN values java
+
+-----------------------------------------------
+
+
+Rank8:java.lang.Double.isNaN
+>>>JavaDoc<<<
+Returns true if the specified number is a Not-a-Number (NaN) value, false otherwise.
+>>>Relevant Questions<<<
+1.Check NAN values java
+
+-----------------------------------------------
+
+
+Rank9:java.lang.String.charAt
+>>>JavaDoc<<<
+Returns the char value at the specified index.
+>>>Relevant Questions<<<
+1.Java split a string into two words: Based on even and odd character index
+2.java program to count the number of words that starts with capital letters
+
+-----------------------------------------------
+
+
+Rank10:java.util.Arrays.stream
+>>>JavaDoc<<<
+Returns a sequential Stream with the specified array as its source.
+>>>Relevant Questions<<<
+1.Java 8 sum or subtract depending on even odd
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||33436490||< - AnswerId: >||33436566||<
+ int[] array = { 1,2,3,4,5,6,7,8,9,10 };
+int sum = Arrays.stream(array).map(i -> i % 2 == 0 ? i : -i).sum();
+
+-----------------------------------------------
+
+

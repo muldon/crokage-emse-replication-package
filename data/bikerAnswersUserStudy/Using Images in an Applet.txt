@@ -1,0 +1,12 @@
+Using Images in an Applet
+
+Rank1:java.applet.Applet.getImage
+>>>JavaDoc<<<
+Returns an Image object that can then be painted on the screen.
+>>>Relevant Questions<<<
+1.How can I display an image in the Applet?
+2.How to display an images instantly in Java Applet?
+
+-----------------------------------------------
+
+

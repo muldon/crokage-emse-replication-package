@@ -1,0 +1,131 @@
+Check if a path is a symbolic link
+
+Rank1:java.nio.file.Path.toRealPath
+>>>JavaDoc<<<
+Returns the real path of an existing file.
+>>>Relevant Questions<<<
+1.JAVA how to find the target file path that a symbolic link points to?
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||43720118||< - AnswerId: >||43720165||<
+ Path realPath = aFile.toPath().toRealPath()
+
+Path realPath = aPath().toRealPath()
+
+-----------------------------------------------
+
+
+Rank2:java.nio.file.Files.isDirectory
+>>>JavaDoc<<<
+Tests whether a file is a directory.
+>>>Relevant Questions<<<
+1.Check if a path represents a file or a folder
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||12780446||< - AnswerId: >||12780471||<
+ File file = new File(path);
+
+boolean exists =      file.exists();      // Check if the file exists
+boolean isDirectory = file.isDirectory(); // Check if it's a directory
+boolean isFile =      file.isFile();      // Check if it's a regular file
+
+-----------------------------------------------
+
+
+Rank3:java.io.File.isFile
+>>>JavaDoc<<<
+Tests whether the file denoted by this abstract pathname is a normal file.
+>>>Relevant Questions<<<
+1.Java: check symbolic link file existence
+
+-----------------------------------------------
+
+
+Rank4:java.nio.file.Path.toFile
+>>>JavaDoc<<<
+Returns a File object representing this path.
+>>>Relevant Questions<<<
+1.listFiles() of File not working on symbolic links?
+
+-----------------------------------------------
+
+
+Rank5:java.nio.file.Paths.get
+>>>JavaDoc<<<
+Converts a path string, or a sequence of strings that when joined form a path string, to a Path.
+>>>Relevant Questions<<<
+1.Creating a path object when Path is an interface?
+
+-----------------------------------------------
+
+
+Rank6:java.util.regex.Pattern.quote
+>>>JavaDoc<<<
+Returns a literal pattern String for the specified String.
+>>>Relevant Questions<<<
+1.Splitting filenames using system file separator symbol
+2.how to check the pipe symbol in java
+3.Matching a word with pound (#) symbol in a regex
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||10336293||< - AnswerId: >||10336327||<
+ // Alternative: use Pattern.quote(File.separator)
+String pattern = Pattern.quote(System.getProperty("file.separator"));
+String[] splittedFileName = fileName.split(pattern);
+
+-----------------------------------------------
+
+
+Rank7:java.nio.file.Path.resolve
+>>>JavaDoc<<<
+Resolve the given path against this path.
+>>>Relevant Questions<<<
+1.How to create a file Path from a folder Path
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||28800933||< - AnswerId: >||28801244||<
+ Path testFile = Files.createFile(Files.createTempDirectory("fileFinder").resolve("sample.java"));
+
+-----------------------------------------------
+
+
+Rank8:java.io.File.isAbsolute
+>>>JavaDoc<<<
+Tests whether this abstract pathname is absolute.
+>>>Relevant Questions<<<
+1.How to check whether the path is relative or absolute in java
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||7627049||< - AnswerId: >||7627056||<
+ File file = new File(path);
+if (file.isAbsolute()) {
+    ...
+}
+
+-----------------------------------------------
+
+
+Rank9:java.io.File.exists
+>>>JavaDoc<<<
+Tests whether the file or directory denoted by this abstract pathname exists.
+>>>Relevant Questions<<<
+1.Check if any Zip file is present on a given path
+2.get a file path
+
+-----------------------------------------------
+
+
+Rank10:java.lang.Class.getResource
+>>>JavaDoc<<<
+Finds a resource with a given name.
+>>>Relevant Questions<<<
+1.trying to find if a file exists in a given path
+
+-----------------------------------------------
+
+

@@ -1,0 +1,112 @@
+import Csv from File
+
+Rank1:java.nio.file.Files.copy
+>>>JavaDoc<<<
+Copy a file to a target file.
+>>>Relevant Questions<<<
+1.How import a file in a jar?
+
+-----------------------------------------------
+
+
+Rank2:java.nio.file.Files.lines
+>>>JavaDoc<<<
+Read all lines from a file as a Stream.
+>>>Relevant Questions<<<
+1.Parse .txt to .csv
+
+-----------------------------------------------
+
+
+Rank3:java.lang.String.format
+>>>JavaDoc<<<
+Returns a formatted string using the specified format string and arguments.
+>>>Relevant Questions<<<
+1.print formatted table from csv
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||33278751||< - AnswerId: >||33278885||<
+                                                    //1234567890123456789012345
+System.out.print(String.format("%25s", field));    //       right aligned text
+System.out.print(String.format("%-25s", field));   //left aligned text
+
+-----------------------------------------------
+
+
+Rank4:java.io.LineNumberReader.readLine
+>>>JavaDoc<<<
+Read a line of text.
+>>>Relevant Questions<<<
+1.Convert an XML file to CSV file using java
+
+-----------------------------------------------
+
+
+Rank5:java.lang.Process.getInputStream
+>>>JavaDoc<<<
+Returns the input stream connected to the normal output of the subprocess.
+>>>Relevant Questions<<<
+1.loading csv file data into oracle database
+
+-----------------------------------------------
+
+
+Rank6:java.io.BufferedReader.lines
+>>>JavaDoc<<<
+Returns a Stream, the elements of which are lines read from this BufferedReader.
+>>>Relevant Questions<<<
+1.reading remote csv file without downloading
+
+-----------------------------------------------
+
+
+Rank7:java.sql.DriverManager.getConnection
+>>>JavaDoc<<<
+Attempts to establish a connection to the given database URL.
+>>>Relevant Questions<<<
+1.JDBC - csv file Error
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||35438070||< - AnswerId: >||35438248||<
+ Connection conn = DriverManager
+                    .getConnection("jdbc:relique:csv:c:\\temp");
+
+-----------------------------------------------
+
+
+Rank8:java.util.Arrays.toString
+>>>JavaDoc<<<
+Returns a string representation of the contents of the specified array.
+>>>Relevant Questions<<<
+1.How to read something readable from CSV file?
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||38123294||< - AnswerId: >||38123367||<
+ for (String[] row : myEntries) {
+  System.out.println(Arrays.toString(row));
+}
+
+-----------------------------------------------
+
+
+Rank9:java.lang.System.getProperty
+>>>JavaDoc<<<
+Gets the system property indicated by the specified key.
+>>>Relevant Questions<<<
+1.How import a file in a jar?
+
+-----------------------------------------------
+
+
+Rank10:java.util.Arrays.asList
+>>>JavaDoc<<<
+Returns a fixed-size list backed by the specified array.
+>>>Relevant Questions<<<
+1.reading a csv file into a array
+
+-----------------------------------------------
+
+

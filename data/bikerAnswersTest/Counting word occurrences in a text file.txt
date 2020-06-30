@@ -1,0 +1,123 @@
+Counting word occurrences in a text file
+
+Rank1:java.lang.String.indexOf
+>>>JavaDoc<<<
+Returns the index within this string of the first occurrence of the specified character.
+>>>Relevant Questions<<<
+1.Java Counting # of occurrences of a word in a string
+2.count the occurrences of a specific character in the input
+
+-----------------------------------------------
+
+
+Rank2:java.lang.String.lastIndexOf
+>>>JavaDoc<<<
+Returns the index within this string of the last occurrence of the specified character.
+>>>Relevant Questions<<<
+1.Skip first few words of a string when counting words in a text file
+
+-----------------------------------------------
+
+
+Rank3:java.lang.String.split
+>>>JavaDoc<<<
+Splits this string around matches of the given regular expression.
+>>>Relevant Questions<<<
+1.Counting number of words in a file
+2.How do I count the number of words in a text using regex?
+3.Count the number of occurrences in a string array
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||4094119||< - AnswerId: >||4126807||<
+ String fileContent = <text from file>;    
+String[] words = Pattern.compile("\\s+").split(fileContent);
+System.out.println("File has " + words.length + " words");
+
+-----------------------------------------------
+
+
+Rank4:java.util.regex.Pattern.splitAsStream
+>>>JavaDoc<<<
+Creates a stream from the given input sequence around matches of this pattern.
+>>>Relevant Questions<<<
+1.How to count the number of occurrences of each word?
+
+-----------------------------------------------
+
+
+Rank5:java.lang.String.trim
+>>>JavaDoc<<<
+Returns a string whose value is this string, with any leading and trailing whitespace removed.
+>>>Relevant Questions<<<
+1.Count the number of occurrences in a string array
+
+-----------------------------------------------
+
+
+Rank6:java.lang.String.substring
+>>>JavaDoc<<<
+Returns a string that is a substring of this string.
+>>>Relevant Questions<<<
+1.Counting number of occurrences of word in java
+
+-----------------------------------------------
+
+
+Rank7:java.nio.file.Files.lines
+>>>JavaDoc<<<
+Read all lines from a file as a Stream.
+>>>Relevant Questions<<<
+1.Counting number of words in a file
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||4094119||< - AnswerId: >||47604864||<
+ Files.lines(Paths.get(file))
+    .flatMap(str->Stream.of(str.split("[ ,.!?\r\n]")))
+    .filter(s->s.length()>0).count();
+
+-----------------------------------------------
+
+
+Rank8:java.lang.String.replace
+>>>JavaDoc<<<
+Returns a string resulting from replacing all occurrences of oldChar in this string with newChar.
+>>>Relevant Questions<<<
+1.Delete word from a line in a text file
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||30680319||< - AnswerId: >||30680335||<
+ line = line.replace(" alle ", " ");
+
+-----------------------------------------------
+
+
+Rank9:java.util.regex.Pattern.quote
+>>>JavaDoc<<<
+Returns a literal pattern String for the specified String.
+>>>Relevant Questions<<<
+1.Java Counting # of occurrences of a word in a string
+
+-----------------------------------------------
+
+
+Rank10:java.util.stream.Collectors.groupingBy
+>>>JavaDoc<<<
+Returns a Collector implementing a "group by" operation on input elements of type T, grouping elements according to a classification function, and returning the results in a Map.
+>>>Relevant Questions<<<
+1.How to count the number of occurrences of each word?
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||26282009||< - AnswerId: >||33946927||<
+ private void countWords(final Path file) throws IOException {
+    Arrays.stream(new String(Files.readAllBytes(file), StandardCharsets.UTF_8).split("\\W+"))
+        .collect(Collectors.groupingBy(Function.<String>identity(), TreeMap::new, counting())).entrySet()
+        .forEach(System.out::println);
+}
+
+-----------------------------------------------
+
+

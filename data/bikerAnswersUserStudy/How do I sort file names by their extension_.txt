@@ -1,0 +1,19 @@
+How do I sort file names by their extension?
+
+Rank1:java.io.File.getName
+>>>JavaDoc<<<
+Returns the name of the file or directory denoted by this abstract pathname.
+>>>Relevant Questions<<<
+1.How do I get the file name from a String containing the Absolute file path?
+2.Java: how to filter incoming files by filename, not extensions?
+3.how to change the extension of a File using java?
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||14526260||< - AnswerId: >||14526289||<
+ File f = new File("C:\\Hello\\AnotherFolder\\The File Name.PDF");
+System.out.println(f.getName());
+
+-----------------------------------------------
+
+

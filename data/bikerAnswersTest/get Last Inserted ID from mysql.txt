@@ -1,0 +1,102 @@
+get Last Inserted ID from mysql
+
+Rank1:java.sql.ResultSet.next
+>>>JavaDoc<<<
+Moves the cursor forward one row from its current position.
+>>>Relevant Questions<<<
+1.JAVA: get cell from table of mysql
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||13654715||< - AnswerId: >||13654734||<
+ ResultSet my_rs = ps2.executeQuery(query_txt);
+while (my_rs.next()) {
+    System.out.println(my_rs.getString("name"));
+}
+
+-----------------------------------------------
+
+
+Rank2:java.sql.Statement.getGeneratedKeys
+>>>JavaDoc<<<
+Retrieves any auto-generated keys created as a result of executing this Statement object.
+>>>Relevant Questions<<<
+1.How to get the insert ID in JDBC?
+2.getting the id of the inserted row
+
+-----------------------------------------------
+
+
+Rank3:java.sql.PreparedStatement.setTimestamp
+>>>JavaDoc<<<
+Sets the designated parameter to the given java.
+>>>Relevant Questions<<<
+1.JDBC: Inserting Date values into MySQL
+2.Syntax error while INSERT MySql from Java
+
+-----------------------------------------------
+
+
+Rank4:java.sql.Connection.prepareStatement
+>>>JavaDoc<<<
+Creates a PreparedStatement object for sending parameterized SQL statements to the database.
+>>>Relevant Questions<<<
+1.Get last insert id with Oracle 11g using JDBC
+
+-----------------------------------------------
+
+
+Rank5:java.sql.PreparedStatement.executeUpdate
+>>>JavaDoc<<<
+Executes the SQL statement in this PreparedStatement object, which must be an SQL Data Manipulation Language (DML) statement, such as INSERT, UPDATE or DELETE; or an SQL statement that returns nothing, such as a DDL statement.
+>>>Relevant Questions<<<
+1.Insert ArrayList into MySQL
+
+-----------------------------------------------
+
+
+Rank6:java.sql.PreparedStatement.setTime
+>>>JavaDoc<<<
+Sets the designated parameter to the given java.
+>>>Relevant Questions<<<
+1.JDBC: Inserting Date values into MySQL
+
+-----------------------------------------------
+
+
+Rank7:java.sql.Statement.executeBatch
+>>>JavaDoc<<<
+Submits a batch of commands to the database for execution and if all commands execute successfully, returns an array of update counts.
+>>>Relevant Questions<<<
+1.Insert ArrayList into MySQL
+
+-----------------------------------------------
+
+
+Rank8:java.sql.Connection.setCatalog
+>>>JavaDoc<<<
+Sets the given catalog name in order to select a subspace of this Connection object's database in which to work.
+>>>Relevant Questions<<<
+1.Android JDBC MySQL get tables by Database
+
+-----------------------------------------------
+
+
+Rank9:javax.swing.JTable.getSelectedRows
+>>>JavaDoc<<<
+Returns the indices of all selected rows.
+>>>Relevant Questions<<<
+1.getting the id from a row
+
+-----------------------------------------------
+
+
+Rank10:java.sql.PreparedStatement.setDate
+>>>JavaDoc<<<
+Sets the designated parameter to the given java.
+>>>Relevant Questions<<<
+1.JDBC: Inserting Date values into MySQL
+
+-----------------------------------------------
+
+

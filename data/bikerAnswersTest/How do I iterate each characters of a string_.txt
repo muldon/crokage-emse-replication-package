@@ -1,0 +1,147 @@
+How do I iterate each characters of a string?
+
+Rank1:java.lang.String.toCharArray
+>>>JavaDoc<<<
+Converts this string to a new character array.
+>>>Relevant Questions<<<
+1.How do I split a String by Characters in Java?
+2.Shorthand for loop to iterate through each character of a String array?
+3.How can I convert a String to a char array?
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||29463924||< - AnswerId: >||29463981||<
+ char[] characters = br.readLine().toCharArray();
+
+-----------------------------------------------
+
+
+Rank2:java.lang.String.charAt
+>>>JavaDoc<<<
+Returns the char value at the specified index.
+>>>Relevant Questions<<<
+1.How do you get the last character of a string?
+2.How do I compare each character of a String while accounting for characters with length > 1?
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||5163785||< - AnswerId: >||5163887||<
+ if (s.charAt(0) == s.charAt(s.length() - 1))
+
+-----------------------------------------------
+
+
+Rank3:java.lang.Character.toString
+>>>JavaDoc<<<
+Returns a String object representing this Character's value.
+>>>Relevant Questions<<<
+1.How do I convert a integer representing a character to a string?
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||20891080||< - AnswerId: >||20891138||<
+ Character.toString((char)93);
+
+-----------------------------------------------
+
+
+Rank4:java.lang.String.contains
+>>>JavaDoc<<<
+Returns true if and only if this string contains the specified sequence of char values.
+>>>Relevant Questions<<<
+1.Java - how do I check if a string exists in each of the elements of a HashSet
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||20909242||< - AnswerId: >||20909289||<
+ for(String st : VALUES) {
+    if(!st.contains(s)) { 
+       //found string that doesn't contain s
+    }
+}
+
+-----------------------------------------------
+
+
+Rank5:java.lang.Character.UnicodeBlock.of
+>>>JavaDoc<<<
+Returns the object representing the Unicode block containing the given character, or null if the character is not a member of a defined block.
+>>>Relevant Questions<<<
+1.How do I detect unicode characters in a Java string?
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||1673544||< - AnswerId: >||1673575||<
+ If (Character.UnicodeBlock.of(c) != Character.UnicodeBlock.BASIC_LATIN) {
+ // replace with Y
+}
+
+-----------------------------------------------
+
+
+Rank6:java.lang.Integer.parseInt
+>>>JavaDoc<<<
+Parses the string argument as a signed integer in the radix specified by the second argument.
+>>>Relevant Questions<<<
+1.How do I convert a integer representing a character to a string?
+
+-----------------------------------------------
+
+
+Rank7:java.lang.String.length
+>>>JavaDoc<<<
+Returns the length of this string.
+>>>Relevant Questions<<<
+1.How do I compare each character of a String while accounting for characters with length > 1?
+
+-----------------------------------------------
+
+
+Rank8:java.lang.String.split
+>>>JavaDoc<<<
+Splits this string around matches of the given regular expression.
+>>>Relevant Questions<<<
+1.How do I count the number of words in a string?
+2.How to use a character as a separator in a string
+3.how do i count occurrence of words in a line
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||10670734||< - AnswerId: >||10670747||<
+ int words = myString.split("\s+").length;
+
+-----------------------------------------------
+
+
+Rank9:java.lang.String.replaceAll
+>>>JavaDoc<<<
+Replaces each substring of this string that matches the given regular expression with the given replacement.
+>>>Relevant Questions<<<
+1.How to convert a string of coma separated characters to a string of strings with each string in single quotes and separated by comma
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||33305446||< - AnswerId: >||33305824||<
+ String testString = "#72c02c, #3498db, #e67e22, #e74c3c, #ecf0f1, #9b6bcc, #27d7e7, #9c8061, #4765a0, #79d5b3";
+System.out.println(testString.replaceAll("([#\\w]+)","'$1'"));
+
+-----------------------------------------------
+
+
+Rank10:java.lang.String.replace
+>>>JavaDoc<<<
+Returns a string resulting from replacing all occurrences of oldChar in this string with newChar.
+>>>Relevant Questions<<<
+1.How to replace some character in a string with a single character of type char?
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||26499583||< - AnswerId: >||26499606||<
+ String str = "abcdbab";
+System.out.println(str);
+str = str.replace("ab", "A");
+System.out.println(str);
+
+-----------------------------------------------
+
+

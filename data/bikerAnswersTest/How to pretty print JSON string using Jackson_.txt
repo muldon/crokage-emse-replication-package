@@ -1,0 +1,44 @@
+How to pretty print JSON string using Jackson?
+
+Rank1:java.lang.String.format
+>>>JavaDoc<<<
+Returns a formatted string using the specified format string and arguments.
+>>>Relevant Questions<<<
+1.How to pass dynamic value to a JSON String
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||17213192||< - AnswerId: >||17213304||<
+ String input = "insert %s in the string"; // here %s is the placeholder
+input = String.format(input, "value");    // replace %s with actual value
+
+-----------------------------------------------
+
+
+Rank2:java.io.ByteArrayOutputStream.toString
+>>>JavaDoc<<<
+Converts the buffer's contents into a string decoding bytes using the platform's default character set.
+>>>Relevant Questions<<<
+1.Getting JSON string from object list using gson
+
+-----------------------------------------------
+
+
+Rank3:java.io.StringWriter.toString
+>>>JavaDoc<<<
+Return the buffer's current value as a string.
+>>>Relevant Questions<<<
+1.Getting JSON string from object list using gson
+
+-----------------------------------------------
+
+
+Rank4:java.lang.ClassLoader.getResource
+>>>JavaDoc<<<
+Finds the resource with the given name.
+>>>Relevant Questions<<<
+1.How to Read CSV file in java using Jackson Library ,JSON
+
+-----------------------------------------------
+
+

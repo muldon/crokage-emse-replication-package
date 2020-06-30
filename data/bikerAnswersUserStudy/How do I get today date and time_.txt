@@ -1,0 +1,21 @@
+How do I get today date and time?
+
+Rank1:java.time.LocalDate.atStartOfDay
+>>>JavaDoc<<<
+Combines this date with the time of midnight to create a LocalDateTime at the start of this date.
+>>>Relevant Questions<<<
+1.How to get today's Date?
+2.how to create a Java Date object of midnight today and midnight tomorrow?
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||5046771||< - AnswerId: >||33225963||<
+ LocalDate.now( 
+    ZoneId.of( "America/Montreal" ) 
+).atStartOfDay(
+    ZoneId.of( "America/Montreal" )
+)
+
+-----------------------------------------------
+
+

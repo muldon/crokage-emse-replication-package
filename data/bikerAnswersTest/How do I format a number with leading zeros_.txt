@@ -1,0 +1,136 @@
+How do I format a number with leading zeros?
+
+Rank1:java.lang.String.format
+>>>JavaDoc<<<
+Returns a formatted string using the specified format string and arguments.
+>>>Relevant Questions<<<
+1.How do I use String.format to display value with leading space?
+2.How do I format a number in Java?
+3.In Java, how do I convert a byte array to a string of hex digits while keeping leading zeros?
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||40607392||< - AnswerId: >||40607536||<
+ for(int i = 1; i < 10; ++i){
+    System.out.format("%"+i+"s\n", String.valueOf((char)(i+'a'-1)));
+}
+
+-----------------------------------------------
+
+
+Rank2:java.lang.Math.min
+>>>JavaDoc<<<
+Returns the smaller of two int values.
+>>>Relevant Questions<<<
+1.How do I check if a zero is positive or negative?
+2.How do I correctly get the largest and smallest numbers in a sequence of numbers?
+
+-----------------------------------------------
+
+
+Rank3:java.lang.Float.toString
+>>>JavaDoc<<<
+Returns a string representation of the float argument.
+>>>Relevant Questions<<<
+1.How can I format a float in Java with a given number of digits after the decimal point?
+
+-----------------------------------------------
+
+
+Rank4:java.lang.Integer.toHexString
+>>>JavaDoc<<<
+Returns a string representation of the integer argument as an unsigned integer in base 16.
+>>>Relevant Questions<<<
+1.In Java, how do I convert a byte array to a string of hex digits while keeping leading zeros?
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||332079||< - AnswerId: >||9032075||<
+ byte messageDigest[] = algorithm.digest();
+for (int i = 0; i < messageDigest.length; i++) {
+    hexString.append(Integer.toHexString(0xFF & messageDigest[i]));
+}    
+
+-----------------------------------------------
+
+
+Rank5:java.text.NumberFormat.getPercentInstance
+>>>JavaDoc<<<
+Returns a percentage format for the current default FORMAT locale.
+>>>Relevant Questions<<<
+1.How do you format a fractional percentage with java.text.MessageFormat
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||698261||< - AnswerId: >||698506||<
+ NumberFormat percentFormat = NumberFormat.getPercentInstance();
+percentFormat.setMaximumFractionDigits(1);
+String result = percentFormat.format(0.125);
+
+-----------------------------------------------
+
+
+Rank6:java.lang.Math.max
+>>>JavaDoc<<<
+Returns the greater of two int values.
+>>>Relevant Questions<<<
+1.How do I correctly get the largest and smallest numbers in a sequence of numbers?
+
+-----------------------------------------------
+
+
+Rank7:java.util.Random.nextInt
+>>>JavaDoc<<<
+Returns the next pseudorandom, uniformly distributed int value from this random number generator's sequence.
+>>>Relevant Questions<<<
+1.How do I get the output to produce random numbers?
+2.How to get random number with negative number in range?
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||40275216||< - AnswerId: >||40275258||<
+ Random random = new Random();
+int yourRandomNumber = random.nextInt(100);
+
+-----------------------------------------------
+
+
+Rank8:java.lang.Math.random
+>>>JavaDoc<<<
+Returns a double value with a positive sign, greater than or equal to 0.
+>>>Relevant Questions<<<
+1.How do I write a code for random intervals between a range using numbers in double format?
+2.How do I get the output to produce random numbers?
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||44213769||< - AnswerId: >||44213954||<
+ Thread.sleep(2500 + ((int) (Math.random() * 1000)));
+
+-----------------------------------------------
+
+
+Rank9:java.math.BigDecimal.setScale
+>>>JavaDoc<<<
+Returns a BigDecimal whose scale is the specified value, and whose unscaled value is determined by multiplying or dividing this BigDecimal's unscaled value by the appropriate power of ten to maintain its overall value.
+>>>Relevant Questions<<<
+1.fixed format number in java. (how to cut a number?)
+2.How do I format double input in Java WITHOUT rounding it?
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||9117899||< - AnswerId: >||9118124||<
+ bet.price = new BigDecimal(tokens[3].trim()).setScale(1, RoundingMode.HALF_EVEN);
+
+-----------------------------------------------
+
+
+Rank10:java.lang.Integer.decode
+>>>JavaDoc<<<
+Decodes a String into an Integer.
+>>>Relevant Questions<<<
+1.How to convert string representing number i any format to integer
+
+-----------------------------------------------
+
+

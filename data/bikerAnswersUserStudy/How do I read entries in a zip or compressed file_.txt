@@ -1,0 +1,11 @@
+How do I read entries in a zip or compressed file?
+
+Rank1:java.util.zip.ZipInputStream.getNextEntry
+>>>JavaDoc<<<
+Reads the next ZIP file entry and positions the stream at the beginning of the entry data.
+>>>Relevant Questions<<<
+1.How to create a multipart zip file and read it back?
+
+-----------------------------------------------
+
+

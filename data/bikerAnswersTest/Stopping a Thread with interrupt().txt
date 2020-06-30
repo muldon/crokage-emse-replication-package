@@ -1,0 +1,121 @@
+Stopping a Thread with interrupt()
+
+Rank1:java.lang.Thread.isInterrupted
+>>>JavaDoc<<<
+Tests whether this thread has been interrupted.
+>>>Relevant Questions<<<
+1.Java threads and thread interrupts
+2.Thread Interrupt in java
+3.Interrupt Thread in java
+
+-----------------------------------------------
+
+
+Rank2:java.lang.Thread.interrupt
+>>>JavaDoc<<<
+Interrupts this thread.
+>>>Relevant Questions<<<
+1.What's the difference between Thread.interrupt() and Thread.currentThread.interrupt() in Java?
+2.Java, stopping (interrupting) the thread
+3.java thread: Thread.interrupt() not working
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||4801317||< - AnswerId: >||4801363||<
+ Thread x = getSomeThreadInstance();
+x.interrupt();
+
+-----------------------------------------------
+
+
+Rank3:java.lang.Thread.interrupted
+>>>JavaDoc<<<
+Tests whether the current thread has been interrupted.
+>>>Relevant Questions<<<
+1.Methods that Clear the Thread.interrupt() flag
+2.Java: Difference in usage between Thread.interrupted() and Thread.isInterrupted()?
+3.Why use Thread.currentThread().isInterrupted() instead of Thread.interrupted() when implementing Runnable?
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||10401947||< - AnswerId: >||12339487||<
+ Thread.interrupted()
+Thread.isInterrupted(true) -- added to your list
+
+-----------------------------------------------
+
+
+Rank4:java.util.concurrent.ExecutorService.shutdownNow
+>>>JavaDoc<<<
+Attempts to stop all actively executing tasks, halts the processing of waiting tasks, and returns a list of the tasks that were awaiting execution.
+>>>Relevant Questions<<<
+1.Interrupt Thread in java
+
+-----------------------------------------------
+
+
+Rank5:java.lang.Thread.stop
+>>>JavaDoc<<<
+Deprecated.
+>>>Relevant Questions<<<
+1.Stopping a Thread / Threads calls interrupt on itself after crash?
+2.Stopping/Interrupting an operation
+3.How to stop a thread by another thread?
+
+-----------------------------------------------
+
+
+Rank6:java.util.concurrent.ThreadPoolExecutor.shutdownNow
+>>>JavaDoc<<<
+Attempts to stop all actively executing tasks, halts the processing of waiting tasks, and returns a list of the tasks that were awaiting execution.
+>>>Relevant Questions<<<
+1.How to stop a thread by another thread?
+
+-----------------------------------------------
+
+
+Rank7:java.lang.Object.wait
+>>>JavaDoc<<<
+Causes the current thread to wait until either another thread invokes the notify() method or the notifyAll() method for this object, or a specified amount of time has elapsed.
+>>>Relevant Questions<<<
+1.Interrupting a java thread gracefully
+2.Why can't Thread.interrupt() interrupt a thread trying to acquire lock
+3.When an Thread.interrupt() is called on some thread, what happens?
+
+-----------------------------------------------
+
+
+Rank8:java.lang.Thread.setDaemon
+>>>JavaDoc<<<
+Marks this thread as either a daemon thread or a user thread.
+>>>Relevant Questions<<<
+1.Thread.join() and Thread.interrupt() doesn't stop the thread
+
+-----------------------------------------------
+
+
+Rank9:java.lang.Thread.currentThread
+>>>JavaDoc<<<
+Returns a reference to the currently executing thread object.
+>>>Relevant Questions<<<
+1.Why use Thread.currentThread().isInterrupted() instead of Thread.interrupted() when implementing Runnable?
+2.What's the difference between Thread.interrupt() and Thread.currentThread.interrupt() in Java?
+3.Why Thread.currentThread().interrupt() be called?
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||16916238||< - AnswerId: >||16916381||<
+     Thread.currentThread().interrupted()
+
+-----------------------------------------------
+
+
+Rank10:java.lang.Thread.join
+>>>JavaDoc<<<
+Waits at most millis milliseconds for this thread to die.
+>>>Relevant Questions<<<
+1.Java Threading: Is using interrupt() within run() acceptable to stop a thread when it is finished completing its task?
+
+-----------------------------------------------
+
+

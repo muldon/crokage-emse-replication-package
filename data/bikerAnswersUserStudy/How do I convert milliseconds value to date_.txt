@@ -1,0 +1,20 @@
+How do I convert milliseconds value to date?
+
+Rank1:java.util.Date.getTime
+>>>JavaDoc<<<
+Returns the number of milliseconds since January 1, 1970, 00:00:00 GMT represented by this Date object.
+>>>Relevant Questions<<<
+1.How to convert a date to milliseconds
+2.How to convert date format to milliseconds?
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||26637168||< - AnswerId: >||26637209||<
+ String myDate = "2014/10/29 18:10:45";
+SimpleDateFormat sdf = new SimpleDateFormat("yyyy/MM/dd HH:mm:ss");
+Date date = sdf.parse(myDate);
+long millis = date.getTime();
+
+-----------------------------------------------
+
+

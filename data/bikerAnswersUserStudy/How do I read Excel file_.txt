@@ -1,0 +1,19 @@
+How do I read Excel file?
+
+Rank1:java.nio.file.Files.write
+>>>JavaDoc<<<
+Writes bytes to a file.
+>>>Relevant Questions<<<
+1.How do I create a file and write to it in Java?
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||2885173||< - AnswerId: >||2885241||<
+ try (Writer writer = new BufferedWriter(new OutputStreamWriter(
+              new FileOutputStream("filename.txt"), "utf-8"))) {
+   writer.write("something");
+}
+
+-----------------------------------------------
+
+

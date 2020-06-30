@@ -1,0 +1,115 @@
+Append string to a text file
+
+Rank1:java.lang.String.toCharArray
+>>>JavaDoc<<<
+Converts this string to a new character array.
+>>>Relevant Questions<<<
+1.Input from text file to array
+
+-----------------------------------------------
+
+
+Rank2:java.nio.file.Files.write
+>>>JavaDoc<<<
+Writes bytes to a file.
+>>>Relevant Questions<<<
+1.How to append text to an existing file in Java
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||1625234||< - AnswerId: >||1625263||<
+ try {
+    Files.write(Paths.get("myfile.txt"), "the text".getBytes(), StandardOpenOption.APPEND);
+}catch (IOException e) {
+    //exception handling left as an exercise for the reader
+}
+
+-----------------------------------------------
+
+
+Rank3:java.nio.file.Files.newBufferedWriter
+>>>JavaDoc<<<
+Opens or creates a file for writing, returning a BufferedWriter that may be used to write text to the file in an efficient manner.
+>>>Relevant Questions<<<
+1.How to append text to an existing file in Java
+
+-----------------------------------------------
+
+
+Rank4:java.io.PrintWriter.append
+>>>JavaDoc<<<
+Appends the specified character sequence to this writer.
+>>>Relevant Questions<<<
+1.Append to a File
+
+-----------------------------------------------
+
+
+Rank5:java.lang.StringBuffer.toString
+>>>JavaDoc<<<
+Returns a string representing the data in this sequence.
+>>>Relevant Questions<<<
+1.Copying a java text file into a String
+
+-----------------------------------------------
+
+
+Rank6:java.nio.file.Files.readAllLines
+>>>JavaDoc<<<
+Read all lines from a file.
+>>>Relevant Questions<<<
+1.Load .text file in string array
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||20594827||< - AnswerId: >||20594900||<
+ List<String> allLines = Files.readAllLines("/some.txt", Charset.forName("Cp1251"));
+
+-----------------------------------------------
+
+
+Rank7:java.util.Arrays.toString
+>>>JavaDoc<<<
+Returns a string representation of the contents of the specified array.
+>>>Relevant Questions<<<
+1.Printing an array created from a text file
+
+-----------------------------------------------
+
+
+Rank8:java.io.BufferedReader.read
+>>>JavaDoc<<<
+Reads a single character.
+>>>Relevant Questions<<<
+1.Reading every char in a text file
+
+-----------------------------------------------
+
+
+Rank9:java.nio.file.Paths.get
+>>>JavaDoc<<<
+Converts a path string, or a sequence of strings that when joined form a path string, to a Path.
+>>>Relevant Questions<<<
+1.How to append text to an existing file in Java
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||1625234||< - AnswerId: >||1625263||<
+ try {
+    Files.write(Paths.get("myfile.txt"), "the text".getBytes(), StandardOpenOption.APPEND);
+}catch (IOException e) {
+    //exception handling left as an exercise for the reader
+}
+
+-----------------------------------------------
+
+
+Rank10:java.io.BufferedReader.readLine
+>>>JavaDoc<<<
+Reads a line of text.
+>>>Relevant Questions<<<
+1.Reading every char in a text file
+
+-----------------------------------------------
+
+

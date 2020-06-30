@@ -1,0 +1,120 @@
+Reads a text file and displays it line by line
+
+Rank1:java.io.BufferedReader.readLine
+>>>JavaDoc<<<
+Reads a line of text.
+>>>Relevant Questions<<<
+1.Quickly read the last line of a text file?
+
+-----------------------------------------------
+
+
+Rank2:java.nio.file.Files.lines
+>>>JavaDoc<<<
+Read all lines from a file as a Stream.
+>>>Relevant Questions<<<
+1.Store text file content line by line into array
+2.Use try-with-resource to read a text file line by line in java
+3.reading text from .db file one line at a time
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||16100175||< - AnswerId: >||30774134||<
+ Files.lines(new File("/home/abdennour/path/to/file.txt").toPath()).collect(Collectors.toList());
+
+-----------------------------------------------
+
+
+Rank3:java.nio.file.Files.readAllLines
+>>>JavaDoc<<<
+Read all lines from a file.
+>>>Relevant Questions<<<
+1.BufferedReader does not read all the lines in text file
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||23736429||< - AnswerId: >||23736771||<
+ public ArrayList<String> readRules(String src) {
+    return Files.readAllLines(src, Charset.defaultCharset());
+}
+
+-----------------------------------------------
+
+
+Rank4:javax.swing.text.JTextComponent.read
+>>>JavaDoc<<<
+Initializes from a stream.
+>>>Relevant Questions<<<
+1.reading a log file and displaying it in jTextArea
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||21682761||< - AnswerId: >||21683223||<
+ JTextArea textArea = new JTextArea();
+textArea.read(new FileReader("input.txt"), "blah");
+
+-----------------------------------------------
+
+
+Rank5:java.io.Reader.read
+>>>JavaDoc<<<
+Attempts to read characters into the specified character buffer.
+>>>Relevant Questions<<<
+1.Read text file character by character
+
+-----------------------------------------------
+
+
+Rank6:java.io.File.createNewFile
+>>>JavaDoc<<<
+Atomically creates a new, empty file named by this abstract pathname if and only if a file with this name does not yet exist.
+>>>Relevant Questions<<<
+1.Can't read lines from a text file
+
+-----------------------------------------------
+
+
+Rank7:java.nio.file.Paths.get
+>>>JavaDoc<<<
+Converts a path string, or a sequence of strings that when joined form a path string, to a Path.
+>>>Relevant Questions<<<
+1.reading text from .db file one line at a time
+
+-----------------------------------------------
+
+
+Rank8:java.lang.String.split
+>>>JavaDoc<<<
+Splits this string around matches of the given regular expression.
+>>>Relevant Questions<<<
+1.Reading a line from a text file Java
+2.Reading the next line in a text file
+3.Reading a specific data type from a line in a text file
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||20434171||< - AnswerId: >||20434209||<
+ String value = "item1,item2,item3";
+String[] tokens = value.split(",");
+
+-----------------------------------------------
+
+
+Rank9:java.lang.String.equals
+>>>JavaDoc<<<
+Compares this string to the specified object.
+>>>Relevant Questions<<<
+1.Reading a file and displaying wanted results
+
+-----------------------------------------------
+
+
+Rank10:java.util.stream.Stream.toArray
+>>>JavaDoc<<<
+Returns an array containing the elements of this stream.
+>>>Relevant Questions<<<
+1.reading text from .db file one line at a time
+
+-----------------------------------------------
+
+

@@ -1,0 +1,115 @@
+How do I get current number of live threads?
+
+Rank1:java.lang.Thread.currentThread
+>>>JavaDoc<<<
+Returns a reference to the currently executing thread object.
+>>>Relevant Questions<<<
+1.How do I get the name of my java threads in this code?
+2.How to get the currently running custom Threads variables
+3.How to find which thread currently owns the lock in java
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||22032761||< - AnswerId: >||22032844||<
+ System.out.println("Running: " + Thread.currentThread().getName());
+
+-----------------------------------------------
+
+
+Rank2:java.lang.Thread.activeCount
+>>>JavaDoc<<<
+Returns an estimate of the number of active threads in the current thread's thread group and its subgroups.
+>>>Relevant Questions<<<
+1.How to get the number of threads in a Java process
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||1922290||< - AnswerId: >||1922300||<
+ java.lang.Thread.activeCount()
+
+-----------------------------------------------
+
+
+Rank3:java.util.concurrent.ThreadPoolExecutor.getActiveCount
+>>>JavaDoc<<<
+Returns the approximate number of threads that are actively executing tasks.
+>>>Relevant Questions<<<
+1.How to find the number of runnables waiting to be executed
+
+-----------------------------------------------
+
+
+Rank4:java.lang.Thread.interrupt
+>>>JavaDoc<<<
+Interrupts this thread.
+>>>Relevant Questions<<<
+1.How to find and stop all currently running threads?
+2.How do i exit a loop running in threadA after I get a specified input in threadB? in java
+3.How do I stop a thread?
+
+-----------------------------------------------
+
+
+Rank5:java.util.concurrent.ThreadPoolExecutor.setCorePoolSize
+>>>JavaDoc<<<
+Sets the core number of threads.
+>>>Relevant Questions<<<
+1.How to get ideal number of threads in parallel programs in java?
+
+-----------------------------------------------
+
+
+Rank6:java.lang.Thread.interrupted
+>>>JavaDoc<<<
+Tests whether the current thread has been interrupted.
+>>>Relevant Questions<<<
+1.How do i exit a loop running in threadA after I get a specified input in threadB? in java
+2.How exactly do I interrupt a thread?
+
+-----------------------------------------------
+
+
+Rank7:java.util.concurrent.Executors.newFixedThreadPool
+>>>JavaDoc<<<
+Creates a thread pool that reuses a fixed number of threads operating off a shared unbounded queue.
+>>>Relevant Questions<<<
+1.How do you limit threads in the ExecutorService?
+2.How to find the number of runnables waiting to be executed
+
+-----------------------------------------------
+
+
+Rank8:java.lang.Thread.join
+>>>JavaDoc<<<
+Waits at most millis milliseconds for this thread to die.
+>>>Relevant Questions<<<
+1.How to wait for a number of threads to complete?
+2.Java threads: how do threads return values
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||1252190||< - AnswerId: >||1252202||<
+ for(i = 0; i < threads.length; i++)
+  threads[i].join();
+
+-----------------------------------------------
+
+
+Rank9:java.lang.Thread.stop
+>>>JavaDoc<<<
+Deprecated.
+>>>Relevant Questions<<<
+1.How to find and stop all currently running threads?
+
+-----------------------------------------------
+
+
+Rank10:java.lang.ThreadGroup.activeCount
+>>>JavaDoc<<<
+Returns an estimate of the number of active threads in this thread group and its subgroups.
+>>>Relevant Questions<<<
+1.How to wait for a number of threads to complete?
+
+-----------------------------------------------
+
+

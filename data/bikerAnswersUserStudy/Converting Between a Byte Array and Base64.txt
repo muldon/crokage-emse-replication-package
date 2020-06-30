@@ -1,0 +1,17 @@
+Converting Between a Byte Array and Base64
+
+Rank1:javax.xml.bind.DatatypeConverter.printHexBinary
+>>>JavaDoc<<<
+ Converts an array of bytes into a string.
+>>>Relevant Questions<<<
+1.How to convert a byte array to a hex string in Java?
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||9655181||< - AnswerId: >||21992128||<
+ byte bytes[] = {(byte)0, (byte)0, (byte)134, (byte)0, (byte)61};
+System.out.println(javax.xml.bind.DatatypeConverter.printHexBinary(bytes));
+
+-----------------------------------------------
+
+

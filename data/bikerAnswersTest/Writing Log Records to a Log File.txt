@@ -1,0 +1,112 @@
+Writing Log Records to a Log File
+
+Rank1:java.util.logging.Logger.addHandler
+>>>JavaDoc<<<
+Add a log Handler to receive logging messages.
+>>>Relevant Questions<<<
+1.Logging data received to a txt file
+
+-----------------------------------------------
+
+
+Rank2:java.util.logging.Logger.log
+>>>JavaDoc<<<
+Log a LogRecord.
+>>>Relevant Questions<<<
+1.JSch Logs in files
+2.How to write console output to a txt file
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||47411185||< - AnswerId: >||47411796||<
+ public void log(int level, String message){
+    LOGGER.log(level, message);
+}
+
+-----------------------------------------------
+
+
+Rank3:java.util.logging.Logger.getLogger
+>>>JavaDoc<<<
+Find or create a logger for a named subsystem.
+>>>Relevant Questions<<<
+1.Logging data received to a txt file
+
+-----------------------------------------------
+
+
+Rank4:java.nio.channels.FileChannel.map
+>>>JavaDoc<<<
+Maps a region of this channel's file directly into memory.
+>>>Relevant Questions<<<
+1.Writing data to a file using RandomAccessFile
+
+-----------------------------------------------
+
+
+Rank5:java.io.File.renameTo
+>>>JavaDoc<<<
+Renames the file denoted by this abstract pathname.
+>>>Relevant Questions<<<
+1.Permissions on log files created by log4j RollingFileAppender
+
+-----------------------------------------------
+
+
+Rank6:java.lang.System.setProperty
+>>>JavaDoc<<<
+Sets the system property indicated by the specified key.
+>>>Relevant Questions<<<
+1.How to use Log4j2 xml Rewrite appender for modifying LogEvent before it logs in file
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||22218832||< - AnswerId: >||45039509||<
+ // Do this somewhere before using the logger
+System.setProperty(Constants.LOG4J_LOG_EVENT_FACTORY, MyLogEventFactory.class.getName());
+
+-----------------------------------------------
+
+
+Rank7:javax.swing.text.JTextComponent.read
+>>>JavaDoc<<<
+Initializes from a stream.
+>>>Relevant Questions<<<
+1.reading a log file and displaying it in jTextArea
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||21682761||< - AnswerId: >||21683223||<
+ JTextArea textArea = new JTextArea();
+textArea.read(new FileReader("input.txt"), "blah");
+
+-----------------------------------------------
+
+
+Rank8:java.lang.Thread.sleep
+>>>JavaDoc<<<
+Causes the currently executing thread to sleep (temporarily cease execution) for the specified number of milliseconds, subject to the precision and accuracy of system timers and schedulers.
+>>>Relevant Questions<<<
+1.reading a log file and displaying it in jTextArea
+
+-----------------------------------------------
+
+
+Rank9:javax.swing.text.JTextComponent.write
+>>>JavaDoc<<<
+Stores the contents of the model into the given stream.
+>>>Relevant Questions<<<
+1.Writing data on a .txt file
+
+-----------------------------------------------
+
+
+Rank10:java.lang.Runtime.getRuntime
+>>>JavaDoc<<<
+Returns the runtime object associated with the current Java application.
+>>>Relevant Questions<<<
+1.Java: Writing to a log file from a server
+
+-----------------------------------------------
+
+

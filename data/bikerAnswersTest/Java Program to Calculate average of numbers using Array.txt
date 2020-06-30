@@ -1,0 +1,121 @@
+Java Program to Calculate average of numbers using Array
+
+Rank1:java.lang.String.valueOf
+>>>JavaDoc<<<
+Returns the string representation of the Object argument.
+>>>Relevant Questions<<<
+1.Calculating the sum of all odd array indexes
+
+-----------------------------------------------
+
+
+Rank2:java.util.Arrays.stream
+>>>JavaDoc<<<
+Returns a sequential Stream with the specified array as its source.
+>>>Relevant Questions<<<
+1.count an average of multidimensional array
+
+-----------------------------------------------
+
+
+Rank3:java.util.Arrays.hashCode
+>>>JavaDoc<<<
+Returns a hash code based on the contents of the specified array.
+>>>Relevant Questions<<<
+1.Calculating average multiple numbers in a map of objects
+
+-----------------------------------------------
+
+
+Rank4:java.lang.Math.pow
+>>>JavaDoc<<<
+Returns the value of the first argument raised to the power of the second argument.
+>>>Relevant Questions<<<
+1.Writing a program calculating exponents
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||13134643||< - AnswerId: >||13134693||<
+ for (int n = 0; n <= 10; n++) {
+     println("2 to the power of " + n + " = " + Math.pow(2,n)); 
+} 
+
+-----------------------------------------------
+
+
+Rank5:java.lang.Math.round
+>>>JavaDoc<<<
+Returns the closest int to the argument, with ties rounding to positive infinity.
+>>>Relevant Questions<<<
+1.Calculate average of and huge long array
+
+-----------------------------------------------
+
+
+Rank6:java.lang.Integer.parseInt
+>>>JavaDoc<<<
+Parses the string argument as a signed integer in the radix specified by the second argument.
+>>>Relevant Questions<<<
+1.Java array of char of number to Integer
+2.Calculating the sum of all odd array indexes
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||12962557||< - AnswerId: >||12962641||<
+ String str = "";
+for (char c : array)
+    str += c;
+
+int result = Integer.parseInt(str);
+
+-----------------------------------------------
+
+
+Rank7:java.util.Arrays.sort
+>>>JavaDoc<<<
+Sorts the specified array into ascending numerical order.
+>>>Relevant Questions<<<
+1.How to calculate the median of an array?
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||11955728||< - AnswerId: >||47242747||<
+ Arrays.sort(numArray);
+return (numArray[size/2] + numArray[(size-1)/2]) / 2;
+
+-----------------------------------------------
+
+
+Rank8:java.lang.String.split
+>>>JavaDoc<<<
+Splits this string around matches of the given regular expression.
+>>>Relevant Questions<<<
+1.Simple Java App to calculate the average of an indefinite amount of entered numbers
+2.Processing numbers from a string and adding to find average score
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||8715846||< - AnswerId: >||8715977||<
+ input.split(",");
+
+-----------------------------------------------
+
+
+Rank9:java.util.Arrays.toString
+>>>JavaDoc<<<
+Returns a string representation of the contents of the specified array.
+>>>Relevant Questions<<<
+1.Java Lottery Array Program
+
+-----------------------------------------------
+
+
+Rank10:java.lang.Double.parseDouble
+>>>JavaDoc<<<
+Returns a new double initialized to the value represented by the specified String, as performed by the valueOf method of class Double.
+>>>Relevant Questions<<<
+1.Calculating average multiple numbers in a map of objects
+
+-----------------------------------------------
+
+

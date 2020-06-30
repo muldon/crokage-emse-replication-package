@@ -1,0 +1,143 @@
+Find maximum element of ArrayList
+
+Rank1:java.util.Collections.max
+>>>JavaDoc<<<
+Returns the maximum element of the given collection, according to the natural ordering of its elements.
+>>>Relevant Questions<<<
+1.finding maximum number in ArrayList
+2.How to find the max element from an array list of objects?
+3.how to get maximum value from the List/ArrayList
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||24352597||< - AnswerId: >||24352786||<
+  Collections.max(arrayList);
+
+-----------------------------------------------
+
+
+Rank2:java.util.Collections.min
+>>>JavaDoc<<<
+Returns the minimum element of the given collection, according to the natural ordering of its elements.
+>>>Relevant Questions<<<
+1.Finding max value of Array
+2.On what bases the Java finds the maximum and minimum values of String array?
+3.how to get maximum value from the List/ArrayList
+
+-----------------------------------------------
+
+
+Rank3:java.util.List.size
+>>>JavaDoc<<<
+Returns the number of elements in this list.
+>>>Relevant Questions<<<
+1.Finding number of values in a HashMap?
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||35993201||< - AnswerId: >||35993355||<
+ int total = map.values()
+               .stream()
+               .mapToInt(List::size) // or (l -> l.size())
+               .sum()
+
+-----------------------------------------------
+
+
+Rank4:java.util.Arrays.equals
+>>>JavaDoc<<<
+Returns true if the two specified arrays of longs are equal to one another.
+>>>Relevant Questions<<<
+1.Find index of array in ArrayList
+
+-----------------------------------------------
+
+
+Rank5:java.lang.Math.max
+>>>JavaDoc<<<
+Returns the greater of two int values.
+>>>Relevant Questions<<<
+1.Find the maximum of the length of 2 arrays
+2.How to find maximum value of set of variables
+3.Finding Maximum integer and minimum integer in a while loop
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||30085263||< - AnswerId: >||30085290||<
+ String[] x = new String[Math.max(y.length,z.length)];
+
+-----------------------------------------------
+
+
+Rank6:java.util.Arrays.copyOfRange
+>>>JavaDoc<<<
+Copies the specified range of the specified array into a new array.
+>>>Relevant Questions<<<
+1.Finding Max of an array using Recursion
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||22614967||< - AnswerId: >||22615134||<
+ int[] firstHalf = Arrays.copyOfRange(original, 0, original.length/2);
+int[] secondHalf = Arrays.copyOfRange(original, original.length/2, original.length);
+
+-----------------------------------------------
+
+
+Rank7:java.util.Collections.binarySearch
+>>>JavaDoc<<<
+Searches the specified list for the specified object using the binary search algorithm.
+>>>Relevant Questions<<<
+1.Find element in ArrayList Java
+2.Better way to find index of item in ArrayList?
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||34262769||< - AnswerId: >||34262852||<
+ Collections.binarySearch(col, findThis.toString(), null);
+
+-----------------------------------------------
+
+
+Rank8:java.util.Arrays.sort
+>>>JavaDoc<<<
+Sorts the specified array into ascending numerical order.
+>>>Relevant Questions<<<
+1.how to get the minimum,maximum value of an array?
+2.Finding minimum and maximum in Java 2D array
+3.Finding largest elements in array efficiently
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||18828091||< - AnswerId: >||18828161||<
+ Arrays.sort(convertedValues);
+
+int min = convertedValues[0];
+int max = convertedValues[convertedValues.length - 1];
+
+-----------------------------------------------
+
+
+Rank9:java.util.stream.Stream.of
+>>>JavaDoc<<<
+Returns a sequential Stream containing a single element.
+>>>Relevant Questions<<<
+1.Finding min, max, avg in ArrayList
+
+-----------------------------------------------
+
+
+Rank10:java.util.stream.DoubleStream.of
+>>>JavaDoc<<<
+Returns a sequential DoubleStream containing a single element.
+>>>Relevant Questions<<<
+1.How to find maximum value of set of variables
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||9303890||< - AnswerId: >||36186868||<
+ DoubleStream.of(firstQuarter , secondQuarter , thirdQuarter , fourtQuarter).max();
+
+-----------------------------------------------
+
+

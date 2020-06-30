@@ -1,0 +1,113 @@
+Write lines of text to file using a PrintWriter
+
+Rank1:java.io.Writer.write
+>>>JavaDoc<<<
+Writes a single character.
+>>>Relevant Questions<<<
+1.Write int to text file using Writer
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||7357852||< - AnswerId: >||7357878||<
+ wr.write("123");
+
+-----------------------------------------------
+
+
+Rank2:java.io.LineNumberReader.readLine
+>>>JavaDoc<<<
+Read a line of text.
+>>>Relevant Questions<<<
+1.Writing a "\t" to a text file creates a line?
+
+-----------------------------------------------
+
+
+Rank3:java.util.Scanner.nextLine
+>>>JavaDoc<<<
+Advances this scanner past the current line and returns the input that was skipped.
+>>>Relevant Questions<<<
+1.Reading a text file using BufferedReader and Scanner
+
+-----------------------------------------------
+
+
+Rank4:java.nio.file.Files.readAllLines
+>>>JavaDoc<<<
+Read all lines from a file.
+>>>Relevant Questions<<<
+1.BufferedReader does not read all the lines in text file
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||23736429||< - AnswerId: >||23736771||<
+ public ArrayList<String> readRules(String src) {
+    return Files.readAllLines(src, Charset.defaultCharset());
+}
+
+-----------------------------------------------
+
+
+Rank5:java.io.BufferedWriter.flush
+>>>JavaDoc<<<
+Flushes the stream.
+>>>Relevant Questions<<<
+1.Using BufferedWriter to write to a string
+
+-----------------------------------------------
+
+
+Rank6:java.io.OutputStreamWriter.close
+>>>JavaDoc<<<
+Description copied from class: Writer.
+>>>Relevant Questions<<<
+1.FileWriter writing into file
+
+-----------------------------------------------
+
+
+Rank7:java.io.LineNumberReader.getLineNumber
+>>>JavaDoc<<<
+Get the current line number.
+>>>Relevant Questions<<<
+1.Writing a "\t" to a text file creates a line?
+
+-----------------------------------------------
+
+
+Rank8:java.lang.String.format
+>>>JavaDoc<<<
+Returns a formatted string using the specified format string and arguments.
+>>>Relevant Questions<<<
+1.Writing to text files in Java
+
+-----------------------------------------------
+
+
+Rank9:java.lang.System.lineSeparator
+>>>JavaDoc<<<
+Returns the system-dependent line separator string.
+>>>Relevant Questions<<<
+1.BufferedWriter write string line by line
+
+-----------------------------------------------
+
+
+Rank10:java.io.File.getName
+>>>JavaDoc<<<
+Returns the name of the file or directory denoted by this abstract pathname.
+>>>Relevant Questions<<<
+1.Writer not writing text to file in subdirectory on close
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||47189337||< - AnswerId: >||47189574||<
+ File file = new File("./Decks");
+
+// ...
+
+File deckFile = new File(file, deck.getName() + ".xml");
+
+-----------------------------------------------
+
+

@@ -1,0 +1,11 @@
+How do I calculate logarithm?
+
+Rank1:java.lang.Math.log
+>>>JavaDoc<<<
+Returns the natural logarithm (base e) of a double value.
+>>>Relevant Questions<<<
+1.logarithm answer not accurate
+
+-----------------------------------------------
+
+

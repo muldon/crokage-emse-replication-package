@@ -1,0 +1,125 @@
+Java Program to find ASCII value of a character
+
+Rank1:java.lang.Integer.parseInt
+>>>JavaDoc<<<
+Parses the string argument as a signed integer in the radix specified by the second argument.
+>>>Relevant Questions<<<
+1.How to read ASCII characters using Java?
+2.Convert a string of bits to unicode character in java
+3.Reading unicode character in java
+
+-----------------------------------------------
+
+
+Rank2:java.lang.Character.toChars
+>>>JavaDoc<<<
+Converts the specified character (Unicode code point) to its UTF-16 representation.
+>>>Relevant Questions<<<
+1.java unicode value of char
+2.How to get a character from another character in java
+
+-----------------------------------------------
+
+
+Rank3:java.lang.String.lastIndexOf
+>>>JavaDoc<<<
+Returns the index within this string of the last occurrence of the specified character.
+>>>Relevant Questions<<<
+1.java recursion find the last index of a character in a string
+2.Java: Find a certain character and get substring
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||12624364||< - AnswerId: >||12624486||<
+ str.lastIndexOf(ch)
+
+-----------------------------------------------
+
+
+Rank4:java.lang.Character.getNumericValue
+>>>JavaDoc<<<
+Returns the int value that the specified Unicode character represents.
+>>>Relevant Questions<<<
+1.get char value in java
+2.What is the purpose of adding chars to get an ASCII value?
+3.How to get a character from a number in Java
+
+-----------------------------------------------
+
+
+Rank5:java.lang.Character.toString
+>>>JavaDoc<<<
+Returns a String object representing this Character's value.
+>>>Relevant Questions<<<
+1.Java: How to convert String of ASCII to String of characters?
+
+-----------------------------------------------
+
+
+Rank6:java.lang.String.length
+>>>JavaDoc<<<
+Returns the length of this string.
+>>>Relevant Questions<<<
+1.Finding all uppercase letters of a string in java
+
+-----------------------------------------------
+
+
+Rank7:java.lang.Character.codePointAt
+>>>JavaDoc<<<
+Returns the code point at the given index of the CharSequence.
+>>>Relevant Questions<<<
+1.get char value in java
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||4329275||< - AnswerId: >||4329389||<
+ "a".codePointAt(0) --> 97
+"é".codePointAt(0) --> 233
+
+-----------------------------------------------
+
+
+Rank8:java.lang.Integer.toBinaryString
+>>>JavaDoc<<<
+Returns a string representation of the integer argument as an unsigned integer in base 2.
+>>>Relevant Questions<<<
+1.How to read ASCII characters using Java?
+
+-----------------------------------------------
+
+
+Rank9:java.lang.Character.UnicodeBlock.of
+>>>JavaDoc<<<
+Returns the object representing the Unicode block containing the given character, or null if the character is not a member of a defined block.
+>>>Relevant Questions<<<
+1.How do I detect unicode characters in a Java string?
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||1673544||< - AnswerId: >||1673575||<
+ If (Character.UnicodeBlock.of(c) != Character.UnicodeBlock.BASIC_LATIN) {
+ // replace with Y
+}
+
+-----------------------------------------------
+
+
+Rank10:java.lang.Character.forDigit
+>>>JavaDoc<<<
+Determines the character representation for a specific digit in the specified radix.
+>>>Relevant Questions<<<
+1.Java int value type to Character
+2.How to get a character from a number in Java
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||46010430||< - AnswerId: >||46010493||<
+ char prev = listEqu.get(plus - 1);
+char nxt = listEqu.get(plus + 1);
+Character sum = Character.forDigit(Character.digit(nxt, 10) 
+        + Character.digit(prev, 10), 10);
+
+-----------------------------------------------
+
+

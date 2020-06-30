@@ -1,0 +1,17 @@
+How do I convert Map into JSON?
+
+Rank1:java.util.stream.Collectors.toMap
+>>>JavaDoc<<<
+Returns a Collector that accumulates elements into a Map whose keys and values are the result of applying the provided mapping functions to the input elements.
+>>>Relevant Questions<<<
+1.Java: How to convert List to Map
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||4138364||< - AnswerId: >||20887747||<
+ Map<String, Item> map = 
+    list.stream().collect(Collectors.toMap(Item::getKey, item -> item));
+
+-----------------------------------------------
+
+

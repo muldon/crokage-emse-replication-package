@@ -1,0 +1,96 @@
+Returns the root cause of the specified exception
+
+Rank1:java.util.Arrays.fill
+>>>JavaDoc<<<
+Assigns the specified long value to each element of the specified array of longs.
+>>>Relevant Questions<<<
+1.The Arrays.fill() method causes an exception
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||12573938||< - AnswerId: >||12573983||<
+ Arrays.fill(); 
+
+-----------------------------------------------
+
+
+Rank2:java.util.Stack.pop
+>>>JavaDoc<<<
+Removes the object at the top of this stack and returns that object as the value of this function.
+>>>Relevant Questions<<<
+1.Return default or raise Exception?
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||29768708||< - AnswerId: >||29768843||<
+ Integer x = stack.pop();
+if (x != null) { 
+  //do something with x
+}
+
+-----------------------------------------------
+
+
+Rank3:java.lang.Throwable.initCause
+>>>JavaDoc<<<
+Initializes the cause of this throwable to the specified value.
+>>>Relevant Questions<<<
+1.Exception has no "cause" parameter
+
+-----------------------------------------------
+
+
+Rank4:javax.imageio.ImageIO.read
+>>>JavaDoc<<<
+Returns a BufferedImage as the result of decoding a supplied File with an ImageReader chosen automatically from among those currently registered.
+>>>Relevant Questions<<<
+1.Return statement in case of exception
+
+-----------------------------------------------
+
+
+Rank5:java.util.concurrent.RejectedExecutionHandler.rejectedExecution
+>>>JavaDoc<<<
+Method that may be invoked by a ThreadPoolExecutor when execute cannot accept a task.
+>>>Relevant Questions<<<
+1.What could be the cause of RejectedExecutionException
+
+-----------------------------------------------
+
+
+Rank6:java.lang.Thread.sleep
+>>>JavaDoc<<<
+Causes the currently executing thread to sleep (temporarily cease execution) for the specified number of milliseconds, subject to the precision and accuracy of system timers and schedulers.
+>>>Relevant Questions<<<
+1.How do you get to the root cause of a sleep interruption in Java?
+
+-----------------------------------------------
+
+
+Rank7:java.nio.ByteBuffer.put
+>>>JavaDoc<<<
+Relative put method  (optional operation).
+>>>Relevant Questions<<<
+1.What is the cause of BufferOverflowException?
+
+-----------------------------------------------
+
+
+Rank8:java.io.File.canWrite
+>>>JavaDoc<<<
+Tests whether the application can modify the file denoted by this abstract pathname.
+>>>Relevant Questions<<<
+1.Programatically determining the cause of IOException?
+
+-----------------------------------------------
+
+
+Rank9:java.nio.channels.FileChannel.map
+>>>JavaDoc<<<
+Maps a region of this channel's file directly into memory.
+>>>Relevant Questions<<<
+1.What is the cause of BufferOverflowException?
+
+-----------------------------------------------
+
+

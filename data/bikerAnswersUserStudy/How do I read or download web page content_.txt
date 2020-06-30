@@ -1,0 +1,11 @@
+How do I read or download web page content?
+
+Rank1:java.net.URLConnection.getInputStream
+>>>JavaDoc<<<
+Returns an input stream that reads from this open connection.
+>>>Relevant Questions<<<
+1.how can I download a file using Java?
+
+-----------------------------------------------
+
+

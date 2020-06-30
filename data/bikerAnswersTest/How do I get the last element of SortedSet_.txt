@@ -1,0 +1,110 @@
+How do I get the last element of SortedSet?
+
+Rank1:java.util.Collections.sort
+>>>JavaDoc<<<
+Sorts the specified list into ascending order, according to the natural ordering of its elements.
+>>>Relevant Questions<<<
+1.How do I sort the elements of an HashMap according to their values?
+2.Java: SortedMap, TreeMap, Comparable? How to use?
+
+-----------------------------------------------
+
+
+Rank2:java.lang.String.charAt
+>>>JavaDoc<<<
+Returns the char value at the specified index.
+>>>Relevant Questions<<<
+1.How do you get the last character of a string?
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||5163785||< - AnswerId: >||5163887||<
+ if (s.charAt(0) == s.charAt(s.length() - 1))
+
+-----------------------------------------------
+
+
+Rank3:java.util.Collection.add
+>>>JavaDoc<<<
+Ensures that this collection contains the specified element (optional operation).
+>>>Relevant Questions<<<
+1.How do I use a PriorityQueue?
+2.How to make compare in hashset and if second element is equal return the second value?
+
+-----------------------------------------------
+
+
+Rank4:java.util.SortedMap.entrySet
+>>>JavaDoc<<<
+Returns a Set view of the mappings contained in this map.
+>>>Relevant Questions<<<
+1.How to get previous and next entries in TreeMap
+
+-----------------------------------------------
+
+
+Rank5:java.util.Collections.rotate
+>>>JavaDoc<<<
+Rotates the elements in the specified list by the specified distance.
+>>>Relevant Questions<<<
+1.How move first item of arraylist to last position?
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||21254985||< - AnswerId: >||21255072||<
+ Collections.rotate(list, -1);
+
+-----------------------------------------------
+
+
+Rank6:java.util.Collections.reverse
+>>>JavaDoc<<<
+Reverses the order of the elements in the specified list.
+>>>Relevant Questions<<<
+1.How move first item of arraylist to last position?
+
+-----------------------------------------------
+
+
+Rank7:java.util.LinkedList.listIterator
+>>>JavaDoc<<<
+Returns a list-iterator of the elements in this list (in proper sequence), starting at the specified position in the list.
+>>>Relevant Questions<<<
+1.How to get previous element in a LinkedList?
+
+-----------------------------------------------
+
+
+Rank8:java.util.TreeMap.tailMap
+>>>JavaDoc<<<
+Description copied from interface: NavigableMap.
+>>>Relevant Questions<<<
+1.How to get last n elements of a Treemap
+
+-----------------------------------------------
+
+
+Rank9:java.util.TreeMap.descendingMap
+>>>JavaDoc<<<
+Description copied from interface: NavigableMap.
+>>>Relevant Questions<<<
+1.How to get last n elements of a Treemap
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||8588902||< - AnswerId: >||8588947||<
+ List<HashMap<Type, Double>> lastValues = Lists.newArrayList
+    (Iterables.limit(map.descendingMap().values(), 24));
+
+-----------------------------------------------
+
+
+Rank10:java.util.HashMap.entrySet
+>>>JavaDoc<<<
+Returns a Set view of the mappings contained in this map.
+>>>Relevant Questions<<<
+1.How do I sort the elements of an HashMap according to their values?
+
+-----------------------------------------------
+
+

@@ -1,0 +1,117 @@
+Java Program to find Factorial of a number using Recursion
+
+Rank1:java.util.Arrays.binarySearch
+>>>JavaDoc<<<
+Searches the specified array of longs for the specified value using the binary search algorithm.
+>>>Relevant Questions<<<
+1.Find Range of a number from an array
+
+-----------------------------------------------
+
+
+Rank2:java.lang.String.lastIndexOf
+>>>JavaDoc<<<
+Returns the index within this string of the last occurrence of the specified character.
+>>>Relevant Questions<<<
+1.java recursion find the last index of a character in a string
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||12624364||< - AnswerId: >||12624486||<
+ str.lastIndexOf(ch)
+
+-----------------------------------------------
+
+
+Rank3:java.lang.Math.pow
+>>>JavaDoc<<<
+Returns the value of the first argument raised to the power of the second argument.
+>>>Relevant Questions<<<
+1.Convert number in a certain base to a decimal number using recursion
+
+-----------------------------------------------
+
+
+Rank4:java.lang.String.indexOf
+>>>JavaDoc<<<
+Returns the index within this string of the first occurrence of the specified character.
+>>>Relevant Questions<<<
+1.finding a zero in a number
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||39159304||< - AnswerId: >||39159388||<
+ int num = 1701;
+String s = String.valueOf(num);
+if (s.indexOf('0') > 0){
+    your code
+}
+
+-----------------------------------------------
+
+
+Rank5:java.util.Arrays.copyOfRange
+>>>JavaDoc<<<
+Copies the specified range of the specified array into a new array.
+>>>Relevant Questions<<<
+1.Finding Max of an array using Recursion
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||22614967||< - AnswerId: >||22615134||<
+ int[] firstHalf = Arrays.copyOfRange(original, 0, original.length/2);
+int[] secondHalf = Arrays.copyOfRange(original, original.length/2, original.length);
+
+-----------------------------------------------
+
+
+Rank6:java.lang.String.split
+>>>JavaDoc<<<
+Splits this string around matches of the given regular expression.
+>>>Relevant Questions<<<
+1.Java Finding number of occurrences of a string in another string using nested loops
+
+-----------------------------------------------
+
+
+Rank7:java.lang.Math.min
+>>>JavaDoc<<<
+Returns the smaller of two int values.
+>>>Relevant Questions<<<
+1.Create a java program to solve quadratic equations
+
+-----------------------------------------------
+
+
+Rank8:java.lang.Integer.parseInt
+>>>JavaDoc<<<
+Parses the string argument as a signed integer in the radix specified by the second argument.
+>>>Relevant Questions<<<
+1.Convert number in a certain base to a decimal number using recursion
+
+-----------------------------------------------
+
+
+Rank9:java.lang.Math.max
+>>>JavaDoc<<<
+Returns the greater of two int values.
+>>>Relevant Questions<<<
+1.Create a java program to solve quadratic equations
+
+-----------------------------------------------
+
+
+Rank10:java.lang.Integer.toString
+>>>JavaDoc<<<
+Returns a string representation of the first argument in the radix specified by the second argument.
+>>>Relevant Questions<<<
+1.Convert Decimal to Hex using Recursive method Java
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||20150901||< - AnswerId: >||20151387||<
+ default: result = Integer.toString(n/16) + result; break;
+
+-----------------------------------------------
+
+

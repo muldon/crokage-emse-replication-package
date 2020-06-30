@@ -1,0 +1,99 @@
+Send email with attachment in Java
+
+Rank1:java.nio.file.Files.newInputStream
+>>>JavaDoc<<<
+Opens a file, returning an input stream to read from the file.
+>>>Relevant Questions<<<
+1.java attach file from virtual filesystem to email
+
+-----------------------------------------------
+
+
+Rank2:java.lang.Runtime.exec
+>>>JavaDoc<<<
+Executes the specified string command in a separate process.
+>>>Relevant Questions<<<
+1.Sending multiple mails with Java in Unix
+
+-----------------------------------------------
+
+
+Rank3:java.io.ObjectOutputStream.writeUnshared
+>>>JavaDoc<<<
+Writes an "unshared" object to the ObjectOutputStream.
+>>>Relevant Questions<<<
+1.Sending and receiving object with Socket
+
+-----------------------------------------------
+
+
+Rank4:java.nio.file.Files.readAllLines
+>>>JavaDoc<<<
+Read all lines from a file.
+>>>Relevant Questions<<<
+1.Java read file and send in the server
+
+-----------------------------------------------
+
+
+Rank5:java.util.concurrent.BlockingQueue.poll
+>>>JavaDoc<<<
+Retrieves and removes the head of this queue, waiting up to the specified wait time if necessary for an element to become available.
+>>>Relevant Questions<<<
+1.Java email sending queue - fixed number of threads sending as many messages as are available
+
+-----------------------------------------------
+
+
+Rank6:java.nio.file.Files.readAllBytes
+>>>JavaDoc<<<
+Reads all the bytes from a file.
+>>>Relevant Questions<<<
+1.Java read file and send in the server
+
+-----------------------------------------------
+
+
+Rank7:java.util.concurrent.BlockingQueue.take
+>>>JavaDoc<<<
+Retrieves and removes the head of this queue, waiting if necessary until an element becomes available.
+>>>Relevant Questions<<<
+1.Java email sending queue - fixed number of threads sending as many messages as are available
+
+-----------------------------------------------
+
+
+Rank8:java.io.ObjectOutputStream.reset
+>>>JavaDoc<<<
+Reset will disregard the state of any objects already written to the stream.
+>>>Relevant Questions<<<
+1.Sending and receiving object with Socket
+
+-----------------------------------------------
+
+
+Rank9:java.util.concurrent.ScheduledExecutorService.scheduleAtFixedRate
+>>>JavaDoc<<<
+Creates and executes a periodic action that becomes enabled first after the given initial delay, and subsequently with the given period; that is executions will commence after initialDelay then initialDelay+period, then initialDelay + 2 * period, and so on.
+>>>Relevant Questions<<<
+1.Java program that monitors system date and sends email automatically
+
+-----------------------------------------------
+
+
+Rank10:java.util.Arrays.toString
+>>>JavaDoc<<<
+Returns a string representation of the contents of the specified array.
+>>>Relevant Questions<<<
+1.How to split email id in java
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||26880962||< - AnswerId: >||26881025||<
+ String[] For_split_email=email.split("[@._]");
+System.out.println("splited emails----------"
+    + Arrays.toString(For_split_email));
+
+-----------------------------------------------
+
+

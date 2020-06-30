@@ -1,0 +1,16 @@
+How do I get the username of operating system active user?
+
+Rank1:java.lang.System.getenv
+>>>JavaDoc<<<
+Gets the value of the specified environment variable.
+>>>Relevant Questions<<<
+1.How do i get the value of a SHELL environment variable in java
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||6737920||< - AnswerId: >||6737982||<
+ String dbSystem = System.getenv("DB_SYSTEM");
+
+-----------------------------------------------
+
+

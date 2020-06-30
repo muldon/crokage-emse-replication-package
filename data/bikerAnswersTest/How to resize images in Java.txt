@@ -1,0 +1,122 @@
+How to resize images in Java
+
+Rank1:javax.swing.ImageIcon.getImage
+>>>JavaDoc<<<
+Returns this icon's Image.
+>>>Relevant Questions<<<
+1.Java resize image from an URL?
+
+-----------------------------------------------
+
+
+Rank2:java.awt.Image.getScaledInstance
+>>>JavaDoc<<<
+Creates a scaled version of this image.
+>>>Relevant Questions<<<
+1.Java resize image from an URL?
+2.How to enlarge pixels? - Java
+3.How to adjust Image size inside jLabel in JAVA Netbeans?
+
+-----------------------------------------------
+
+
+Rank3:java.awt.Toolkit.createImage
+>>>JavaDoc<<<
+Returns an image which gets pixel data from the specified file.
+>>>Relevant Questions<<<
+1.How to set background image in Java?
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||523767||< - AnswerId: >||523818||<
+ Image img = Toolkit.getDefaultToolkit().createImage("background.jpg");
+
+-----------------------------------------------
+
+
+Rank4:java.awt.Graphics.drawImage
+>>>JavaDoc<<<
+Draws as much of the specified image as is currently available.
+>>>Relevant Questions<<<
+1.Java Fullscreen Image resizing?
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||27431036||< - AnswerId: >||27431575||<
+ int destinationWidth = ...;
+int destinationHeight = ...;
+g.drawImage(originalImage, 0, 0, destinationWidth, destinationHeight, 0, 0, originalImage.getWidth(null), originalImage.getHeight(null), null);
+
+-----------------------------------------------
+
+
+Rank5:javax.imageio.ImageIO.write
+>>>JavaDoc<<<
+Writes an image using the an arbitrary ImageWriter that supports the given format to an ImageOutputStream.
+>>>Relevant Questions<<<
+1.Resize an image using Java
+2.save resized image java
+3.Image resizing using imgscalr API in java
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||30540233||< - AnswerId: >||30540571||<
+ ImageIO.write(image1, extension,new File(file2));
+
+-----------------------------------------------
+
+
+Rank6:javax.imageio.ImageIO.read
+>>>JavaDoc<<<
+Returns a BufferedImage as the result of decoding a supplied File with an ImageReader chosen automatically from among those currently registered.
+>>>Relevant Questions<<<
+1.How to resize images in a directory?
+2.Resize an image using Java
+3.Java Image Resize BufferedImage doesn't draw
+
+-----------------------------------------------
+
+
+Rank7:java.awt.geom.AffineTransform.createTransformedShape
+>>>JavaDoc<<<
+Returns a new Shape object defined by the geometry of the specified Shape after it has been transformed by this transform.
+>>>Relevant Questions<<<
+1.How to resize an AWT Polygon in Java
+
+-----------------------------------------------
+
+
+Rank8:java.io.File.listFiles
+>>>JavaDoc<<<
+Returns an array of abstract pathnames denoting the files in the directory denoted by this abstract pathname.
+>>>Relevant Questions<<<
+1.How to resize images in a directory?
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||9779563||< - AnswerId: >||9779608||<
+ for (File sourceImageFile : new File("imgs").listFiles()) {
+    res(sourceImageFile);
+}
+
+-----------------------------------------------
+
+
+Rank9:java.lang.ClassLoader.getSystemResource
+>>>JavaDoc<<<
+Find a resource of the specified name from the search path used to load classes.
+>>>Relevant Questions<<<
+1.How to load Images from a package in java
+
+-----------------------------------------------
+
+
+Rank10:javax.imageio.ImageIO.getReaderFormatNames
+>>>JavaDoc<<<
+Returns an array of Strings listing all of the informal format names understood by the current set of registered readers.
+>>>Relevant Questions<<<
+1.How to set .TIF image to ImageIcon in java?
+
+-----------------------------------------------
+
+

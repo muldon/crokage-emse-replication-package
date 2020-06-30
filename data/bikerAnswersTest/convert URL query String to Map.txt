@@ -1,0 +1,125 @@
+convert URL query String to Map
+
+Rank1:java.util.Arrays.toString
+>>>JavaDoc<<<
+Returns a string representation of the contents of the specified array.
+>>>Relevant Questions<<<
+1.converting elements of a list to string
+2.converting list to string and then return
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||2124324||< - AnswerId: >||2124374||<
+ // initialize with the exact length
+List<String> stringsList = new ArrayList<String>(listOfCard.size()); 
+for (Car car : listOfCars) {
+    stringsList.add(car.toString());   
+}
+
+-----------------------------------------------
+
+
+Rank2:java.util.Scanner.nextDouble
+>>>JavaDoc<<<
+Scans the next token of the input as a double.
+>>>Relevant Questions<<<
+1.Converting string to double?
+
+-----------------------------------------------
+
+
+Rank3:java.lang.String.format
+>>>JavaDoc<<<
+Returns a formatted string using the specified format string and arguments.
+>>>Relevant Questions<<<
+1.String.format query
+
+-----------------------------------------------
+
+
+Rank4:java.net.URL.openStream
+>>>JavaDoc<<<
+Opens a connection to this URL and returns an InputStream for reading from that connection.
+>>>Relevant Questions<<<
+1.Converting string to URI
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||7939441||< - AnswerId: >||7939458||<
+ Reader reader = new InputStreamReader(new URL(urlString).openStream(), encoding);
+
+-----------------------------------------------
+
+
+Rank5:java.math.BigInteger.toString
+>>>JavaDoc<<<
+Returns the String representation of this BigInteger in the given radix.
+>>>Relevant Questions<<<
+1.convert string to hexadecimal string
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||19241889||< - AnswerId: >||19242130||<
+ String x = "131008130225002";
+System.out.println(new BigInteger(x).toString(16));
+
+-----------------------------------------------
+
+
+Rank6:java.lang.Double.parseDouble
+>>>JavaDoc<<<
+Returns a new double initialized to the value represented by the specified String, as performed by the valueOf method of class Double.
+>>>Relevant Questions<<<
+1.convert string value in to integer
+
+-----------------------------------------------
+
+
+Rank7:java.net.URLDecoder.decode
+>>>JavaDoc<<<
+Deprecated.
+>>>Relevant Questions<<<
+1.Decoding URI query string in Java
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||2632175||< - AnswerId: >||6926987||<
+ URLDecoder.decode(proxyRequestParam.replace("+", "%2B"), "UTF-8")
+          .replace("%2B", "+")
+
+-----------------------------------------------
+
+
+Rank8:java.util.Map.merge
+>>>JavaDoc<<<
+If the specified key is not already associated with a value or is associated with null, associates it with the given non-null value.
+>>>Relevant Questions<<<
+1.How can I convert a java String to map?
+
+-----------------------------------------------
+
+
+Rank9:java.lang.Integer.parseInt
+>>>JavaDoc<<<
+Parses the string argument as a signed integer in the radix specified by the second argument.
+>>>Relevant Questions<<<
+1.ResultSet convert to int from query
+2.Android convert String to HashMap
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||6810375||< - AnswerId: >||44531029||<
+ Integer.parseInt(rs.getObject(1).toString());
+
+-----------------------------------------------
+
+
+Rank10:java.lang.StringBuilder.replace
+>>>JavaDoc<<<
+Replaces the characters in a substring of this sequence with characters in the specified String.
+>>>Relevant Questions<<<
+1.Convert ArrayList to String
+
+-----------------------------------------------
+
+

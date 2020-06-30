@@ -1,0 +1,17 @@
+How do I get information regarding class name?
+
+Rank1:java.lang.Class.forName
+>>>JavaDoc<<<
+Returns the Class object associated with the class or interface with the given string name.
+>>>Relevant Questions<<<
+1.How to get a Class Object from the Class Name in Java
+2.How can I get the Class object in a static method without using the class name?
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||1438420||< - AnswerId: >||1438429||<
+ Class.forName("MyClass")
+
+-----------------------------------------------
+
+

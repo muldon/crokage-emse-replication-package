@@ -1,0 +1,111 @@
+Call a procedure with one IN OUT parameter
+
+Rank1:java.lang.Class.getConstructor
+>>>JavaDoc<<<
+Returns a Constructor object that reflects the specified public constructor of the class represented by this Class object.
+>>>Relevant Questions<<<
+1.Generics with params in constructor and call T method
+2.Constructor a parameter in a method call
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||19730006||< - AnswerId: >||19730185||<
+ Constructor<T> const = classe.getConstructor(int.class, int.class, Etat.class);
+
+for (int j = 0; j < dimension; j++) {
+    grille[i][j] = const.newInstance(i, j, etat); 
+}
+
+-----------------------------------------------
+
+
+Rank2:java.sql.Statement.executeUpdate
+>>>JavaDoc<<<
+Executes the given SQL statement, which may be an INSERT, UPDATE, or DELETE statement or an SQL statement that returns nothing, such as an SQL DDL statement.
+>>>Relevant Questions<<<
+1.Calling PL/SQL procedure with SYS_REFCURSOR as IN parameter using JDBC
+
+-----------------------------------------------
+
+
+Rank3:java.lang.Class.getMethod
+>>>JavaDoc<<<
+Returns a Method object that reflects the specified public member method of the class or interface represented by this Class object.
+>>>Relevant Questions<<<
+1.java call method dnamicall with a dynamic number of parameters
+2.Call getMethod with a subclass as method argument
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||36430128||< - AnswerId: >||36430176||<
+ Method m = TestRecommendations.class.getMethod("service", String[].class);
+
+-----------------------------------------------
+
+
+Rank4:java.lang.reflect.Method.invoke
+>>>JavaDoc<<<
+Invokes the underlying method represented by this Method object, on the specified object with the specified parameters.
+>>>Relevant Questions<<<
+1.Call Method.invoke() when arguments in array
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||14072151||< - AnswerId: >||14072258||<
+ Object[] varargs = new Object[] { 10, 20 };
+Object argumentArray = new Object[] { varargs };
+method.invoke(target, argumentArray);
+
+-----------------------------------------------
+
+
+Rank5:java.lang.reflect.Constructor.newInstance
+>>>JavaDoc<<<
+Uses the constructor represented by this Constructor object to create and initialize a new instance of the constructor's declaring class, with the specified initialization parameters.
+>>>Relevant Questions<<<
+1.Generics with params in constructor and call T method
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||19730006||< - AnswerId: >||19730185||<
+ Constructor<T> const = classe.getConstructor(int.class, int.class, Etat.class);
+
+for (int j = 0; j < dimension; j++) {
+    grille[i][j] = const.newInstance(i, j, etat); 
+}
+
+-----------------------------------------------
+
+
+Rank6:java.sql.Connection.setCatalog
+>>>JavaDoc<<<
+Sets the given catalog name in order to select a subspace of this Connection object's database in which to work.
+>>>Relevant Questions<<<
+1."Parameter is not an OUT parameter" error while calling stored procedure via CallableStatement
+
+-----------------------------------------------
+
+
+Rank7:java.sql.PreparedStatement.setArray
+>>>JavaDoc<<<
+Sets the designated parameter to the given java.
+>>>Relevant Questions<<<
+1.PreparedStatement with list of parameters in a IN clause
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||3107044||< - AnswerId: >||36099886||<
+ ps.setArray(1, connection.createArrayOf("$VALUETYPE",myValuesAsArray));
+
+-----------------------------------------------
+
+
+Rank8:java.sql.Connection.createArrayOf
+>>>JavaDoc<<<
+Factory method for creating Array objects.
+>>>Relevant Questions<<<
+1.java - Calling a PL/SQL Stored Procedure With Arrays
+
+-----------------------------------------------
+
+

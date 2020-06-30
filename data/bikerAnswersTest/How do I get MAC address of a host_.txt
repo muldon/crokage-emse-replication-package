@@ -1,0 +1,123 @@
+How do I get MAC address of a host?
+
+Rank1:java.net.InetAddress.getLocalHost
+>>>JavaDoc<<<
+Returns the address of the local host.
+>>>Relevant Questions<<<
+1.How to get the IP address of a machine in Java
+2.Getting the IP address of the current machine using Java
+3.Java - How to invoke a IP Address to find host name?
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||15038414||< - AnswerId: >||15038434||<
+ Inet4Address.getLocalHost().getHostAddress();
+
+-----------------------------------------------
+
+
+Rank2:java.net.InetAddress.getByName
+>>>JavaDoc<<<
+Determines the IP address of a host, given the host's name.
+>>>Relevant Questions<<<
+1.Resolving ip-address of a hostname
+2.Getting the IP address of the current machine using Java
+3.How do you tell whether a string is an IP or a hostname
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||15788453||< - AnswerId: >||15788605||<
+ InetAddress address = InetAddress.getByName("www.example.com"); 
+System.out.println(address.getHostAddress()); 
+
+-----------------------------------------------
+
+
+Rank3:java.net.InetAddress.toString
+>>>JavaDoc<<<
+Converts this IP address to a String.
+>>>Relevant Questions<<<
+1.How do I check if InetAddress was created using a hostname or an IP address?
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||17029267||< - AnswerId: >||17029496||<
+     System.out.println(InetAddress.getByName("localhost").toString());
+    System.out.println(InetAddress.getByName("127.0.0.1").toString());
+    System.out.println(InetAddress.getByName("www.google.com").toString());
+    System.out.println(InetAddress.getByName("173.194.113.145").toString());
+
+-----------------------------------------------
+
+
+Rank4:java.rmi.registry.LocateRegistry.getRegistry
+>>>JavaDoc<<<
+Returns a reference to the the remote object Registry for the local host on the default registry port of 1099.
+>>>Relevant Questions<<<
+1.How to get a list of IP connected in same network (subnet) using Java
+
+-----------------------------------------------
+
+
+Rank5:java.net.InetAddress.getCanonicalHostName
+>>>JavaDoc<<<
+Gets the fully qualified domain name for this IP address.
+>>>Relevant Questions<<<
+1.converting an IP address to host name
+
+-----------------------------------------------
+
+
+Rank6:java.net.URL.getHost
+>>>JavaDoc<<<
+Gets the host name of this URL, if applicable.
+>>>Relevant Questions<<<
+1.How to get list of host sites and each instance of that host from arraylist of urls in java?
+
+-----------------------------------------------
+
+
+Rank7:java.net.NetworkInterface.getNetworkInterfaces
+>>>JavaDoc<<<
+Returns all the interfaces on this machine.
+>>>Relevant Questions<<<
+1.Get MAC address on local machine with Java
+2.Getting the IP address of the current machine using Java
+3.How to get a list of IP connected in same network (subnet) using Java
+
+-----------------------------------------------
+
+
+Rank8:java.net.InetAddress.getHostAddress
+>>>JavaDoc<<<
+Returns the IP address string in textual presentation.
+>>>Relevant Questions<<<
+1.Getting the IP address of the current machine using Java
+2.Resolving ip-address of a hostname
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||9481865||< - AnswerId: >||9481939||<
+ InetAddress.getLocalHost().getHostAddress();
+
+-----------------------------------------------
+
+
+Rank9:java.net.InetAddress.getAllByName
+>>>JavaDoc<<<
+Given the name of a host, returns an array of its IP addresses, based on the configured name service on the system.
+>>>Relevant Questions<<<
+1.Get all hostnames for an IP address in the network
+
+-----------------------------------------------
+
+
+Rank10:java.net.InetAddress.isReachable
+>>>JavaDoc<<<
+Test whether that address is reachable.
+>>>Relevant Questions<<<
+1.How to ping an IP address
+
+-----------------------------------------------
+
+

@@ -1,0 +1,119 @@
+Java Program to read number from Standard Input
+
+Rank1:java.io.Console.readLine
+>>>JavaDoc<<<
+Provides a formatted prompt, then reads a single line of text from the console.
+>>>Relevant Questions<<<
+1.How to read from standard input line by line?
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||4585655||< - AnswerId: >||36618427||<
+ def read: Unit = {
+  val s = scala.io.StdIn.readLine()
+  println(s)
+  if (s.isEmpty) () else read 
+}
+
+-----------------------------------------------
+
+
+Rank2:java.io.InputStream.read
+>>>JavaDoc<<<
+Reads the next byte of data from the input stream.
+>>>Relevant Questions<<<
+1.java read integers from text file
+
+-----------------------------------------------
+
+
+Rank3:java.lang.ProcessBuilder.redirectErrorStream
+>>>JavaDoc<<<
+Tells whether this process builder merges standard error and standard output.
+>>>Relevant Questions<<<
+1.Java Getting the Standard Output and Standard Error from a Seperate Process
+
+-----------------------------------------------
+
+
+Rank4:java.lang.Integer.parseInt
+>>>JavaDoc<<<
+Parses the string argument as a signed integer in the radix specified by the second argument.
+>>>Relevant Questions<<<
+1.Reading only numbers from file input
+2.Reading Strings from lines in Java
+3.input string to int from command line in java
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||35817923||< - AnswerId: >||35821470||<
+ try {
+    holdAvg += Integer.parseInt(num);
+} catch(NumberFormatException e) {
+    // silently catch exception
+}
+
+-----------------------------------------------
+
+
+Rank5:java.nio.file.Files.readAllBytes
+>>>JavaDoc<<<
+Reads all the bytes from a file.
+>>>Relevant Questions<<<
+1.Read all standard input into a Java byte array
+
+-----------------------------------------------
+
+
+Rank6:java.util.Scanner.hasNext
+>>>JavaDoc<<<
+Returns true if this scanner has another token in its input.
+>>>Relevant Questions<<<
+1.Java. Problems reading an input
+
+-----------------------------------------------
+
+
+Rank7:java.lang.Integer.valueOf
+>>>JavaDoc<<<
+Returns an Integer object holding the value extracted from the specified String when parsed with the radix given by the second argument.
+>>>Relevant Questions<<<
+1.input string to int from command line in java
+
+-----------------------------------------------
+
+
+Rank8:java.io.Console.readPassword
+>>>JavaDoc<<<
+Provides a formatted prompt, then reads a password or passphrase from the console with echoing disabled.
+>>>Relevant Questions<<<
+1.Java reading keyboard input
+
+-----------------------------------------------
+
+
+Rank9:java.util.Scanner.nextInt
+>>>JavaDoc<<<
+Scans the next token of the input as an int.
+>>>Relevant Questions<<<
+1.Java Scanner get number from string
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||39944772||< - AnswerId: >||39944884||<
+ Scanner sc = new Scanner("r1");
+sc.skip("[^0-9]*");
+int n = sc.nextInt();    
+
+-----------------------------------------------
+
+
+Rank10:java.util.Scanner.findInLine
+>>>JavaDoc<<<
+Attempts to find the next occurrence of a pattern constructed from the specified string, ignoring delimiters.
+>>>Relevant Questions<<<
+1.Java: read input prompt from terminal
+
+-----------------------------------------------
+
+

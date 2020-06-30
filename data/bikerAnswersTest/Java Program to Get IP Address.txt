@@ -1,0 +1,128 @@
+Java Program to Get IP Address
+
+Rank1:java.net.InetAddress.getByName
+>>>JavaDoc<<<
+Determines the IP address of a host, given the host's name.
+>>>Relevant Questions<<<
+1.IP Address With Java
+2.Resolving ip-address of a hostname
+3.Getting the IP address of the current machine using Java
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||11941059||< - AnswerId: >||11941169||<
+ InetAddress.getByName("http://yoururl.com/path/");
+
+-----------------------------------------------
+
+
+Rank2:java.net.InetAddress.getHostAddress
+>>>JavaDoc<<<
+Returns the IP address string in textual presentation.
+>>>Relevant Questions<<<
+1.Getting the IP address of the current machine using Java
+2.Resolving ip-address of a hostname
+3.IP Address With Java
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||9481865||< - AnswerId: >||9481939||<
+ InetAddress.getLocalHost().getHostAddress();
+
+-----------------------------------------------
+
+
+Rank3:java.net.InetAddress.getCanonicalHostName
+>>>JavaDoc<<<
+Gets the fully qualified domain name for this IP address.
+>>>Relevant Questions<<<
+1.IP Address to Hostname in Java?
+2.converting an IP address to host name
+
+-----------------------------------------------
+
+
+Rank4:java.net.InetAddress.getLocalHost
+>>>JavaDoc<<<
+Returns the address of the local host.
+>>>Relevant Questions<<<
+1.How to get the IP address of a machine in Java
+2.Getting the IP address of the current machine using Java
+3.Java getting my IP address
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||15038414||< - AnswerId: >||15038434||<
+ Inet4Address.getLocalHost().getHostAddress();
+
+-----------------------------------------------
+
+
+Rank5:java.net.InetSocketAddress.getAddress
+>>>JavaDoc<<<
+Gets the InetAddress.
+>>>Relevant Questions<<<
+1.get IP address of java client in java server
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||27957743||< - AnswerId: >||27957779||<
+ ((InetSocketAddress) Sock.getRemoteSocketAddress()).getAddress()
+
+-----------------------------------------------
+
+
+Rank6:java.net.NetworkInterface.getNetworkInterfaces
+>>>JavaDoc<<<
+Returns all the interfaces on this machine.
+>>>Relevant Questions<<<
+1.IP Address With Java
+2.IP Address not obtained in java
+3.Getting the IP address of the current machine using Java
+
+-----------------------------------------------
+
+
+Rank7:java.net.InetAddress.getHostName
+>>>JavaDoc<<<
+Gets the host name for this IP address.
+>>>Relevant Questions<<<
+1.IP Address to Hostname in Java?
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||3371879||< - AnswerId: >||3371993||<
+   InetAddress addr = InetAddress.getByName("192.168.190.62");
+  String host = addr.getHostName();
+  System.out.println(host);
+
+-----------------------------------------------
+
+
+Rank8:java.net.InetAddress.getAllByName
+>>>JavaDoc<<<
+Given the name of a host, returns an array of its IP addresses, based on the configured name service on the system.
+>>>Relevant Questions<<<
+1.Get all hostnames for an IP address in the network
+
+-----------------------------------------------
+
+
+Rank9:java.net.DatagramSocket.getInetAddress
+>>>JavaDoc<<<
+Returns the address to which this socket is connected.
+>>>Relevant Questions<<<
+1.How to get the clients ip address from the server?
+
+-----------------------------------------------
+
+
+Rank10:java.rmi.registry.LocateRegistry.getRegistry
+>>>JavaDoc<<<
+Returns a reference to the the remote object Registry for the local host on the default registry port of 1099.
+>>>Relevant Questions<<<
+1.How to get a list of IP connected in same network (subnet) using Java
+
+-----------------------------------------------
+
+

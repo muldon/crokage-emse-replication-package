@@ -1,0 +1,103 @@
+Apply variable transparency to an image
+
+Rank1:java.awt.Graphics.drawImage
+>>>JavaDoc<<<
+Draws as much of the specified image as is currently available.
+>>>Relevant Questions<<<
+1.Creating and rendering an image dynamically with transparent background for use with drawImage
+2.Java transparent PNG to clipboard
+
+-----------------------------------------------
+
+
+Rank2:javax.imageio.ImageIO.write
+>>>JavaDoc<<<
+Writes an image using the an arbitrary ImageWriter that supports the given format to an ImageOutputStream.
+>>>Relevant Questions<<<
+1.Resize an image using Java
+2.Making every pixel of an image having a specific color transparent
+3.Generating an image with data fields using Java
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||30540233||< - AnswerId: >||30540571||<
+ ImageIO.write(image1, extension,new File(file2));
+
+-----------------------------------------------
+
+
+Rank3:javax.swing.ImageIcon.getImage
+>>>JavaDoc<<<
+Returns this icon's Image.
+>>>Relevant Questions<<<
+1.Way to change transparency with java swing.image
+
+-----------------------------------------------
+
+
+Rank4:java.awt.image.BufferedImage.getRGB
+>>>JavaDoc<<<
+Returns an integer pixel in the default RGB color model (TYPE_INT_ARGB) and default sRGB colorspace.
+>>>Relevant Questions<<<
+1.Crop transparent edges of an image
+2.Detecting if a BufferedImage contains transparent pixels
+
+-----------------------------------------------
+
+
+Rank5:java.awt.image.BufferedImage.createGraphics
+>>>JavaDoc<<<
+Creates a Graphics2D, which can be used to draw into this BufferedImage.
+>>>Relevant Questions<<<
+1.Creating and rendering an image dynamically with transparent background for use with drawImage
+
+-----------------------------------------------
+
+
+Rank6:java.awt.Toolkit.getImage
+>>>JavaDoc<<<
+Returns an image which gets pixel data from the specified file, whose format can be either GIF, JPEG or PNG.
+>>>Relevant Questions<<<
+1.How do I add images to an image array?
+
+-----------------------------------------------
+
+
+Rank7:javax.imageio.ImageIO.read
+>>>JavaDoc<<<
+Returns a BufferedImage as the result of decoding a supplied File with an ImageReader chosen automatically from among those currently registered.
+>>>Relevant Questions<<<
+1.Making every pixel of an image having a specific color transparent
+2.Way to change transparency with java swing.image
+3.Generating an image with data fields using Java
+
+-----------------------------------------------
+
+
+Rank8:java.awt.Graphics.drawString
+>>>JavaDoc<<<
+Draws the text given by the specified string, using this graphics context's current font and color.
+>>>Relevant Questions<<<
+1.Generating an image with data fields using Java
+
+-----------------------------------------------
+
+
+Rank9:java.awt.Image.getHeight
+>>>JavaDoc<<<
+Determines the height of the image.
+>>>Relevant Questions<<<
+1.Java transparent PNG to clipboard
+
+-----------------------------------------------
+
+
+Rank10:java.awt.Image.getWidth
+>>>JavaDoc<<<
+Determines the width of the image.
+>>>Relevant Questions<<<
+1.Java transparent PNG to clipboard
+
+-----------------------------------------------
+
+

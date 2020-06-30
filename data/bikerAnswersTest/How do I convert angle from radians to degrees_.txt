@@ -1,0 +1,147 @@
+How do I convert angle from radians to degrees?
+
+Rank1:java.lang.Math.toRadians
+>>>JavaDoc<<<
+Converts an angle measured in degrees to an approximately equivalent angle measured in radians.
+>>>Relevant Questions<<<
+1.Using Math.cos() to find cosine of angle in degrees
+2.Converting result of Math.sin(x) into a result for degrees in java
+3.Convert radiant to degrees
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||17781313||< - AnswerId: >||17781399||<
+ double blah = Math.cos(Math.toRadians(50));
+
+-----------------------------------------------
+
+
+Rank2:java.lang.Math.toDegrees
+>>>JavaDoc<<<
+Converts an angle measured in radians to an approximately equivalent angle measured in degrees.
+>>>Relevant Questions<<<
+1.Convert from Radians to Degrees in Java
+2.Convert radiant to degrees
+3.How to convert slope to degrees and vice versa?
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||5763841||< - AnswerId: >||25018563||<
+         _radius = Math.hypot(x, y);
+        _alpha = Math.toDegrees(Math.atan2(y, x));
+
+-----------------------------------------------
+
+
+Rank3:java.lang.Math.atan2
+>>>JavaDoc<<<
+Returns the angle theta from the conversion of rectangular coordinates (x, y) to polar coordinates (r, theta).
+>>>Relevant Questions<<<
+1.Find number of degrees to rotate?
+2.How do I find the inverse tangent of a line?
+3.How to convert slope to degrees and vice versa?
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||6906279||< - AnswerId: >||6906882||<
+ public static double getAngleBetween(double x1, double y1, double x2, double y2)
+{
+      return(Math.atan2(y1-y2, x1-x2));
+}
+
+-----------------------------------------------
+
+
+Rank4:java.lang.Math.atan
+>>>JavaDoc<<<
+Returns the arc tangent of a value; the returned angle is in the range -pi/2 through pi/2.
+>>>Relevant Questions<<<
+1.Convert from Radians to Degrees in Java
+2.How to convert slope to degrees and vice versa?
+3.finding the angle of a triangle using tan
+
+-----------------------------------------------
+
+
+Rank5:java.awt.geom.AffineTransform.getRotateInstance
+>>>JavaDoc<<<
+Returns a transform representing a rotation transformation.
+>>>Relevant Questions<<<
+1.How to rotate a line based on a given number of degrees
+2.How can I rotate a Rectangle?
+
+-----------------------------------------------
+
+
+Rank6:java.lang.Math.cos
+>>>JavaDoc<<<
+Returns the trigonometric cosine of an angle.
+>>>Relevant Questions<<<
+1.Using Math.cos() to find cosine of angle in degrees
+2.How to get coordinates of a point in a coordinate system based on angle and distance
+3.How to get angle from point1 to point2 in earth
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||17781313||< - AnswerId: >||17781399||<
+ double blah = Math.cos(Math.toRadians(50));
+
+-----------------------------------------------
+
+
+Rank7:java.lang.Math.sin
+>>>JavaDoc<<<
+Returns the trigonometric sine of an angle.
+>>>Relevant Questions<<<
+1.How to get coordinates of a point in a coordinate system based on angle and distance
+2.How to get angle from point1 to point2 in earth
+3.360 degree movement example in java
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||9871727||< - AnswerId: >||9871800||<
+ pointX = x + distance * Math.cos(angle)
+pointY = y + distance * Math.sin(angle)
+
+-----------------------------------------------
+
+
+Rank8:java.lang.Math.acos
+>>>JavaDoc<<<
+Returns the arc cosine of a value; the returned angle is in the range 0.
+>>>Relevant Questions<<<
+1.Using Math class to convert cosine into degrees
+2.acos does not give the value of the angle?
+3.how to discover an angle between two objects?
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||22212440||< - AnswerId: >||22212531||<
+ double AB = 125;
+double AC = 150;
+
+double angleA = Math.acos(AB / AC);
+println(angleA*180.0d/Math.PI);
+
+-----------------------------------------------
+
+
+Rank9:java.lang.Math.tan
+>>>JavaDoc<<<
+Returns the trigonometric tangent of an angle.
+>>>Relevant Questions<<<
+1.How to convert slope to degrees and vice versa?
+
+-----------------------------------------------
+
+
+Rank10:java.lang.Math.asin
+>>>JavaDoc<<<
+Returns the arc sine of a value; the returned angle is in the range -pi/2 through pi/2.
+>>>Relevant Questions<<<
+1.Finding angle from center point on circle
+2.How do Sine functions work in Java?
+
+-----------------------------------------------
+
+

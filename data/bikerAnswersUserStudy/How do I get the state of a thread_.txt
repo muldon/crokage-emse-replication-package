@@ -1,0 +1,18 @@
+How do I get the state of a thread?
+
+Rank1:java.lang.Thread.currentThread
+>>>JavaDoc<<<
+Returns a reference to the currently executing thread object.
+>>>Relevant Questions<<<
+1.How do I get the name of my java threads in this code?
+2.How do I reference a thread in a separate java class?
+3.How to get the thread name in Java?
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||22032761||< - AnswerId: >||22032844||<
+ System.out.println("Running: " + Thread.currentThread().getName());
+
+-----------------------------------------------
+
+

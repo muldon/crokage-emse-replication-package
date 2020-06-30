@@ -1,0 +1,11 @@
+How do I get the available font names?
+
+Rank1:java.awt.GraphicsEnvironment.registerFont
+>>>JavaDoc<<<
+Registers a created Fontin this GraphicsEnvironment.
+>>>Relevant Questions<<<
+1.How do you import a font?
+
+-----------------------------------------------
+
+

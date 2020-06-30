@@ -1,0 +1,144 @@
+Generate random integer
+
+Rank1:java.util.Random.nextInt
+>>>JavaDoc<<<
+Returns the next pseudorandom, uniformly distributed int value from this random number generator's sequence.
+>>>Relevant Questions<<<
+1.How do you use math.random to generate random ints?
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||8610635||< - AnswerId: >||8610664||<
+ Random rnd = new Random();
+int abc = rnd.nextInt(100); // +1 if you want 1-100, otherwise will be 0-99.
+
+-----------------------------------------------
+
+
+Rank2:java.util.Random.ints
+>>>JavaDoc<<<
+Returns a stream producing the given streamSize number of pseudorandom int values.
+>>>Relevant Questions<<<
+1.Generating Unique Random Numbers in Java
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||8115722||< - AnswerId: >||31656679||<
+ ThreadLocalRandom.current().ints(0, 100).distinct().limit(5).forEach(System.out::println);
+
+-----------------------------------------------
+
+
+Rank3:java.util.UUID.randomUUID
+>>>JavaDoc<<<
+Static factory to retrieve a type 4 (pseudo randomly generated) UUID.
+>>>Relevant Questions<<<
+1.Generating java unique numbers randomly
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||17270835||< - AnswerId: >||17271002||<
+ UUID.randomUUID();
+
+-----------------------------------------------
+
+
+Rank4:java.lang.Math.random
+>>>JavaDoc<<<
+Returns a double value with a positive sign, greater than or equal to 0.
+>>>Relevant Questions<<<
+1.Generate random objects in Java
+2.How do you use math.random to generate random ints?
+3.Generate Random Number in 2D Array
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||17592165||< - AnswerId: >||17592655||<
+ int fin = (int) Math.round(Math.random()*9);
+
+-----------------------------------------------
+
+
+Rank5:java.util.Collections.shuffle
+>>>JavaDoc<<<
+Randomly permutes the specified list using a default source of randomness.
+>>>Relevant Questions<<<
+1.Java Array of unique randomly generated integers
+2.Generating a random array in Java
+3.Generating a list of random numbers in java
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||20039025||< - AnswerId: >||20039088||<
+ int [] arr = [1,2,3,.....(size)]; //this is pseudo code
+
+Collections.shuffle(arr);// you probably need to convert it to list first
+
+-----------------------------------------------
+
+
+Rank6:java.util.Random.nextDouble
+>>>JavaDoc<<<
+Returns the next pseudorandom, uniformly distributed double value between 0.
+>>>Relevant Questions<<<
+1.Generating Random Doubles in Java
+2.Using a random long to generate random doubles
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||15055624||< - AnswerId: >||15055660||<
+ minimum + (maximum - minimum) * r.nextDouble();
+
+-----------------------------------------------
+
+
+Rank7:java.lang.Integer.toString
+>>>JavaDoc<<<
+Returns a string representation of the first argument in the radix specified by the second argument.
+>>>Relevant Questions<<<
+1.Convert Forever Changing Randomly Generated Integers Into Strings
+
+-----------------------------------------------
+
+
+Rank8:java.lang.Math.floor
+>>>JavaDoc<<<
+Returns the largest (closest to positive infinity) double value that is less than or equal to the argument and is equal to a mathematical integer.
+>>>Relevant Questions<<<
+1.Generate Random Number in 2D Array
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||6874372||< - AnswerId: >||6874546||<
+ int row = (int) Math.floor(Math.random() * rows);
+int col = (int) Math.floor(Math.random() * cols);
+
+-----------------------------------------------
+
+
+Rank9:java.util.Random.next
+>>>JavaDoc<<<
+Generates the next pseudorandom number.
+>>>Relevant Questions<<<
+1.Does setting a Random objects' seed to a random value make the generator more random?
+
+-----------------------------------------------
+
+
+Rank10:java.util.Arrays.toString
+>>>JavaDoc<<<
+Returns a string representation of the contents of the specified array.
+>>>Relevant Questions<<<
+1.Iterate random integers into an Array
+2.Getting characters from random number generator in Java
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||12975629||< - AnswerId: >||12975658||<
+ public String getRandomValue() {
+  return Arrays.toString(val);
+}
+
+-----------------------------------------------
+
+

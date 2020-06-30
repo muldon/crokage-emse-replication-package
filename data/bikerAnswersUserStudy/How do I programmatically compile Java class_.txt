@@ -1,0 +1,11 @@
+How do I programmatically compile Java class?
+
+Rank1:java.lang.System.getProperties
+>>>JavaDoc<<<
+Determines the current system properties.
+>>>Relevant Questions<<<
+1.How can I programmatically find the full path of the main executing class
+
+-----------------------------------------------
+
+

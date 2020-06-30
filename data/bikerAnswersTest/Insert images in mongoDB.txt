@@ -1,0 +1,93 @@
+Insert images in mongoDB
+
+Rank1:java.sql.PreparedStatement.executeUpdate
+>>>JavaDoc<<<
+Executes the SQL statement in this PreparedStatement object, which must be an SQL Data Manipulation Language (DML) statement, such as INSERT, UPDATE or DELETE; or an SQL statement that returns nothing, such as a DDL statement.
+>>>Relevant Questions<<<
+1.Insert ArrayList into MySQL
+
+-----------------------------------------------
+
+
+Rank2:java.sql.Statement.executeUpdate
+>>>JavaDoc<<<
+Executes the given SQL statement, which may be an INSERT, UPDATE, or DELETE statement or an SQL statement that returns nothing, such as an SQL DDL statement.
+>>>Relevant Questions<<<
+1.Can not insert into a table using JDBC
+
+-----------------------------------------------
+
+
+Rank3:java.sql.Blob.getBinaryStream
+>>>JavaDoc<<<
+Retrieves the BLOB value designated by this Blob instance as a stream.
+>>>Relevant Questions<<<
+1.Display image in img tag stored as BLOB in database
+
+-----------------------------------------------
+
+
+Rank4:java.sql.PreparedStatement.setTimestamp
+>>>JavaDoc<<<
+Sets the designated parameter to the given java.
+>>>Relevant Questions<<<
+1.JDBC: Inserting Date values into MySQL
+
+-----------------------------------------------
+
+
+Rank5:java.sql.Statement.executeBatch
+>>>JavaDoc<<<
+Submits a batch of commands to the database for execution and if all commands execute successfully, returns an array of update counts.
+>>>Relevant Questions<<<
+1.Insert ArrayList into MySQL
+2.PostgreSQL: How to insert data into database table with loop?
+
+-----------------------------------------------
+
+
+Rank6:java.sql.Statement.executeQuery
+>>>JavaDoc<<<
+Executes the given SQL statement, which returns a single ResultSet object.
+>>>Relevant Questions<<<
+1.Can not insert into a table using JDBC
+
+-----------------------------------------------
+
+
+Rank7:java.sql.PreparedStatement.setTime
+>>>JavaDoc<<<
+Sets the designated parameter to the given java.
+>>>Relevant Questions<<<
+1.JDBC: Inserting Date values into MySQL
+
+-----------------------------------------------
+
+
+Rank8:java.sql.Statement.getGeneratedKeys
+>>>JavaDoc<<<
+Retrieves any auto-generated keys created as a result of executing this Statement object.
+>>>Relevant Questions<<<
+1.How to get the insert ID in JDBC?
+
+-----------------------------------------------
+
+
+Rank9:java.sql.PreparedStatement.setDate
+>>>JavaDoc<<<
+Sets the designated parameter to the given java.
+>>>Relevant Questions<<<
+1.JDBC: Inserting Date values into MySQL
+
+-----------------------------------------------
+
+
+Rank10:java.sql.Connection.commit
+>>>JavaDoc<<<
+Makes all changes made since the previous commit/rollback permanent and releases any database locks currently held by this Connection object.
+>>>Relevant Questions<<<
+1.JDBC insert query does not insert record in oracle database
+
+-----------------------------------------------
+
+

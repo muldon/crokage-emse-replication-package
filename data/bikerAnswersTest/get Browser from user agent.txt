@@ -1,0 +1,98 @@
+get Browser from user agent
+
+Rank1:javax.swing.JFileChooser.setFileSelectionMode
+>>>JavaDoc<<<
+Sets the JFileChooser to allow the user to just select files, just select directories, or select both files and directories.
+>>>Relevant Questions<<<
+1.How to get path to save a file from user?
+
+-----------------------------------------------
+
+
+Rank2:java.net.DatagramSocket.getInetAddress
+>>>JavaDoc<<<
+Returns the address to which this socket is connected.
+>>>Relevant Questions<<<
+1.How to get the clients ip address from the server?
+
+-----------------------------------------------
+
+
+Rank3:javax.naming.directory.DirContext.search
+>>>JavaDoc<<<
+Searches in a single context for objects that contain a specified set of attributes, and retrieves selected attributes.
+>>>Relevant Questions<<<
+1.Get groups and users from LDAP
+
+-----------------------------------------------
+
+
+Rank4:java.lang.Runtime.exec
+>>>JavaDoc<<<
+Executes the specified string command in a separate process.
+>>>Relevant Questions<<<
+1.Is it possible to get browsers installed using JNLP
+2.Java applet: run native code from browser?
+
+-----------------------------------------------
+
+
+Rank5:java.lang.Class.getResource
+>>>JavaDoc<<<
+Finds a resource with a given name.
+>>>Relevant Questions<<<
+1.File reading applet not running in browser
+
+-----------------------------------------------
+
+
+Rank6:java.lang.Class.getResourceAsStream
+>>>JavaDoc<<<
+Finds a resource with a given name.
+>>>Relevant Questions<<<
+1.File reading applet not running in browser
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||8679602||< - AnswerId: >||8679852||<
+ InputStream is = getClass().getResourceAsStream("details.txt");
+
+-----------------------------------------------
+
+
+Rank7:java.io.InputStream.read
+>>>JavaDoc<<<
+Reads the next byte of data from the input stream.
+>>>Relevant Questions<<<
+1.get data from client in server socket java
+
+-----------------------------------------------
+
+
+Rank8:java.util.Base64.getEncoder
+>>>JavaDoc<<<
+Returns a Base64.
+>>>Relevant Questions<<<
+1.How to retrieve images from server to user using Struts 2
+
+-----------------------------------------------
+
+
+Rank9:javax.naming.directory.SearchControls.setReturningAttributes
+>>>JavaDoc<<<
+Specifies the attributes that will be returned as part of the search.
+>>>Relevant Questions<<<
+1.Get groups and users from LDAP
+
+-----------------------------------------------
+
+
+Rank10:java.lang.ClassLoader.loadClass
+>>>JavaDoc<<<
+Loads the class with the specified binary name.
+>>>Relevant Questions<<<
+1.Starting Instrumentation Agent after VM Startup
+
+-----------------------------------------------
+
+

@@ -1,0 +1,148 @@
+How do I convert number into Roman Numerals?
+
+Rank1:java.lang.Integer.toString
+>>>JavaDoc<<<
+Returns a string representation of the first argument in the radix specified by the second argument.
+>>>Relevant Questions<<<
+1.How do I convert int into char[] to display time?
+2.How do I convert from int to String?
+3.how to convert from decimal to ASCII characters
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||21021674||< - AnswerId: >||21021862||<
+      int time = 10;
+     char[] chars = Integer.toString(time).toCharArray();
+
+-----------------------------------------------
+
+
+Rank2:java.lang.String.toCharArray
+>>>JavaDoc<<<
+Converts this string to a new character array.
+>>>Relevant Questions<<<
+1.How do I convert int into char[] to display time?
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||21021674||< - AnswerId: >||21021793||<
+ int minutes = seconds / 60;
+int remainingSeconds = seconds - (minutes * 60); // or int remainingSeconds = seconds % 60
+String time = minutes + ":" + remainingSeconds;
+char[] timeCharArray = time.toCharArray();
+
+-----------------------------------------------
+
+
+Rank3:java.lang.Integer.parseInt
+>>>JavaDoc<<<
+Parses the string argument as a signed integer in the radix specified by the second argument.
+>>>Relevant Questions<<<
+1.Convert Java String hexadecimal number to int hexadecimal number
+2.How to convert binary string value to decimal
+3.How do I convert a integer representing a character to a string?
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||34843230||< - AnswerId: >||34844103||<
+ int number = Integer.parseInt(myHexaNumber, 16);
+
+-----------------------------------------------
+
+
+Rank4:java.lang.Character.getNumericValue
+>>>JavaDoc<<<
+Returns the int value that the specified Unicode character represents.
+>>>Relevant Questions<<<
+1.How do I convert a char [] to an int?
+
+-----------------------------------------------
+
+
+Rank5:java.lang.Double.valueOf
+>>>JavaDoc<<<
+Returns a Double object holding the double value represented by the argument string s.
+>>>Relevant Questions<<<
+1.How can I convert string to double?
+2.Java, How to convert decimal number as string into an integer
+3.How to parse a string number into a BigDecimal
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||7239542||< - AnswerId: >||7239559||<
+ Double.valueOf("1.2");
+
+-----------------------------------------------
+
+
+Rank6:java.math.BigDecimal.valueOf
+>>>JavaDoc<<<
+Translates a long unscaled value and an int scale into a BigDecimal.
+>>>Relevant Questions<<<
+1.java How do I convert double to string directly?
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||26854591||< - AnswerId: >||42771486||<
+ BigDecimal.valueOf(value).setScale(decimalLimit, RoundingMode.HALF_UP).toPlainString()
+
+-----------------------------------------------
+
+
+Rank7:java.util.Scanner.nextInt
+>>>JavaDoc<<<
+Scans the next token of the input as an int.
+>>>Relevant Questions<<<
+1.how to extract numeric values from input string in java
+
+-----------------------------------------------
+
+
+Rank8:java.lang.Double.toString
+>>>JavaDoc<<<
+Returns a string representation of the double argument.
+>>>Relevant Questions<<<
+1.How do I convert from int to String?
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||4105331||< - AnswerId: >||4105352||<
+ Integer.toString(int n);
+Integer.toString(int n, int radix);
+
+-----------------------------------------------
+
+
+Rank9:java.util.Arrays.toString
+>>>JavaDoc<<<
+Returns a string representation of the contents of the specified array.
+>>>Relevant Questions<<<
+1.How convert table into string?
+2.Converting a string of letters into numbers
+3.How do I convert a char [] to an int?
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||22429589||< - AnswerId: >||22429658||<
+ String y1 = Arrays.toString(y).replaceAll("\\[|\\]", "");
+
+-----------------------------------------------
+
+
+Rank10:java.lang.String.length
+>>>JavaDoc<<<
+Returns the length of this string.
+>>>Relevant Questions<<<
+1.How to get numeric position of alphabets in java?
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||8879714||< - AnswerId: >||8879771||<
+ String input = "abc".toLowerCase(); //note the to lower case in order to treat a and A the same way
+for( int i = 0; i < input.length(); ++i) {
+   int position = input.charAt(i) - 'a' + 1;
+}
+
+-----------------------------------------------
+
+

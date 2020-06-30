@@ -1,0 +1,112 @@
+write UTF8 to File
+
+Rank1:java.nio.file.Files.write
+>>>JavaDoc<<<
+Writes bytes to a file.
+>>>Relevant Questions<<<
+1.Writing byte array to an UTF8-encoded file
+2.Java write byte in file
+3.How to read /write XORed txt file UTF8 in java?
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||30345688||< - AnswerId: >||30345784||<
+ try (FileOutputStream fos = new FileOutputStream(tmpFile)) {
+    fos.write(buffer);
+}
+
+-----------------------------------------------
+
+
+Rank2:java.nio.file.Files.newBufferedWriter
+>>>JavaDoc<<<
+Opens or creates a file for writing, returning a BufferedWriter that may be used to write text to the file in an efficient manner.
+>>>Relevant Questions<<<
+1.Write JSON file as UTF-8 encoded
+
+-----------------------------------------------
+
+
+Rank3:java.io.RandomAccessFile.writeUTF
+>>>JavaDoc<<<
+Writes a string to the file using modified UTF-8 encoding in a machine-independent manner.
+>>>Relevant Questions<<<
+1.how to write UTF8 data to xml file using RandomAccessFile?
+
+-----------------------------------------------
+
+
+Rank4:java.io.RandomAccessFile.writeBytes
+>>>JavaDoc<<<
+Writes the string to the file as a sequence of bytes.
+>>>Relevant Questions<<<
+1.how to write UTF8 data to xml file using RandomAccessFile?
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||24932750||< - AnswerId: >||24933143||<
+  raf.writeBytes(buffer.toString())
+
+-----------------------------------------------
+
+
+Rank5:java.nio.charset.Charset.encode
+>>>JavaDoc<<<
+Convenience method that encodes Unicode characters into bytes in this charset.
+>>>Relevant Questions<<<
+1.how to write UTF8 data to xml file using RandomAccessFile?
+
+-----------------------------------------------
+
+
+Rank6:java.lang.String.getBytes
+>>>JavaDoc<<<
+Deprecated.
+>>>Relevant Questions<<<
+1.java utf8 encoding - char, string types
+
+-----------------------------------------------
+
+
+Rank7:java.util.Base64.Encoder.wrap
+>>>JavaDoc<<<
+Wraps an output stream for encoding byte data using the Base64 encoding scheme.
+>>>Relevant Questions<<<
+1.How to write encoded text to a file using Java?
+
+-----------------------------------------------
+
+
+Rank8:java.lang.String.format
+>>>JavaDoc<<<
+Returns a formatted string using the specified format string and arguments.
+>>>Relevant Questions<<<
+1.Writing a formatted string to a file - Java
+2.Writing to text files in Java
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||32626991||< - AnswerId: >||32627036||<
+ WRITE_MY_LINE(String.format(" I = %3d  var = %9.6f", i, myVar));
+
+-----------------------------------------------
+
+
+Rank9:java.nio.file.Files.readAllBytes
+>>>JavaDoc<<<
+Reads all the bytes from a file.
+>>>Relevant Questions<<<
+1.How to read /write XORed txt file UTF8 in java?
+
+-----------------------------------------------
+
+
+Rank10:java.io.File.createNewFile
+>>>JavaDoc<<<
+Atomically creates a new, empty file named by this abstract pathname if and only if a file with this name does not yet exist.
+>>>Relevant Questions<<<
+1.Creating and writing to a file with UTF-8 encoding
+
+-----------------------------------------------
+
+

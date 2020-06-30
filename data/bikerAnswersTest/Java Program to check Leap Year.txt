@@ -1,0 +1,116 @@
+Java Program to check Leap Year
+
+Rank1:java.util.GregorianCalendar.isLeapYear
+>>>JavaDoc<<<
+Determines if the given year is a leap year.
+>>>Relevant Questions<<<
+1.Java Code for calculating Leap Year
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||1021324||< - AnswerId: >||28557011||<
+ new GregorianCalendar().isLeapYear(year);
+
+-----------------------------------------------
+
+
+Rank2:java.time.Year.isLeap
+>>>JavaDoc<<<
+Checks if the year is a leap year, according to the ISO proleptic calendar system rules.
+>>>Relevant Questions<<<
+1.Java Code for calculating Leap Year
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||1021324||< - AnswerId: >||37380349||<
+ java.time.Year.of(year).isLeap()
+
+-----------------------------------------------
+
+
+Rank3:java.time.Month.length
+>>>JavaDoc<<<
+Gets the length of this month in days.
+>>>Relevant Questions<<<
+1.Java Month Mapping Program
+
+-----------------------------------------------
+
+
+Rank4:java.time.YearMonth.atEndOfMonth
+>>>JavaDoc<<<
+Returns a LocalDate at the end of the month.
+>>>Relevant Questions<<<
+1.Adding month to specific day of month with java.time
+
+-----------------------------------------------
+
+
+Rank5:java.util.GregorianCalendar.getWeekYear
+>>>JavaDoc<<<
+Returns the week year represented by this GregorianCalendar.
+>>>Relevant Questions<<<
+1.How to get the YEAR for week of year for a date?
+
+-----------------------------------------------
+
+
+Rank6:java.time.Period.of
+>>>JavaDoc<<<
+Obtains a Period representing a number of years, months and days.
+>>>Relevant Questions<<<
+1.Joda Period in year month day
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||20727066||< - AnswerId: >||30320563||<
+ public Period getPeriodForMonthsAndDays(int monthsCount, int daysCount) {
+    return Period.of(0, monthsCount, daysCount);
+}
+
+-----------------------------------------------
+
+
+Rank7:java.util.Date.getYear
+>>>JavaDoc<<<
+Deprecated.
+>>>Relevant Questions<<<
+1.java date issue in getting month and year
+
+-----------------------------------------------
+
+
+Rank8:java.util.Calendar.setMinimalDaysInFirstWeek
+>>>JavaDoc<<<
+Sets what the minimal days required in the first week of the year are; For example, if the first week is defined as one that contains the first day of the first month of a year, call this method with value 1.
+>>>Relevant Questions<<<
+1.Get the week of year, with sunday as the first day of the week using java calendar
+
+-----------------------------------------------
+
+
+Rank9:java.time.temporal.WeekFields.weekBasedYear
+>>>JavaDoc<<<
+Returns a field to access the year of a week-based-year based on this WeekFields.
+>>>Relevant Questions<<<
+1.java get week of year for given a date
+
+-----------------------------------------------
+
+
+Rank10:java.time.Year.of
+>>>JavaDoc<<<
+Obtains an instance of Year.
+>>>Relevant Questions<<<
+1.Java calculate days in year
+2.Is there a way to have a Java8 duration of one year that accounts for leap years?
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||4787510||< - AnswerId: >||32322497||<
+ Year.of( 2015 )
+    .length()
+
+-----------------------------------------------
+
+

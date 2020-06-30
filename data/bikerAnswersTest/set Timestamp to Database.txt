@@ -1,0 +1,127 @@
+set Timestamp to Database
+
+Rank1:java.sql.PreparedStatement.setTimestamp
+>>>JavaDoc<<<
+Sets the designated parameter to the given java.
+>>>Relevant Questions<<<
+1.Set timestamp in Oracle
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||13941071||< - AnswerId: >||13942178||<
+ Timestamp ts = new Timestamp(new Date().getTime());
+ps.setTimestamp(36, ts);
+
+-----------------------------------------------
+
+
+Rank2:java.sql.ResultSet.getTimestamp
+>>>JavaDoc<<<
+Retrieves the value of the designated column in the current row of this ResultSet object as a java.
+>>>Relevant Questions<<<
+1.MySQL DATETIME and TIMESTAMP to java.sql.Timestamp to ZonedDateTime
+2.Sql timestamp to Java date?
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||38063851||< - AnswerId: >||38065198||<
+ Timestamp t = resultSet.getTimestamp(timestampColumnId);
+ZoneId zoneId = ZoneId.of(resultSet.getString(zoneColumnId), ZoneId.SHORT_IDS);
+ZonedDateTime d = ZonedDateTime.ofInstant(t.toInstant(), zoneId);
+
+-----------------------------------------------
+
+
+Rank3:java.sql.Timestamp.equals
+>>>JavaDoc<<<
+Tests to see if this Timestamp object is equal to the given Timestamp object.
+>>>Relevant Questions<<<
+1.display timestamp value in java from database
+
+-----------------------------------------------
+
+
+Rank4:java.sql.Timestamp.valueOf
+>>>JavaDoc<<<
+Converts a String object in JDBC timestamp escape format to a Timestamp value.
+>>>Relevant Questions<<<
+1.Convert OffsetDateTime to UTC Timestamp
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||30651210||< - AnswerId: >||34186402||<
+ Timestamp test = Timestamp.valueOf(entityValue.atZoneSameInstant(ZoneOffset.UTC).toLocalDateTime());
+
+-----------------------------------------------
+
+
+Rank5:java.sql.PreparedStatement.setDate
+>>>JavaDoc<<<
+Sets the designated parameter to the given java.
+>>>Relevant Questions<<<
+1.SQL insert date into database
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||17382733||< - AnswerId: >||17382745||<
+ // TODO: Closing the statement cleanly in a finally block or try-with-resources
+PreparedStatement pst = conn.prepareStatement("INSERT INTO db (day) Values (?)");
+pst.setDate(1, new java.sql.Date(d.getTime()));
+pst.executeUpdate();
+
+-----------------------------------------------
+
+
+Rank6:java.util.TimeZone.setDefault
+>>>JavaDoc<<<
+Sets the TimeZone that is returned by the getDefault method.
+>>>Relevant Questions<<<
+1.java.sql.Timestamp: changing timezone of Timestamp
+
+-----------------------------------------------
+
+
+Rank7:java.sql.Timestamp.toString
+>>>JavaDoc<<<
+Formats a timestamp in JDBC timestamp escape format.
+>>>Relevant Questions<<<
+1.Oracle DB Timestamp to Java Timestamp : Confusion
+
+-----------------------------------------------
+
+
+Rank8:java.time.ZoneId.systemDefault
+>>>JavaDoc<<<
+Gets the system default time-zone.
+>>>Relevant Questions<<<
+1.LocalDateTime , ZonedDateTime and Timestamp
+
+-----------------------------------------------
+
+
+Rank9:java.time.Instant.ofEpochSecond
+>>>JavaDoc<<<
+Obtains an instance of Instant using seconds from the epoch of 1970-01-01T00:00:00Z.
+>>>Relevant Questions<<<
+1.long timestamp to LocalDateTime
+
+-----------------------------------------------
+
+
+Rank10:java.time.Instant.ofEpochMilli
+>>>JavaDoc<<<
+Obtains an instance of Instant using milliseconds from the epoch of 1970-01-01T00:00:00Z.
+>>>Relevant Questions<<<
+1.long timestamp to LocalDateTime
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||44883432||< - AnswerId: >||44883549||<
+ long test_timestamp = 1499070300L;
+LocalDateTime date =
+    LocalDateTime.ofInstant(Instant.ofEpochMilli(test_timestamp ), TimeZone
+        .getDefault().toZoneId());
+
+-----------------------------------------------
+
+

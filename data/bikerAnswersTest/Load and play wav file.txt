@@ -1,0 +1,120 @@
+Load and play wav file
+
+Rank1:javax.sound.sampled.AudioSystem.getMixer
+>>>JavaDoc<<<
+Obtains the requested audio mixer.
+>>>Relevant Questions<<<
+1.Java audio fails to play wav file in Linux
+
+-----------------------------------------------
+
+
+Rank2:javax.sound.sampled.AudioSystem.getAudioInputStream
+>>>JavaDoc<<<
+Obtains an audio input stream of the indicated encoding, by converting the provided audio input stream.
+>>>Relevant Questions<<<
+1.Access files (.wav) in Java package
+2.Convert MP3 to PCM in Java
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||13342072||< - AnswerId: >||13343699||<
+ clip.open(AudioSystem.getAudioInputStream(
+    new BufferedInputStream(getClass().getResourceAsStream("/Sounds/asound.wav"))));
+
+-----------------------------------------------
+
+
+Rank3:javax.sound.sampled.AudioSystem.getClip
+>>>JavaDoc<<<
+Obtains a clip that can be used for playing back an audio file or an audio stream.
+>>>Relevant Questions<<<
+1.No Sound When Trying to Play Audio (.wav) Files in Java
+2.Play Base64 encoded audio file in java
+3.Java audio fails to play wav file in Linux
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||24317210||< - AnswerId: >||24404262||<
+ File soundFile = new File( "something.wav" );
+AudioInputStream audioInputStream = AudioSystem.getAudioInputStream( soundFile );
+clip = AudioSystem.getClip();
+clip.open(audioInputStream);
+clip.start();//This plays the audio
+
+-----------------------------------------------
+
+
+Rank4:javax.sound.sampled.AudioInputStream.getFormat
+>>>JavaDoc<<<
+Obtains the audio format of the sound data in this audio input stream.
+>>>Relevant Questions<<<
+1.Java audio fails to play wav file in Linux
+
+-----------------------------------------------
+
+
+Rank5:javax.sound.sampled.AudioSystem.getAudioFileTypes
+>>>JavaDoc<<<
+Obtains the file types for which file writing support is provided by the system.
+>>>Relevant Questions<<<
+1.run mp3 and .aac vlc audio in java
+2.Playing MP3 using Java Sound API
+
+-----------------------------------------------
+
+
+Rank6:javax.sound.sampled.AudioSystem.getMixerInfo
+>>>JavaDoc<<<
+Obtains an array of mixer info objects that represents the set of audio mixers that are currently installed on the system.
+>>>Relevant Questions<<<
+1.Java audio fails to play wav file in Linux
+
+-----------------------------------------------
+
+
+Rank7:javax.sound.sampled.AudioSystem.getLine
+>>>JavaDoc<<<
+Obtains a line that matches the description in the specified Line.
+>>>Relevant Questions<<<
+1.Java audio fails to play wav file in Linux
+
+-----------------------------------------------
+
+
+Rank8:javax.sound.sampled.Clip.open
+>>>JavaDoc<<<
+Opens the clip, meaning that it should acquire any required system resources and become operational.
+>>>Relevant Questions<<<
+1.Java audio fails to play wav file in Linux
+
+-----------------------------------------------
+
+
+Rank9:javax.sound.sampled.DataLine.start
+>>>JavaDoc<<<
+Allows a line to engage in data I/O.
+>>>Relevant Questions<<<
+1.Play Base64 encoded audio file in java
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||28101701||< - AnswerId: >||28102145||<
+ AudioInputStream audioIn = AudioSystem.getAudioInputStream(
+    new ByteArrayInputStream(decoded));
+Clip song = AudioSystem.getClip();
+song.open(audioIn);
+song.start();
+
+-----------------------------------------------
+
+
+Rank10:javax.sound.sampled.Mixer.getSourceLineInfo
+>>>JavaDoc<<<
+Obtains information about the set of source lines supported by this mixer.
+>>>Relevant Questions<<<
+1.Java audio fails to play wav file in Linux
+
+-----------------------------------------------
+
+

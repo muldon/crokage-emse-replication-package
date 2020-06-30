@@ -1,0 +1,20 @@
+How do I shuffle elements of an array?
+
+Rank1:java.util.Collections.shuffle
+>>>JavaDoc<<<
+Randomly permutes the specified list using a default source of randomness.
+>>>Relevant Questions<<<
+1.How to shuffle an array
+2.How to shuffle list except an element?
+3.How to shuffle an object array in Java
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||13756068||< - AnswerId: >||13756139||<
+ List<Card> cards = new ArrayList<Card>();
+// populate the list with what ever cards you want, how you want
+Collections.shuffle(cards);
+
+-----------------------------------------------
+
+

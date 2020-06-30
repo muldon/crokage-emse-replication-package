@@ -1,0 +1,103 @@
+Get Number Of Entries In Zip File
+
+Rank1:java.util.zip.ZipFile.size
+>>>JavaDoc<<<
+Returns the number of entries in the ZIP file.
+>>>Relevant Questions<<<
+1.Count files in ZIP's directory - JAVA, Android
+
+-----------------------------------------------
+
+
+Rank2:java.util.jar.JarFile.entries
+>>>JavaDoc<<<
+Returns an enumeration of the zip file entries.
+>>>Relevant Questions<<<
+1.Get contents of a directory in a ZIP file in Java
+
+-----------------------------------------------
+
+
+Rank3:java.util.zip.ZipFile.getInputStream
+>>>JavaDoc<<<
+Returns an input stream for reading the contents of the specified zip file entry.
+>>>Relevant Questions<<<
+1.Get file in folder in zip as string in java
+
+-----------------------------------------------
+
+
+Rank4:java.nio.file.spi.FileSystemProvider.newDirectoryStream
+>>>JavaDoc<<<
+Opens a directory, returning a DirectoryStream to iterate over the entries in the directory.
+>>>Relevant Questions<<<
+1.Counting the number of files in a directory using Java
+
+-----------------------------------------------
+
+
+Rank5:java.nio.file.Files.newDirectoryStream
+>>>JavaDoc<<<
+Opens a directory, returning a DirectoryStream to iterate over all entries in the directory.
+>>>Relevant Questions<<<
+1.Counting the number of files in a directory using Java
+
+-----------------------------------------------
+
+
+Rank6:java.nio.file.Files.size
+>>>JavaDoc<<<
+Returns the size of a file (in bytes).
+>>>Relevant Questions<<<
+1.TrueZip - How to get Size of a Folder within an Zip Archive
+2.Get total size of file in bytes
+
+-----------------------------------------------
+
+
+Rank7:java.nio.file.Files.walk
+>>>JavaDoc<<<
+Return a Stream that is lazily populated with Path by walking the file tree rooted at a given starting file.
+>>>Relevant Questions<<<
+1.Get size of folder or file
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||2149785||< - AnswerId: >||24734290||<
+ long size = Files.walk(path).mapToLong( p -> p.toFile().length() ).sum();
+
+-----------------------------------------------
+
+
+Rank8:java.nio.file.Files.walkFileTree
+>>>JavaDoc<<<
+Walks a file tree.
+>>>Relevant Questions<<<
+1.TrueZip - How to get Size of a Folder within an Zip Archive
+
+-----------------------------------------------
+
+
+Rank9:java.nio.file.Files.list
+>>>JavaDoc<<<
+Return a lazily populated Stream, the elements of which are the entries in the directory.
+>>>Relevant Questions<<<
+1.Counting the number of files in a directory using Java
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||687444||< - AnswerId: >||687485||<
+ new File(<directory path>).list().length
+
+-----------------------------------------------
+
+
+Rank10:java.io.File.list
+>>>JavaDoc<<<
+Returns an array of strings naming the files and directories in the directory denoted by this abstract pathname.
+>>>Relevant Questions<<<
+1.Get size of folder or file
+
+-----------------------------------------------
+
+

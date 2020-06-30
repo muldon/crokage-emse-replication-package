@@ -1,0 +1,73 @@
+######### Must be set
+
+CROKAGE_HOME=/tmp/user/crokage
+spring.datasource.url=jdbc:postgresql://localhost:5432/stackoverflow2019emse-min
+spring.datasource.username=username
+spring.datasource.password=password
+
+
+############################################### Do not change #################################################
+
+action=compareAllBaselines
+server.port= 8083
+luceneSearchAsClient=false
+backend.service.port=8081
+serverUrlGetCandidadeBuckets=http://isel.ufu.br:${backend.service.port}/crokage/query/getcandidateanswers
+
+#userecommendedcache|savecache
+extractAnswersParams=userecommendedcache
+
+numberOfComposedAnswers=5
+saveQueryMetric=false
+
+
+#BIKER summaries answers
+BIKER_ANSWERS_SUMMARIES_TEST=${CROKAGE_HOME}/data/bikerAnswersTest
+
+######### Must to be generated or provided for tests
+
+ #for tests - static file - must be provided
+NLP2API_GOLD_SET_FILE = ${CROKAGE_HOME}/data/nlp2ApiGoldSet.txt
+INPUT_QUERIES_FILE_NLP2API = ${CROKAGE_HOME}/data/inputQueriesNlp2Api.txt
+
+INPUT_QUERIES_FILE_TRAINING=${CROKAGE_HOME}/data/selectedqueries-training49.txt
+INPUT_QUERIES_FILE_TEST=${CROKAGE_HOME}/data/selectedqueries-test48.txt
+INPUT_QUERIES_FILE_USER_STUDY=${CROKAGE_HOME}/data/selectedqueries-user-study.txt
+
+STOP_WORDS_FILE_PATH=${CROKAGE_HOME}/data/stanford_stop_words.txt
+
+RECOMMENDED_ANSWERS_QUERIES_CACHE =${CROKAGE_HOME}/data/recommendedAnswersQueriesCache
+GROUND_TRUTH_THREADS_FOR_QUERIES =${CROKAGE_HOME}/data/groundTruthThreadsForQueries
+GROUND_TRUTH_ANSWERS_FOR_QUERIES =${CROKAGE_HOME}/data/groundTruthAnswersForQueries
+######### Automatically generated files
+
+#generated to be read by BIKER
+
+CROKAGE_HOME_DATE_FOLDER= ${CROKAGE_HOME}/data/
+
+#generated after calling NLP2Api jar
+RACK_OUTPUT_QUERIES_FILE = rackApiQueriesOutput.txt
+
+#generated after calling NLP2Api jar
+NLP2API_OUTPUT_QUERIES_FILE = nlp2apiQueriesOutput.txt
+
+MATRIX_KAPPA_BEFORE_AGREEMENT = ${CROKAGE_HOME}/data/MatrixForKappaBeforeAgreement.csv
+MATRIX_KAPPA_AFTER_AGREEMENT = ${CROKAGE_HOME}/data/MatrixForKappaAfterAgreement.csv
+
+############################## Database and Spring parameters ######################################
+
+debug=false
+
+#server.port= 80
+
+spring.jpa.database=POSTGRESQL
+spring.datasource.platform=postgres
+spring.jpa.show-sql=true
+spring.jpa.hibernate.ddl-auto=none
+spring.database.driverClassName=org.postgresql.Driver
+spring.devtools.livereload.enabled = false
+
+endpoints.cors.allowed-origins=*
+spring.jpa.show-sql=false
+logging.config = classpath:logback.xml
+

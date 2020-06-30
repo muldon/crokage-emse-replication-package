@@ -1,0 +1,132 @@
+How to download a complete folder from a FTP server
+
+Rank1:java.nio.file.Files.copy
+>>>JavaDoc<<<
+Copy a file to a target file.
+>>>Relevant Questions<<<
+1.How to download and save a file from Internet using Java?
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||921262||< - AnswerId: >||24041297||<
+ URL website = new URL("http://www.website.com/information.asp");
+try (InputStream in = website.openStream()) {
+    Files.copy(in, target, StandardCopyOption.REPLACE_EXISTING);
+}
+
+-----------------------------------------------
+
+
+Rank2:java.net.URL.openConnection
+>>>JavaDoc<<<
+Returns a URLConnection instance that represents a connection to the remote object referred to by the URL.
+>>>Relevant Questions<<<
+1.In java web application how to print server file from client side
+
+-----------------------------------------------
+
+
+Rank3:java.net.URLConnection.getInputStream
+>>>JavaDoc<<<
+Returns an input stream that reads from this open connection.
+>>>Relevant Questions<<<
+1.How to read a zip file from a remote URL without extracting it
+2.how can I download a file using Java?
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||33503507||< - AnswerId: >||33503836||<
+ String url= "http://www.nseindia.com/content/historical/EQUITIES/2015/NOV/cm03NOV2015bhav.csv.zip";
+InputStream is = new HttpUrlConnection(url).getInputStream();
+
+-----------------------------------------------
+
+
+Rank4:java.net.DatagramSocket.getInetAddress
+>>>JavaDoc<<<
+Returns the address to which this socket is connected.
+>>>Relevant Questions<<<
+1.How to get the clients ip address from the server?
+
+-----------------------------------------------
+
+
+Rank5:javax.imageio.ImageIO.read
+>>>JavaDoc<<<
+Returns a BufferedImage as the result of decoding a supplied File with an ImageReader chosen automatically from among those currently registered.
+>>>Relevant Questions<<<
+1.Java apache commons FTP, how to download image file to BufferedImage
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||4834898||< - AnswerId: >||4835077||<
+ BufferedImage bimg = ImageIO.read(ImageIO.createImageInputStream(yourSocketInputStream));
+
+-----------------------------------------------
+
+
+Rank6:javax.imageio.ImageIO.write
+>>>JavaDoc<<<
+Writes an image using the an arbitrary ImageWriter that supports the given format to an ImageOutputStream.
+>>>Relevant Questions<<<
+1.How to upload and download file to hdfs using Java code
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||27634094||< - AnswerId: >||27634624||<
+ ImageIO.write(image, "png", fs.create(file));
+
+-----------------------------------------------
+
+
+Rank7:java.nio.file.Path.resolve
+>>>JavaDoc<<<
+Resolve the given path against this path.
+>>>Relevant Questions<<<
+1.How to create a file Path from a folder Path
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||28800933||< - AnswerId: >||28801244||<
+ Path testFile = Files.createFile(Files.createTempDirectory("fileFinder").resolve("sample.java"));
+
+-----------------------------------------------
+
+
+Rank8:org.omg.CORBA.portable.InputStream.read
+>>>JavaDoc<<<
+Description copied from class: InputStream.
+>>>Relevant Questions<<<
+1.How to download whole file from website
+2.Incomplete file when downloading with Java from FTP
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||14947413||< - AnswerId: >||14947560||<
+ //copy binary contect to output stream
+while(fis.read(outputByte, 0, 4096) != -1)
+{
+    out.write(outputByte, 0, 4096);
+}
+
+-----------------------------------------------
+
+
+Rank9:java.util.zip.ZipInputStream.read
+>>>JavaDoc<<<
+Reads from the current ZIP entry into an array of bytes.
+>>>Relevant Questions<<<
+1.How to extract a single file from a remote archive file?
+
+-----------------------------------------------
+
+
+Rank10:java.lang.System.getenv
+>>>JavaDoc<<<
+Gets the value of the specified environment variable.
+>>>Relevant Questions<<<
+1.Download file to tomcat server from URL
+
+-----------------------------------------------
+
+

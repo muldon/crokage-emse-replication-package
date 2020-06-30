@@ -1,0 +1,119 @@
+How do I check if a string is a valid date?
+
+Rank1:java.time.LocalDate.parse
+>>>JavaDoc<<<
+Obtains an instance of LocalDate from a text string such as 2007-12-03.
+>>>Relevant Questions<<<
+1.How to check validity of Date String?
+
+-----------------------------------------------
+
+
+Rank2:java.time.LocalDateTime.parse
+>>>JavaDoc<<<
+Obtains an instance of LocalDateTime from a text string such as 2007-12-03T10:15:30.
+>>>Relevant Questions<<<
+1.How to check validity of Date String?
+
+-----------------------------------------------
+
+
+Rank3:java.time.format.DateTimeFormatter.parse
+>>>JavaDoc<<<
+Fully parses the text producing a temporal object.
+>>>Relevant Questions<<<
+1.What is best ways to validate string date to be valid date according to format?
+2.How to check if string matches date pattern using time API?
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||43075768||< - AnswerId: >||43076001||<
+ LocalDate date = LocalDate.now();
+DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy MM dd");
+String text = date.format(formatter);
+LocalDate parsedDate = LocalDate.parse(text, formatter);
+
+-----------------------------------------------
+
+
+Rank4:java.text.DateFormat.parse
+>>>JavaDoc<<<
+Parses text from the beginning of the given string to produce a date.
+>>>Relevant Questions<<<
+1.Determine if a String is a valid date before parsing
+2.Check if a string contains only date
+
+-----------------------------------------------
+
+
+Rank5:java.time.format.DateTimeFormatter.parseUnresolved
+>>>JavaDoc<<<
+Parses the text using this formatter, without resolving the result, intended for advanced use cases.
+>>>Relevant Questions<<<
+1.What is best ways to validate string date to be valid date according to format?
+2.How to check if string matches date pattern using time API?
+
+-----------------------------------------------
+
+
+Rank6:java.text.DateFormat.setLenient
+>>>JavaDoc<<<
+Specify whether or not date/time parsing is to be lenient.
+>>>Relevant Questions<<<
+1.How to validate date string in java
+
+-----------------------------------------------
+
+
+Rank7:java.lang.Integer.parseInt
+>>>JavaDoc<<<
+Parses the string argument as a signed integer in the radix specified by the second argument.
+>>>Relevant Questions<<<
+1.How to check if a string is a number
+2.Converting String to char when String is a valid char
+3.How to check if a String is a number or not
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||7597485||< - AnswerId: >||7597565||<
+ if(Integer.parseInt(str[i]) < 0){
+
+-----------------------------------------------
+
+
+Rank8:java.lang.Integer.valueOf
+>>>JavaDoc<<<
+Returns an Integer object holding the value extracted from the specified String when parsed with the radix given by the second argument.
+>>>Relevant Questions<<<
+1.How do I check to see if the input is an integer?
+2.How can I check if a value is of type Integer?
+
+-----------------------------------------------
+
+
+Rank9:java.lang.String.equals
+>>>JavaDoc<<<
+Compares this string to the specified object.
+>>>Relevant Questions<<<
+1.How to validate a string that the user entered? (Java)
+
+-----------------------------------------------
+
+
+Rank10:java.util.Calendar.get
+>>>JavaDoc<<<
+Returns the value of the given calendar field.
+>>>Relevant Questions<<<
+1.Check if the Calendar date is a sunday
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||13647422||< - AnswerId: >||13647444||<
+ Calendar cal = ...;
+if (cal.get(Calendar.DAY_OF_WEEK) == Calendar.SUNDAY) {
+    System.out.println("Sunday!");
+}
+
+-----------------------------------------------
+
+

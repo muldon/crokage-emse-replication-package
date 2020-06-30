@@ -1,0 +1,114 @@
+Apply variable transparency to an image
+BufferedImage GraphicsConfiguration Transparency ImageFilter Graphics Image Color AlphaComposite File RGBImageFilter ImageProducer String IOException ColorFilters TransformGrayToTransparency PdfGState FilteredImageSource ObjKey Toolkit Override
+Load image from local folder
+ImageIcon ImageLoader Mat Image String Dnn File DMSystem IOException System SWTTest BufferedImage ClassLoader View Exception ResourceLoader LoadTest PApplet MyImageLoader Unknown
+List XML element Attributes
+ItemPojo String List Element ArrayList VisitorDataList Natrol System XmlElement SAXException EndTextElementListener WikiParser XmlAttributes XmlRootElement CmListener AbstractDependent AcaiBerry Trackpoint VisitorData IOException
+Connect to a SQLite database
+DriverManager SQLException String Connection DatabaseMetaData Connect SQLite SQLiteConfig ResultSet SimpleCursorTreeAdapter Dbaconnection SQLiteAssetHelper DatabaseHelpers JavaApp NameOfDatabase Qlct System PortiaMoxy SQLiteManager FeedDatabaseHelper
+Send email with attachment in Java
+EmailAttachment MimeBodyPart MultiPartEmail String HtmlEmail System InternetAddress ByteArrayDataSource DataHandler MimeMultipart Content Email Message Intent XMLPDFGeneratorServiceImpl MyMailAttachmentDataSource IOException MessageGatewayService SendGrid DefaultAuthenticator
+How to download a complete folder from a FTP server
+FTPClient FTPFile String System FileOutputStream OutputStream FtpTask File FTPReply IOException SpringCamelContext FTPExample UploadFolderSample BlockingQueue DownloadFile FileZilla ExecutorService FileTransferStatus Log RetrieveFile
+How to resize images in Java
+BufferedImage ImagesServiceFactory Image File IOException ImageIcon Graphics AWTImage RenderingHints Cdv EncodedImage AndroidRuntime AEpErk Images ResizeWorker ImageUtil String ConvolveOp System ImageResizer
+Generate random integer
+Random BigInteger Integer RandomDataGenerator String System Collections GeneratePrime Math SecureRandom Generate TGVertex NewNumberCharacter MyRandom RandomNumbers ArrayList Collectors List BetweenPrime FiveDigitsRandom
+How do I check if a string is a valid date?
+Valid String System Character ShortFilter WebElement StringBuilder NumberIsValid DocumentFilter Scanner RowsNumber BracketProblem InetAddressValidator CheckCurrencyFormatTest Check CheckCurrencyFormat ParsePosition Object Message InputMismatchException
+How do I format a number with leading zeros?
+Integer Scanner BigInteger String System Breader Exponent Apple Subnormal Firsttt ArrayList Math NaNs Note DecimalFormat CreateContractNumber Min FileReader Correct ReversingDigits
+How do I iterate each characters of a string?
+Character StringBuilder String LinkedHashMap Integer Vertx System Iterate CharSequence Scanner Iterable ArrayList HashMap Iterator Map Reemplazar Uniquechar LeetCode Tammy Jones
+How do I ping a host?
+String Ping InetAddress TestMachine System DataOutputStream IOException PingTask InetSocketAddress PingLabel VarInt Exception ConTest Premature Source Override ListForPinging Process Unknown Socket
+Append string to a text file
+StringBuilder FileWriter ReadFromTextFile String System BufferedWriter FileReader IOException Text BufferedReader FileOutputStream File OutputStreamWriter StatusText ITextRenderer FileURLConnection DBTextFiles Ashad WriteFile DownloadCommand
+Reads a text file and displays it line by line
+LineBreakMeasurer PrintText FileReader PrinterJob AttributedString String System BufferedReader IOException PageFormat Override JFileChooser Printable Scanner PageFormats Printables File RasterPrinterJob Set ReadingFile
+Insert images in mongoDB
+DBCollection BasicDBObject DBTCPConnector DBApiLayer DBObject String MongoClient DBPort WriteConcern BasicDBList BasicBSONEncoder Document List Exception Sending DBCollectionImpl Mongo BsonString AndroidRuntime BaseWriteCommandMessage
+How do I pause the current thread?
+Thread String System Stepper Runnable Override AtomicInteger ActiveObject Exception PlayerThread InterruptedException PIDController SoundService SecondCountDown BasicPlayer FirstCountDown SimpleStringProperty ThreadTime StackTraceElement AndroidRuntime
+Java Program to Calculate average of numbers using Array
+Average Scanner NumberAnalyzer System Enter MyConsole Averages ArrayList String SelectNumber AveragerConsole KeyboardListener ExampleOne AverageTest Numbers List Error Sum JOptionPane AverageMean
+Java Program to display first 100 prime numbers
+Prime PrimeNumber System Scanner String PrimeNo Mynode PrimeNumbers BitSet Integer Priem Identify Iterable ArrayBlockingQueue Rango ArrayList Primes PrimeGenerator Displaying IOException
+Java Program to check Leap Year
+Leap Year Scanner System February DateDiff String LeapYearTest GregorianCalendar Integer FirstDayOfSummer Enter LegalDate Divisible Shortens Check LeapYear JOptionPane Arrays Pay
+Java Program to find ASCII value of a character
+Character System String HexDigit Hex Charset Scanner Enter MalformedURIException ExecuteActionsTaskExecuter ASCIIletter SuperAsciiNew FileInputStream DecryptCharacter UnicodeMarker PreparedStyleSheet Types XDigit WrapperExecutor GradleWrapperMain
+Java Program to read number from Standard Input
+Scanner System String TextFromStandardInputStream Process BufferedReader ProcessStartInfo DirectMessengerClient ProcessBuilder KeepRunning Raga StandardOutputStreamLog NumberOperations Scripter BlindRadianceFiles Exception NumberOfBlindGroupCombinations InputStream GZIPInputStream RockPaperScissors
+Find maximum element of ArrayList
+Integer ArrayList System String Day Collections Forecast Element List Comparator Aaa Optional Feb Comparable Grandfather Study Arrays Ddd Math Man
+Stopping a Thread with interrupt()
+Thread InterruptedException System Runnable ReadWriteLock ProcessExecutor AtomicBoolean Override CheckFiles ResourceLock ActiveThreads ThreadGroup MyThread String StopAllProcesses Stopping Worker ThreadsMonitor MyRunnable ThreadDeath
+Write lines of text to file using a PrintWriter
+PrintWriter FileWriter String BufferedWriter FileReader File IOException WriteToFile BufferedReader Apint Files Scanner StandardOpenOption Genio System MyOtherClass Paths Zambia RandomAccessFile Highscores
+How do I get current number of live threads?
+Thread String SampleObj ResendActivationCodeResponse LiveData Override XYChart ThreadManager SignInViewModel Runnable LinkedQueueBenchmark Ergonomics Benchmark MasterSlaveWorkerThread System Application Node Allocation TimeUnit Executors
+How do I get the last element of SortedSet?
+SortedSet TreeSet SimEvent WrappedValue String ITesting Comparator Iterator System List UniqueFruits TreeMap LData Override ElementComparator ArrayList SkipListInternal FakeString Japan Object
+Java Program to Get IP Address
+CustomerInfoProgram InetAddress DatagramPacket SocketProgram String System DatagramSocket IPAddress Xrunjdwp Xdebug InternetAddress IntWrap AddressBook MappedAdress Exception Address EqualityIndex IOException Program NetworkInterface
+Load an Image from a JAR file
+ImageIcon BufferedImage ImageLoader String File Image InputStream LoadImages MyClass System IconTest FillLayout WinICOFileFormat ImageResources SWTTest EnImage EmptyClass ClassLoader IOException ImageDataLoader
+Call a procedure with one IN OUT parameter
+ParameterMode OracleTypes StoredProcedureParameter String StoredProcedure SqlParameter SimpleJdbcCall NamedStoredProcedureQuery CallableStatement StoredProcedureJpaQuery Types AbstractParameterRegistrationImpl SQLException ProcedureParameter Query Integer RequestMapping Object StoredProcedureQuery List
+Java Program to find Factorial of a number using Recursion
+Factorial System String BigInteger StringTooLongException Fact Trampoline Returning Integer Recursion Recursive Entered Optional FactorialCalc Scanner FactorialUsingRecursion IOException Unknown FactorialCalculator Source
+Java Program to get Input From User
+JOptionPane Scanner System String User TerminateApplication Integer Airline UndefinedLine NumberFormatException DoWhileIf Consonant Enter UDLobject InputListener ExitLoop InputSum FileDescriptor Ace Program
+Java Program to Check Even or Odd Number
+Scanner Enter Odd System Integer String Number EvenOrOdd OddEvenSynchronized Process Wallace NumberChecker OddOrEven Pattern InterruptedException CsCompiler Hoorah Exit ProcessBuilder Thread
+How do I get MAC address of a host?
+NetworkInterface InetAddress String CGCentOs System UnknownHostException SocketThread IOException Autoconfiguration Ethernet DiscoverRunner Exception Socket HostsController Enabled MacAddress EthernetPacket VMnet Adapter GlobalIPv
+How do I convert number into Roman Numerals?
+Roman RomanNumerals String Scanner System Numeral RomanYear NumeralLength MCDXLVImcdxlvi Numerals RomantoInteger Adidas Arab Nike Pattern InputStreamReader Matcher IntegerToRomanNumeral Enter HashMap
+How do I extend classes in Java?
+MyEvent AnotherClass BaseAction InnerClass Vehicle Override String EventListener TimeClient Animal Elvis AbstractExampleImpl YourEnum Flier BoundedBlockingQueue InnerBase Graphics Object OfOuterClass Fragment
+Java Program to check Prime Number
+Prime System Scanner String PrimeRunner Integer IsItPalin IsItPrime NumberEnumerationTask PrimeCheckerv SmallerPrimeNumbers Eratosthenes DocumentListener RunPrime BlockingQueue Math ArrayList List Sieve Aion
+Java Program to Convert Decimal to Binary
+BinaryNumber System Scanner String Integer ConValue Decimal Math DecimalNumber Convert Ecirc Enter Binary KeyEvent ConvertDecimal StringBuilder Hexadecimal JOptionPane DisplayNumberSystems FlippingBits
+How do I open a file using the default registered application?
+Desktop AssertionBuilderRegistryImpl File PDFs SubscriberExceptionHandler CFBundleTypeRole StandardOpenOption System IOException SubscriberExceptionContext ConnectorHelper RegisterFailedException EventBus String List ActivityNotFound CFBundleDocumentTypes IProject EntityScan AssociationService
+How do I convert angle from radians to degrees?
+Math Angle System ZombieYPosition String Location Rad Convert Random Compensate ZombieXPosition AngleTest EulerAngles Number Zombie Funny Pi Vector Player Note
+How to pretty print JSON string using Jackson?
+ObjectMapper DefaultPrettyPrinter String List IOException SerializationFeature File System JsonGenerator Override ObjectWriter HttpMessageConverter IndentingModifier DefaultIndenter ObjectWriterInjector SpacesIndenter Indenter JsonPrettryPrintQueryParamContainerResponseFilter Ai MoxyJsonConfig
+Counting word occurrences in a text file
+String System WordOccurrence IOException Integer Map Collectors ArrayList TreeMap Multiset COSString HashMap IntWritable StringBuffer NamedCount Scanner Tt WrdsLine PDFOperator File
+Getting the Size of the Java Memory Heap
+Xmx HeapDumpOnOutOfMemoryError MaxPermSize Java HeapDumpSegmentSize OutOfMemoryError SegmentedHeapDumpThreshold Heap Xms Djava Neo OperatingSystemMXBean String ProfiledCodeHeapSize Dumping Objects ManagementFactory Finished Uncomment GetMemoryUsage
+Writing Log Records to a Log File
+String System Log File RecordsListItem Taylor IOException SVNLogEntry Override LogHandler LogRecord ArrayList LogMessageFormatter ReadableData DummyItem Level EventLst Exception Eventfile List
+Terminate virtual machine using System class
+Thread String System TestConsoleHandler ShutdownHook SetConsoleCtrlHandler MyRunnable Executors CacheManager MyVisRunner Runtime GracefulShutdownTest Runnable RunnableJob TestThread Process TestShutdownHook VisRunner TerminateProcess IterativeContext
+set Timestamp to Database
+Timestamp Calendar PreparedStatement SQLException String ResultSet Database Instant System SQLiteDatabase ZoneOffset DBAdapter GetColoaneArr LocalDateTime SQLLiteDatabase TimeZone OracleDialect CursorFactory MessageBox ShowMessage
+convert URL query String to Map
+String Map List IOException Object System AbstractBsonReader JacksonMapper MultivaluedMap DocumentCodec ConvertedResult Log Exception ResultConverter JsonHolder CyborgService URLEncoder Override CannotConvertAnimalException SimpleImmutableEntry
+Returns the root cause of the specified exception
+String System Node BTNode BSTMap Exception Returns Iterator GridPane BinaryTreeNode LinkedBinarySearchTree LinkedBinaryTree CompletionException Comparable Foo IntTreeNode TreeNode ArrayUnorderedList AnnotationStrategy EmptyCollectionException
+Getting the Cookies from an HTTP Connection
+Jsoup Cookie String System Connection CookieManager Gecko IOException HttpCookie HttpResponse Method Mozilla HttpConnectionParams HttpConnection HttpParams HttpURLConnection Flearn Document HttpException CookieHandler
+fill array with filling char
+String Song Country System Integer Coin Point Polygon Arrays ArrList ArrayList NurTests DrawingPanel PolygonFiller Graphics FillPolygon Gen Edge Card Entry
+get Browser from user agent
+SessionRiu Agent TestMvn User String Gecko Mozilla BrowserAgent BrowserAgentActive System SessionRiuId Base IWebDriver Operation StateEnum Column Table ResultEnum GoToUrl StatusEnum
+import Csv from File
+String File CsvSchema CsvParser System CsvMapper CsvBuilder IOException Exception MappingIterator CsvParserSettings RowListProcessor TrackingHandler CustomListItem CsvDataFormat Scanner FileWriter CsvTest Map FileSystemDisk
+Check if a path is a symbolic link
+Files LinkOption Path Paths DosFileAttributes GenericName System IOException FileAttributes String FileTime Frameworks File FileSystems FileVisitResult Symbolic BasicFileAttributeView RuntimeException Commands Java
+write UTF8 to File
+BufferedWriter FileOutputStream OutputStreamWriter String File StandardCharsets MessageFormat FileWriter Writer PersonGivenName DirToWriteFile StandardOpenOption FileUtils IOException SiteVisit Files VisitContactDetails Paths ContactOther MultipartEntityBuilder
+Get Number Of Entries In Zip File
+ZipEntry ZipFile ZipInputStream Enumeration String InputStream File ZipOutputStream System IOException List ExtractZip JarEntry Collectors DefaultAggregatingMessageGroupProcessor JarFile ToolSet ZipEntries AggregatingMessageHandler ZipException
+get Last Inserted ID from mysql
+Inserted Statement Pro DriverManager String Userdialog PreparedStatement SQLException System ResultSet FeedBackValue Connection OuterService InnerService JOptionPane StatusElement SecureRandom Exception JTextField ReceiptsVoucher
+Returns intersection of two collections
+Intersection Comparable String List DLRConceptIntersection TestSetInt System Point Collection Concept PTwo ArrayList AtomicConcept POne HashSet Curve IntPoint SetInt Arrays Collections
+Load and play wav file
+Clip AudioSystem AudioClip LineUnavailableException String UnsupportedAudioFileException File AudioInputStream AudioPlay Sound SoundEffect JFrame MalformedURLException ActionEvent Override Applet SoundEffectDemo InputStream Sons SoundFile

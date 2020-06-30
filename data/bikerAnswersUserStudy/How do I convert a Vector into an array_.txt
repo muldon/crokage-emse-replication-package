@@ -1,0 +1,17 @@
+How do I convert a Vector into an array?
+
+Rank1:java.lang.String.toCharArray
+>>>JavaDoc<<<
+Converts this string to a new character array.
+>>>Relevant Questions<<<
+1.How do I split a string into an array the length?
+2.How can I convert a String to a char array?
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||27848968||< - AnswerId: >||27848984||<
+ char[] array = "This is an example".toCharArray();
+
+-----------------------------------------------
+
+

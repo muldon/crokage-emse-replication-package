@@ -1,0 +1,137 @@
+How do I open a file using the default registered application?
+
+Rank1:java.awt.Desktop.open
+>>>JavaDoc<<<
+Launches the associated application to open the file.
+>>>Relevant Questions<<<
+1.How to open file with default application in SWT?
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||9935092||< - AnswerId: >||9935218||<
+ Desktop.getDesktop().open(file);
+
+-----------------------------------------------
+
+
+Rank2:java.awt.Desktop.browse
+>>>JavaDoc<<<
+Launches the default browser to display a URI.
+>>>Relevant Questions<<<
+1.How do i open a PDF file in Netbeans?
+
+-----------------------------------------------
+
+
+Rank3:java.nio.file.Files.write
+>>>JavaDoc<<<
+Writes bytes to a file.
+>>>Relevant Questions<<<
+1.How do I create a file and write to it in Java?
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||2885173||< - AnswerId: >||2885241||<
+ try (Writer writer = new BufferedWriter(new OutputStreamWriter(
+              new FileOutputStream("filename.txt"), "utf-8"))) {
+   writer.write("something");
+}
+
+-----------------------------------------------
+
+
+Rank4:java.nio.file.Files.newBufferedWriter
+>>>JavaDoc<<<
+Opens or creates a file for writing, returning a BufferedWriter that may be used to write text to the file in an efficient manner.
+>>>Relevant Questions<<<
+1.How do I create a file and write to it in Java?
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||2885173||< - AnswerId: >||26809552||<
+ Path sampleOutputPath = Paths.get("/tmp/testfile")
+try (BufferedWriter writer = Files.newBufferedWriter(sampleOutputPath)) {
+    writer.write("Hello, world!");
+}
+
+-----------------------------------------------
+
+
+Rank5:java.nio.file.Files.copy
+>>>JavaDoc<<<
+Copy a file to a target file.
+>>>Relevant Questions<<<
+1.How can I open a file from the explorer and copy to a directory?
+
+-----------------------------------------------
+
+
+Rank6:java.nio.file.FileSystems.getDefault
+>>>JavaDoc<<<
+Returns the default FileSystem.
+>>>Relevant Questions<<<
+1.How to override default file.separator?
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||22118903||< - AnswerId: >||22118955||<
+ FileSystems.getDefault().getSeparator()
+
+-----------------------------------------------
+
+
+Rank7:java.awt.Desktop.getDesktop
+>>>JavaDoc<<<
+Returns the Desktop instance of the current browser context.
+>>>Relevant Questions<<<
+1.How to open file with default application in SWT?
+2.Problems Opening File In Java Using Default Program
+3.how do i open and run(execute) a file at java?
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||9935092||< - AnswerId: >||9935218||<
+ Desktop.getDesktop().open(file);
+
+-----------------------------------------------
+
+
+Rank8:java.awt.Toolkit.getDefaultToolkit
+>>>JavaDoc<<<
+Gets the default toolkit.
+>>>Relevant Questions<<<
+1.How do I change the default application icon in Java?
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||209812||< - AnswerId: >||14355281||<
+ Toolkit.getDefaultToolkit().getImage(name_of_your_JFrame.class.getResource("image.png"))
+
+-----------------------------------------------
+
+
+Rank9:java.lang.Runtime.exec
+>>>JavaDoc<<<
+Executes the specified string command in a separate process.
+>>>Relevant Questions<<<
+1.Open file with default program using java 1.4
+2.How to use java code to open Windows file explorer and highlight the specified file?
+3.Open File with non default program
+
+-----------------------------------------------
+
+
+Rank10:java.lang.ClassLoader.getSystemResourceAsStream
+>>>JavaDoc<<<
+Open for reading, a resource of the specified name from the search path used to load classes.
+>>>Relevant Questions<<<
+1.How do I get a Java resource as a File?
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||18497534||< - AnswerId: >||18498746||<
+ List<String> myLines = IOUtils.readLines(ClassLoader.getSystemResourceAsStream("my_data_file.txt"));
+
+-----------------------------------------------
+
+

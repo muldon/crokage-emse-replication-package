@@ -1,0 +1,120 @@
+Terminate virtual machine using System class
+
+Rank1:java.lang.System.exit
+>>>JavaDoc<<<
+Terminates the currently running Java Virtual Machine.
+>>>Relevant Questions<<<
+1.System.exit is not thread-safe on Linux?
+2.Can System.exit() return without terminating the JVM?
+3.Terminating a Java Program
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||15814367||< - AnswerId: >||15814511||<
+  new Thread(){
+            public void run() {
+                System.exit(0);
+            }
+   }.start();
+
+-----------------------------------------------
+
+
+Rank2:java.lang.Runtime.addShutdownHook
+>>>JavaDoc<<<
+Registers a new virtual-machine shutdown hook.
+>>>Relevant Questions<<<
+1.System.exit is not thread-safe on Linux?
+2.What happens when the JVM is terminated?
+3.Can I have the JVM kill a started process when it exits?
+
+-----------------------------------------------
+
+
+Rank3:java.lang.Runtime.exit
+>>>JavaDoc<<<
+Terminates the currently running Java virtual machine by initiating its shutdown sequence.
+>>>Relevant Questions<<<
+1.What happens when the JVM is terminated?
+
+-----------------------------------------------
+
+
+Rank4:java.lang.Runtime.exec
+>>>JavaDoc<<<
+Executes the specified string command in a separate process.
+>>>Relevant Questions<<<
+1.Is it possible to kill a Java Virtual Machine from another Virtual Machine?
+2.Java Virtual Machine Error When Trying To Run an Application From Java
+3.Java String execution in Linux terminal
+
+-----------------------------------------------
+
+
+Rank5:java.lang.Process.waitFor
+>>>JavaDoc<<<
+Causes the current thread to wait, if necessary, until the process represented by this Process object has terminated.
+>>>Relevant Questions<<<
+1.Runtime.exec getting killed by System.exit?
+2.Linux terminal Output to JTextpane
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||10557093||< - AnswerId: >||10557936||<
+ Runtime.getRuntime().exec(....).waitFor();
+
+System.exit(0);
+
+-----------------------------------------------
+
+
+Rank6:java.lang.Process.destroy
+>>>JavaDoc<<<
+Kills the subprocess.
+>>>Relevant Questions<<<
+1.Terminate a thread which is running a native code
+
+-----------------------------------------------
+
+
+Rank7:java.lang.System.gc
+>>>JavaDoc<<<
+Runs the garbage collector.
+>>>Relevant Questions<<<
+1.Forcing Java virtual machine to run garbage collector
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||14811364||< - AnswerId: >||14811403||<
+ System.gc();  
+
+-----------------------------------------------
+
+
+Rank8:java.lang.Thread.join
+>>>JavaDoc<<<
+Waits at most millis milliseconds for this thread to die.
+>>>Relevant Questions<<<
+1.JavaFX application not terminates after System.exit()
+
+-----------------------------------------------
+
+
+Rank9:java.lang.ProcessBuilder.directory
+>>>JavaDoc<<<
+Returns this process builder's working directory.
+>>>Relevant Questions<<<
+1.Java Virtual Machine Error When Trying To Run an Application From Java
+
+-----------------------------------------------
+
+
+Rank10:java.lang.ProcessBuilder.start
+>>>JavaDoc<<<
+Starts a new process using the attributes of this process builder.
+>>>Relevant Questions<<<
+1.Java Virtual Machine Error When Trying To Run an Application From Java
+
+-----------------------------------------------
+
+

@@ -1,0 +1,96 @@
+How do I extend classes in Java?
+
+Rank1:java.lang.Class.getSuperclass
+>>>JavaDoc<<<
+Returns the Class representing the superclass of the entity (class, interface, primitive type or void) represented by this Class.
+>>>Relevant Questions<<<
+1.How do I determine if a class extends another class in Java?
+2.How to find all interfaces in class that extends other classes with other interfaces using reflection in java
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||4100281||< - AnswerId: >||4100306||<
+ Class<?> c = obj.getClass();
+System.out.println(c.getSuperclass() == Some.class);
+
+-----------------------------------------------
+
+
+Rank2:java.lang.Class.getMethod
+>>>JavaDoc<<<
+Returns a Method object that reflects the specified public member method of the class or interface represented by this Class object.
+>>>Relevant Questions<<<
+1.How do I know if a class has a method in java and how do I invoke it
+
+-----------------------------------------------
+
+
+Rank3:java.lang.reflect.Method.invoke
+>>>JavaDoc<<<
+Invokes the underlying method represented by this Method object, on the specified object with the specified parameters.
+>>>Relevant Questions<<<
+1.How do I know if a class has a method in java and how do I invoke it
+
+-----------------------------------------------
+
+
+Rank4:java.util.Collections.unmodifiableList
+>>>JavaDoc<<<
+Returns an unmodifiable view of the specified list.
+>>>Relevant Questions<<<
+1.How do I create a constant object in Java?
+
+-----------------------------------------------
+
+
+Rank5:java.util.Arrays.asList
+>>>JavaDoc<<<
+Returns a fixed-size list backed by the specified array.
+>>>Relevant Questions<<<
+1.In Java what do arrays inherit from? Can I do this?
+
+-----------------------------------------------
+
+
+Rank6:java.util.Arrays.copyOf
+>>>JavaDoc<<<
+Copies the specified array, truncating or padding with nulls (if necessary) so the copy has the specified length.
+>>>Relevant Questions<<<
+1.How to change type to extending object in java array?
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||46992974||< - AnswerId: >||46999449||<
+ Class1[] arr = ...  // [Class2, Class2, Class3, Class3]
+Class2[] arr2 = Arrays.copyOf(arr, 2, Class2[].class);
+
+-----------------------------------------------
+
+
+Rank7:java.lang.String.toCharArray
+>>>JavaDoc<<<
+Converts this string to a new character array.
+>>>Relevant Questions<<<
+1.How do I do this with string in Java?
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||36000811||< - AnswerId: >||36000926||<
+ String in = "LANNISTERS";
+char[] chars = in.toCharArray();
+StringBuilder sb = new StringBuilder(2);
+sb.append(chars[1]).append(chars[chars.length - 2]);
+System.out.println(sb.toString());
+
+-----------------------------------------------
+
+
+Rank8:java.lang.String.charAt
+>>>JavaDoc<<<
+Returns the char value at the specified index.
+>>>Relevant Questions<<<
+1.How do I do this with string in Java?
+
+-----------------------------------------------
+
+

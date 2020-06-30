@@ -1,0 +1,111 @@
+Java Program to display first 100 prime numbers
+
+Rank1:java.math.BigInteger.nextProbablePrime
+>>>JavaDoc<<<
+Returns the first integer greater than this BigInteger that is probably prime.
+>>>Relevant Questions<<<
+1.Whats the built in function that Finds next largest prime number in java?
+
+-----------------------------------------------
+
+
+Rank2:java.lang.Math.random
+>>>JavaDoc<<<
+Returns a double value with a positive sign, greater than or equal to 0.
+>>>Relevant Questions<<<
+1.Java Random number between -100 and 100
+2.JAVA displaying an array as matrix and random numbers are equal to the minimum
+3.Java - gettting a random number from 100 to 999
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||22520315||< - AnswerId: >||22520395||<
+  for (int i = 1; i <= 10 ; i++)
+   {
+    int random = (int)(Math.random()*200-100);
+    System.out.println(random);
+   }
+
+-----------------------------------------------
+
+
+Rank3:java.math.BigInteger.probablePrime
+>>>JavaDoc<<<
+Returns a positive BigInteger that is probably prime, with the specified bitLength.
+>>>Relevant Questions<<<
+1.How do I generate a 160 bit prime number in java?
+
+-----------------------------------------------
+
+
+Rank4:java.lang.String.length
+>>>JavaDoc<<<
+Returns the length of this string.
+>>>Relevant Questions<<<
+1.How to display the middle digit in java
+
+-----------------------------------------------
+
+
+Rank5:java.lang.String.charAt
+>>>JavaDoc<<<
+Returns the char value at the specified index.
+>>>Relevant Questions<<<
+1.How to display the middle digit in java
+2.Why is this Digits Display program not working?
+
+-----------------------------------------------
+
+
+Rank6:java.math.BigInteger.isProbablePrime
+>>>JavaDoc<<<
+Returns true if this BigInteger is probably prime, false if it's definitely composite.
+>>>Relevant Questions<<<
+1.prime numbers switch in a java program has unexpected output
+2.Generate large prime number with specified last digits
+
+-----------------------------------------------
+
+
+Rank7:java.lang.Integer.parseInt
+>>>JavaDoc<<<
+Parses the string argument as a signed integer in the radix specified by the second argument.
+>>>Relevant Questions<<<
+1.Retrieving the first digit of a number
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||2967898||< - AnswerId: >||2967915||<
+     int number = 534;
+    int firstDigit = Integer.parseInt(Integer.toString(number).substring(0, 1));
+
+-----------------------------------------------
+
+
+Rank8:java.time.Year.isLeap
+>>>JavaDoc<<<
+Checks if the year is a leap year, according to the ISO proleptic calendar system rules.
+>>>Relevant Questions<<<
+1.Display the number of days in every month with Java Time
+
+-----------------------------------------------
+
+
+Rank9:java.lang.Math.max
+>>>JavaDoc<<<
+Returns the greater of two int values.
+>>>Relevant Questions<<<
+1.Java debug help needed: display largest of 3 numbers
+
+-----------------------------------------------
+
+
+Rank10:java.util.BitSet.set
+>>>JavaDoc<<<
+Sets the bit at the specified index to true.
+>>>Relevant Questions<<<
+1.Display numbers from 1 to 100 without loops or conditions
+
+-----------------------------------------------
+
+

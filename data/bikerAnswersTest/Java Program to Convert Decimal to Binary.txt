@@ -1,0 +1,158 @@
+Java Program to Convert Decimal to Binary
+
+Rank1:java.lang.Integer.toString
+>>>JavaDoc<<<
+Returns a string representation of the first argument in the radix specified by the second argument.
+>>>Relevant Questions<<<
+1.Converting Decimal to Binary Java
+2.Convert Decimal to Hex using Recursive method Java
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||14784630||< - AnswerId: >||20707670||<
+ System.out.println(Integer.parseInt((Integer.toString(i,2))));
+
+-----------------------------------------------
+
+
+Rank2:java.lang.Integer.parseInt
+>>>JavaDoc<<<
+Parses the string argument as a signed integer in the radix specified by the second argument.
+>>>Relevant Questions<<<
+1.How to convert binary string value to decimal
+2.How to convert large binary to decimal?
+3.Converting String binary to integer
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||7437987||< - AnswerId: >||7438009||<
+ int decimalValue = Integer.parseInt(c, 2);
+
+-----------------------------------------------
+
+
+Rank3:java.lang.Integer.toBinaryString
+>>>JavaDoc<<<
+Returns a string representation of the integer argument as an unsigned integer in base 2.
+>>>Relevant Questions<<<
+1.Converting Decimal to Binary Java
+2.java: convert binary string to int
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||14784630||< - AnswerId: >||25880504||<
+    String x=Integer.toBinaryString()
+
+-----------------------------------------------
+
+
+Rank4:java.lang.Long.parseLong
+>>>JavaDoc<<<
+Parses the string argument as a signed long in the radix specified by the second argument.
+>>>Relevant Questions<<<
+1.Convert 32 bit binary number to decimal
+2.convert hexadecimal number to binary
+3.Java: convert binary string to hex string
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||15181986||< - AnswerId: >||15182409||<
+ int bits = (int) Long.parseLong("11000001101000000000000000000000", 2);
+
+-----------------------------------------------
+
+
+Rank5:java.lang.Long.toString
+>>>JavaDoc<<<
+Returns a string representation of the first argument in the radix specified by the second argument.
+>>>Relevant Questions<<<
+1.Convert a large 2^63 decimal to binary
+2.Signed Hexadecimal to decimal in Java
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||6337828||< - AnswerId: >||6337848||<
+ new BigDecimal("3324679375210329505").toString(2);
+
+-----------------------------------------------
+
+
+Rank6:java.lang.Integer.valueOf
+>>>JavaDoc<<<
+Returns an Integer object holding the value extracted from the specified String when parsed with the radix given by the second argument.
+>>>Relevant Questions<<<
+1.Converting String binary to integer
+2.Hexadecimal to binary to decimal GUI
+3.byte array to decimal convertion in java
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||35043060||< - AnswerId: >||35043108||<
+ Integer.valueOf('10101',2)
+
+-----------------------------------------------
+
+
+Rank7:java.lang.Math.pow
+>>>JavaDoc<<<
+Returns the value of the first argument raised to the power of the second argument.
+>>>Relevant Questions<<<
+1.Binary to Decimal Conversion Java Code Bug
+2.Convert Large Binary String to Decimal in Java
+3.Converting Hexadecimal to Decimal in Java
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||14865207||< - AnswerId: >||14865246||<
+ answer = answer + Math.pow(2.0, (charArray.length - index - 1));
+
+-----------------------------------------------
+
+
+Rank8:java.lang.Double.toString
+>>>JavaDoc<<<
+Returns a string representation of the double argument.
+>>>Relevant Questions<<<
+1.Converting decimal to fraction
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||29052841||< - AnswerId: >||29055343||<
+ Double.toString(1.0001) == "1.0E-4"
+
+-----------------------------------------------
+
+
+Rank9:java.math.BigInteger.toString
+>>>JavaDoc<<<
+Returns the String representation of this BigInteger in the given radix.
+>>>Relevant Questions<<<
+1.Convert a large 2^63 decimal to binary
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||6337828||< - AnswerId: >||6337848||<
+ new BigDecimal("3324679375210329505").toString(2);
+
+-----------------------------------------------
+
+
+Rank10:java.lang.Integer.toHexString
+>>>JavaDoc<<<
+Returns a string representation of the integer argument as an unsigned integer in base 16.
+>>>Relevant Questions<<<
+1.Decimal to Hexadecimal Converter in Java
+2.Java: Simply convert a decimal byte to a hexadecimal byte
+3.Hex integer to decimal integer in Java
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||13465098||< - AnswerId: >||38969056||<
+   public static String decToHex(int dec)
+  {
+        return Integer.toHexString(dec);
+  }
+
+-----------------------------------------------
+
+

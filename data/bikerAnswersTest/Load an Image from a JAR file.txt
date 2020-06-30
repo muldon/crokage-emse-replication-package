@@ -1,0 +1,121 @@
+Load an Image from a JAR file
+
+Rank1:javax.sound.sampled.AudioSystem.getAudioInputStream
+>>>JavaDoc<<<
+Obtains an audio input stream of the indicated encoding, by converting the provided audio input stream.
+>>>Relevant Questions<<<
+1.Loading resource files within a jar
+
+-----------------------------------------------
+
+
+Rank2:java.lang.ClassLoader.getSystemResource
+>>>JavaDoc<<<
+Find a resource of the specified name from the search path used to load classes.
+>>>Relevant Questions<<<
+1.How to load Images from a package in java
+
+-----------------------------------------------
+
+
+Rank3:javax.imageio.ImageIO.read
+>>>JavaDoc<<<
+Returns a BufferedImage as the result of decoding a supplied File with an ImageReader chosen automatically from among those currently registered.
+>>>Relevant Questions<<<
+1.Loading an image into a background in java
+2.Load image in jar, error in code
+3.Image in loading from specified path
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||22161179||< - AnswerId: >||22161264||<
+ JFrame frame = ...;
+JLabel background = new JLabel(new ImageIcon(ImageIO.read(...)));
+frame.setContentPane(background);
+frame.setLayout(...);
+frame.add(...);
+
+-----------------------------------------------
+
+
+Rank4:java.lang.Class.getResource
+>>>JavaDoc<<<
+Finds a resource with a given name.
+>>>Relevant Questions<<<
+1.Using an image in a JAR file
+2.Get resources from a jar file
+3.Load Java Image inside package from a class in a different package
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||14842896||< - AnswerId: >||14843166||<
+ ImageIcon j = new ImageIcon(getClass().getResource("/myImage.gif"));
+
+-----------------------------------------------
+
+
+Rank5:java.lang.Class.getResourceAsStream
+>>>JavaDoc<<<
+Finds a resource with a given name.
+>>>Relevant Questions<<<
+1.Get resources from a jar file
+2.Reading a text file from a jar
+3.Load a properties file in a jar file
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||33264866||< - AnswerId: >||33265097||<
+     this.getClass().getResource(name);
+    this.getClass().getResourceAsStream(name);
+
+-----------------------------------------------
+
+
+Rank6:java.lang.ClassLoader.getResource
+>>>JavaDoc<<<
+Finds the resource with the given name.
+>>>Relevant Questions<<<
+1.Load Java Image inside package from a class in a different package
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||12153590||< - AnswerId: >||12153669||<
+ URL resource = MyJavaFile.class
+      .getResource("/PackageB/PackageBa/PackageBaa/MyImage.png");
+
+-----------------------------------------------
+
+
+Rank7:java.util.zip.ZipFile.getEntry
+>>>JavaDoc<<<
+Returns the zip file entry for the specified name, or null if not found.
+>>>Relevant Questions<<<
+1.Creating a ClassLoader to load a JAR file from a byte array
+
+-----------------------------------------------
+
+
+Rank8:java.lang.Class.forName
+>>>JavaDoc<<<
+Returns the Class object associated with the class or interface with the given string name.
+>>>Relevant Questions<<<
+1.load class file from classpath
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||7305195||< - AnswerId: >||7305287||<
+ String className = "org.apache.tools.ant.taskdefs.optional.net.FTP";
+... (Class.forName(className).getResourceAsStream( ...
+
+-----------------------------------------------
+
+
+Rank9:java.lang.ClassLoader.getResourceAsStream
+>>>JavaDoc<<<
+Returns an input stream for reading the specified resource.
+>>>Relevant Questions<<<
+1.Load a properties file in a jar file
+
+-----------------------------------------------
+
+

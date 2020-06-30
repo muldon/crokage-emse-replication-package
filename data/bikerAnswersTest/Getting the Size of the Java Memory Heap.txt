@@ -1,0 +1,100 @@
+Getting the Size of the Java Memory Heap
+
+Rank1:java.lang.Runtime.freeMemory
+>>>JavaDoc<<<
+Returns the amount of free memory in the Java Virtual Machine.
+>>>Relevant Questions<<<
+1.What is the memory size of an ArrayList in Java
+
+-----------------------------------------------
+
+
+Rank2:java.lang.Runtime.totalMemory
+>>>JavaDoc<<<
+Returns the total amount of memory in the Java virtual machine.
+>>>Relevant Questions<<<
+1.What is the memory size of an ArrayList in Java
+2.How to dynamically monitor Java heap size?
+3.Runtime heap size set in Eclipse
+
+-----------------------------------------------
+
+
+Rank3:java.lang.management.ManagementFactory.getMemoryMXBean
+>>>JavaDoc<<<
+Returns the managed bean for the memory system of the Java virtual machine.
+>>>Relevant Questions<<<
+1.How can I find max size of Javas heap after run?
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||8502812||< - AnswerId: >||8502930||<
+ ManagementFactory.getMemoryMXBean().getHeapMemoryUsage();
+
+-----------------------------------------------
+
+
+Rank4:java.lang.Runtime.maxMemory
+>>>JavaDoc<<<
+Returns the maximum amount of memory that the Java virtual machine will attempt to use.
+>>>Relevant Questions<<<
+1.How to dynamically monitor Java heap size?
+
+-----------------------------------------------
+
+
+Rank5:java.lang.management.ManagementFactory.getMemoryPoolMXBeans
+>>>JavaDoc<<<
+Returns a list of MemoryPoolMXBean objects in the Java virtual machine.
+>>>Relevant Questions<<<
+1.How do I determine the size of each of the heap generations in my JVM?
+
+-----------------------------------------------
+
+
+Rank6:java.lang.System.gc
+>>>JavaDoc<<<
+Runs the garbage collector.
+>>>Relevant Questions<<<
+1.Java Heap Size Reduction
+2.Delete object for managing Memory heap in java
+
+-----------------------------------------------
+
+
+Rank7:java.util.ArrayList.trimToSize
+>>>JavaDoc<<<
+Trims the capacity of this ArrayList instance to be the list's current size.
+>>>Relevant Questions<<<
+1.Memory and performance of Java Arraylist
+
+-----------------------------------------------
+
+
+Rank8:java.lang.Runtime.gc
+>>>JavaDoc<<<
+Runs the garbage collector.
+>>>Relevant Questions<<<
+1.Delete object for managing Memory heap in java
+
+-----------------------------------------------
+
+
+Rank9:java.nio.ByteBuffer.asIntBuffer
+>>>JavaDoc<<<
+Creates a view of this byte buffer as an int buffer.
+>>>Relevant Questions<<<
+1.Maximizing Java Heap Space
+
+-----------------------------------------------
+
+
+Rank10:java.nio.channels.FileChannel.map
+>>>JavaDoc<<<
+Maps a region of this channel's file directly into memory.
+>>>Relevant Questions<<<
+1.Maximizing Java Heap Space
+
+-----------------------------------------------
+
+

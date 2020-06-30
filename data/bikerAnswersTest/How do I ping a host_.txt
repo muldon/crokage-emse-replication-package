@@ -1,0 +1,120 @@
+How do I ping a host?
+
+Rank1:java.rmi.registry.LocateRegistry.getRegistry
+>>>JavaDoc<<<
+Returns a reference to the the remote object Registry for the local host on the default registry port of 1099.
+>>>Relevant Questions<<<
+1.About java RMI. How to use LocateRegistry to getRegistry in a remote host with specified port?
+
+-----------------------------------------------
+
+
+Rank2:java.net.InetAddress.isReachable
+>>>JavaDoc<<<
+Test whether that address is reachable.
+>>>Relevant Questions<<<
+1.How to ping an IP address
+
+-----------------------------------------------
+
+
+Rank3:java.net.InetAddress.getLocalHost
+>>>JavaDoc<<<
+Returns the address of the local host.
+>>>Relevant Questions<<<
+1.How to get the IP address of a machine in Java
+2.Java - How to invoke a IP Address to find host name?
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||15038414||< - AnswerId: >||15038434||<
+ Inet4Address.getLocalHost().getHostAddress();
+
+-----------------------------------------------
+
+
+Rank4:java.net.InetAddress.toString
+>>>JavaDoc<<<
+Converts this IP address to a String.
+>>>Relevant Questions<<<
+1.How do I check if InetAddress was created using a hostname or an IP address?
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||17029267||< - AnswerId: >||17029496||<
+     System.out.println(InetAddress.getByName("localhost").toString());
+    System.out.println(InetAddress.getByName("127.0.0.1").toString());
+    System.out.println(InetAddress.getByName("www.google.com").toString());
+    System.out.println(InetAddress.getByName("173.194.113.145").toString());
+
+-----------------------------------------------
+
+
+Rank5:java.net.InetAddress.getByName
+>>>JavaDoc<<<
+Determines the IP address of a host, given the host's name.
+>>>Relevant Questions<<<
+1.How do you tell whether a string is an IP or a hostname
+
+-----------------------------------------------
+
+
+Rank6:java.net.InetAddress.getCanonicalHostName
+>>>JavaDoc<<<
+Gets the fully qualified domain name for this IP address.
+>>>Relevant Questions<<<
+1.converting an IP address to host name
+
+-----------------------------------------------
+
+
+Rank7:java.net.URL.getHost
+>>>JavaDoc<<<
+Gets the host name of this URL, if applicable.
+>>>Relevant Questions<<<
+1.How to get list of host sites and each instance of that host from arraylist of urls in java?
+
+-----------------------------------------------
+
+
+Rank8:java.rmi.registry.LocateRegistry.createRegistry
+>>>JavaDoc<<<
+Creates and exports a Registry instance on the local host that accepts requests on the specified port.
+>>>Relevant Questions<<<
+1.About java RMI. How to use LocateRegistry to getRegistry in a remote host with specified port?
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||33872167||< - AnswerId: >||33889261||<
+ LocateRegistry.createRegistry(6600);
+// Register communication route
+Naming.rebind("rmi://0.0.0.0:6600/PersonService", personService);
+
+-----------------------------------------------
+
+
+Rank9:java.rmi.Naming.rebind
+>>>JavaDoc<<<
+Rebinds the specified name to a new remote object.
+>>>Relevant Questions<<<
+1.About java RMI. How to use LocateRegistry to getRegistry in a remote host with specified port?
+
+>>>Code Snippets<<<
+/**********code snippet1**********/
+SO questionId >||33872167||< - AnswerId: >||33889261||<
+ LocateRegistry.createRegistry(6600);
+// Register communication route
+Naming.rebind("rmi://0.0.0.0:6600/PersonService", personService);
+
+-----------------------------------------------
+
+
+Rank10:java.net.DatagramSocket.getInetAddress
+>>>JavaDoc<<<
+Returns the address to which this socket is connected.
+>>>Relevant Questions<<<
+1.How to get the clients ip address from the server?
+
+-----------------------------------------------
+
+
