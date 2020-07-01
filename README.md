@@ -129,14 +129,11 @@ We implemented our approach in form of a [tool](http://isel.ufu.br:9000/) to ass
 If you intend to use this work, please cite us:
 
 ```
-@inproceedings{silva2019recommending,
-  title={Recommending comprehensive solutions for programming tasks by mining crowd knowledge},
-  author={Silva, Rodrigo FG and Roy, Chanchal K and Rahman, Mohammad Masudur and Schneider, Kevin A and Paixao, Klerisson and de Almeida Maia, Marcelo},
-  booktitle={Proceedings of the 27th International Conference on Program Comprehension},
-  pages={358--368},
-  year={2019},
-  organization={IEEE Press}
-}
+@article{SilvaEMSE2020,
+author = {Silva, Rodrigo F. G. and Roy, Chanchal K. and Rahman, Mohammad Masudur and Schneider, Kevin A. and Paixao, Klerisson and Dantas, Carlos and de Almeida Maia, Marcelo},
+title={{CROKAGE}: Effective Solution Recommendations for Programming Tasks by Leveraging Crowd Knowledge},
+journal={Empirical Software Engineering (accepted)},
+year=2020}
 ```
 
 
