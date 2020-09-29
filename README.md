@@ -1,5 +1,5 @@
 # Crokage
-Crowd Knowledge Answer Generator. Feel free to try our [tool](http://isel.ufu.br:9000/). For more details about the technique, please check our original [paper](https://dl.acm.org/citation.cfm?id=3339130). This project is an extension of the original [project](https://github.com/muldon/CROKAGE-replication-package).
+Crowd Knowledge Answer Generator. Feel free to try our [tool](http://isel.ufu.br:9000/). For more details about the technique, please check our [journal paper](https://link.springer.com/article/10.1007/s10664-020-09863-2), which is an extension of our original [paper](https://dl.acm.org/citation.cfm?id=3339130). This project is an extension of the original [project](https://github.com/muldon/CROKAGE-replication-package).
 
 ## About
 
